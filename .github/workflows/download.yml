@@ -25,4 +25,4 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Download manifest
-        run: dotnet run -- download -t ${{ secrets.GITHUB_TOKEN }} -c 1
+        run: dotnet run -- download -t ${{ secrets.GITHUB_TOKEN }}
