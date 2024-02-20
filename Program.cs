@@ -40,7 +40,6 @@ switch (result.Value.Mode) {
                 }
             }));
 
-            await Task.Delay(5000);
         }
 
         await Task.WhenAll(tasks);
