@@ -2,24 +2,18 @@
 using ManifestHub;
 using CommandLine;
 
-var result = Parser.Default.ParseArguments<Options>(args).WithParsed(options => {
-    // Parse repository owner and name
-    var repo = options.Repo?.Split('/');
-    if (repo?.Length != 2) return;
-    options.RepoOwner = repo[0];
-    options.RepoName = repo[1];
-}).WithNotParsed(errors => {
-    foreach (var error in errors) {
-        Console.WriteLine(error);
-    }
+var result = Parser.Default.ParseArguments<Options>(args)
+    .WithNotParsed(errors => {
+        foreach (var error in errors) {
+            Console.WriteLine(error);
+        }
 
-    Environment.Exit(1);
-});
+        Environment.Exit(1);
+    });
 
 var gdb = new GitDatabase(".", result.Value.Token ?? throw new NullReferenceException());
 
-const int maxAccountConcurrent = 4;
-var semaphore = new SemaphoreSlim(maxAccountConcurrent);
+var semaphore = new SemaphoreSlim(result.Value.ConcurrentAccount);
 var tasks = new List<Task>();
 
 switch (result.Value.Mode) {
@@ -34,7 +28,8 @@ switch (result.Value.Mode) {
                     await downloader.Connect().ConfigureAwait(false);
                     var info = await downloader.GetAccountInfoAsync();
                     gdb.WriteAccount(info);
-                    await downloader.DownloadAllManifestsAsync(gdb: gdb).ConfigureAwait(false);
+                    await downloader.DownloadAllManifestsAsync(result.Value.ConcurrentManifest, gdb)
+                        .ConfigureAwait(false);
                 }
                 catch (Exception e) {
                     Console.WriteLine(e.Message);
@@ -104,28 +99,22 @@ switch (result.Value.Mode) {
 }
 
 namespace ManifestHub {
-    [SuppressMessage("ReSharper", "UnassignedGetOnlyAutoProperty")]
-    [SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
+    // ReSharper disable once ClassNeverInstantiated.Global
+    [SuppressMessage("ReSharper", "UnusedAutoPropertyAccessor.Global")]
     internal class Options {
         [Value(0, MetaName = "Mode", Default = "download", HelpText = "Mode of operation.")]
-        public string? Mode { get; }
+        public string? Mode { get; set; }
 
         [Option('a', "account", Required = false, HelpText = "Account file.")]
-        public string? Account { get; }
+        public string? Account { get; set; }
 
         [Option('t', "token", Required = true, HelpText = "GitHub Access Token.")]
-        public string? Token { get; }
+        public string? Token { get; set; }
 
-        [Option('i', "issue", Required = false, HelpText = "Issue Number.")]
-        public int Issue { get; set; }
+        [Option('c', "concurrent-account", Required = false, HelpText = "Concurrent account.", Default = 4)]
+        public int ConcurrentAccount { get; set; }
 
-        [Option('c', "comment", Required = false, HelpText = "Comment Number.", Default = null)]
-        public int? Comment { get; set; }
-
-        [Option('r', "repo", Required = false, HelpText = "Repository Name.")]
-        public string? Repo { get; }
-
-        public string? RepoOwner;
-        public string? RepoName;
+        [Option('p', "concurrent-manifest", Required = false, HelpText = "Concurrent manifest.", Default = 16)]
+        public int ConcurrentManifest { get; set; }
     }
 }
