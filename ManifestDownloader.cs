@@ -301,9 +301,10 @@ class ManifestDownloader {
         _loginReady.TrySetResult();
     }
 
-    private void OnDisconnected(SteamClient.DisconnectedCallback callback) {
+    private async void OnDisconnected(SteamClient.DisconnectedCallback callback) {
         if (!callback.UserInitiated) {
             Console.WriteLine("Disconnected from Steam, reconnecting...");
+            await Task.Delay(5000);
             _steamClient.Connect();
         } else {
             Console.WriteLine("Disconnected from Steam");

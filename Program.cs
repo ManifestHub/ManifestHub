@@ -39,6 +39,8 @@ switch (result.Value.Mode) {
                     semaphore.Release();
                 }
             }));
+
+            await Task.Delay(5000);
         }
 
         await Task.WhenAll(tasks);
