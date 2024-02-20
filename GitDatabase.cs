@@ -29,15 +29,18 @@ public partial class GitDatabase {
 
         _lockDictionary = new ConcurrentDictionary<string, SemaphoreSlim>();
 
+        var credential = new UsernamePasswordCredentials {
+            Username = "x-access-token",
+            Password = token
+        };
+
         _pushOptions = new PushOptions {
-            CredentialsProvider = (_, _, _) => new UsernamePasswordCredentials {
-                Username = "x-access-token",
-                Password = token
-            }
+            CredentialsProvider = (_, _, _) => credential
         };
 
         Commands.Fetch(_repo, _remote.Name, _remote.FetchRefSpecs.Select(spec => spec.Specification),
-            new FetchOptions { Prune = true, TagFetchMode = TagFetchMode.All }, null);
+            new FetchOptions
+                { Prune = true, TagFetchMode = TagFetchMode.All, CredentialsProvider = (_, _, _) => credential }, null);
     }
 
     public async void WriteManifest(ManifestInfoCallback manifest) {
