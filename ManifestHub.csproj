@@ -1,0 +1,116 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.9.1" />
+      <PackageReference Include="Gameloop.Vdf" Version="0.6.2" />
+      <PackageReference Include="LibGit2Sharp" Version="0.29.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Octokit" Version="9.1.2" />
+      <PackageReference Include="SteamKit2" Version="2.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="SteamDatabase.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="1508681_8910030321745224575.manifest" />
+      <None Remove="25001_4106272477922664518.manifest" />
+      <None Remove="25002_8572447376951838510.manifest" />
+      <None Remove="25003_5367962205282759232.manifest" />
+      <None Remove="25004_2109637481877491154.manifest" />
+      <None Remove="25005_6893192256816917708.manifest" />
+      <None Remove="25006_4818519136603890294.manifest" />
+      <None Remove="307671_4355398337640179647.manifest" />
+      <None Remove="307672_359181450412371470.manifest" />
+      <None Remove="307674_2865974023542583209.manifest" />
+      <None Remove="307675_3652221935307007932.manifest" />
+      <None Remove="307676_3743308776543017977.manifest" />
+      <None Remove="307677_2767946787803906250.manifest" />
+      <None Remove="307678_5324968817690544346.manifest" />
+      <None Remove="307679_4048443246677404297.manifest" />
+      <None Remove="307680_1435745390553110083.manifest" />
+      <None Remove="413151_5609262347030774375.manifest" />
+      <None Remove="413152_7794216274031597899.manifest" />
+      <None Remove="413153_5898757968212855302.manifest" />
+      <None Remove="419040_8269747573610831092.manifest" />
+      <None Remove="441700_6230289737465596908.manifest" />
+      <None Remove="466861_2841705980366910013.manifest" />
+      <None Remove="467961_1450497145725551459.manifest" />
+      <None Remove="467962_948727936751724612.manifest" />
+      <None Remove="467963_6348317521476724025.manifest" />
+      <None Remove="495422_3372822377489966767.manifest" />
+      <None Remove="495423_9135075435278811908.manifest" />
+      <None Remove="531331_8378622928852933048.manifest" />
+      <None Remove="531332_2454774960512079289.manifest" />
+      <None Remove="531333_5283519366756323593.manifest" />
+      <None Remove="531334_8251020740611613255.manifest" />
+      <None Remove="531335_5476514494770478876.manifest" />
+      <None Remove="531336_7786616031931110684.manifest" />
+      <None Remove="531337_4437264589126567264.manifest" />
+      <None Remove="531338_7496481763535795032.manifest" />
+      <None Remove="531339_1566955535758372448.manifest" />
+      <None Remove="531610_4132469443914090801.manifest" />
+      <None Remove="531611_8855467194864615131.manifest" />
+      <None Remove="531612_346023503327540588.manifest" />
+      <None Remove="531613_1178589870985875337.manifest" />
+      <None Remove="531614_2786155894431934119.manifest" />
+      <None Remove="601841_8186007050625851555.manifest" />
+      <None Remove="601842_3412191620193152015.manifest" />
+      <None Remove="601843_198799919367503668.manifest" />
+      <None Remove="674531_529299340248895238.manifest" />
+      <None Remove="736750_8200024311491088399.manifest" />
+      <None Remove="881021_2342573020189853329.manifest" />
+      <None Remove="908101_7498828304656410460.manifest" />
+      <None Remove="955901_3981134823855077937.manifest" />
+      <None Remove="955902_3326595731665067769.manifest" />
+      <None Remove="1091501_415651277559119937.manifest" />
+      <None Remove="1091502_2116427283310196204.manifest" />
+      <None Remove="1091503_7175463403839443817.manifest" />
+      <None Remove="1091504_4201189052406501560.manifest" />
+      <None Remove="1091505_822394180946750684.manifest" />
+      <None Remove="1091506_2752981633763326269.manifest" />
+      <None Remove="1091507_1024213004638392155.manifest" />
+      <None Remove="1091508_6197297763397129710.manifest" />
+      <None Remove="1091509_7031693974093204822.manifest" />
+      <None Remove="1168661_4713269975661179257.manifest" />
+      <None Remove="1168662_8155938240389989114.manifest" />
+      <None Remove="1191841_634237553511408758.manifest" />
+      <None Remove="1235141_3982950176934774134.manifest" />
+      <None Remove="1235142_8959182181353937372.manifest" />
+      <None Remove="1235143_1840815612651255441.manifest" />
+      <None Remove="1235144_7375459467269071379.manifest" />
+      <None Remove="1239261_7063923229513324677.manifest" />
+      <None Remove="1239262_5300999645385693950.manifest" />
+      <None Remove="1343671_3043421984685478635.manifest" />
+      <None Remove="1399591_8940590257985184019.manifest" />
+      <None Remove="1446730_7090482464477745901.manifest" />
+      <None Remove="1460041_3164053859696741750.manifest" />
+      <None Remove="1460470_2614710956020114294.manifest" />
+      <None Remove="1460471_7260544416982145460.manifest" />
+      <None Remove="1495710_8726753376800133547.manifest" />
+      <None Remove="1502041_8494121511392369834.manifest" />
+      <None Remove="1503851_5017977259249970860.manifest" />
+      <None Remove="1701600_639012434261232523.manifest" />
+      <None Remove="2060310_7069593844747459187.manifest" />
+      <None Remove="2138330_1247263585971652529.manifest" />
+      <None Remove="2138331_5970412206109931987.manifest" />
+      <None Remove="2138332_212414276844365512.manifest" />
+      <None Remove="2138333_6717375847919038418.manifest" />
+      <None Remove="2138334_7535767622796660353.manifest" />
+      <None Remove="2138335_9204079021375387141.manifest" />
+      <None Remove="2138336_7365753333475769176.manifest" />
+      <None Remove="2138337_7283447462389973651.manifest" />
+      <None Remove="2138338_6108769444145512216.manifest" />
+      <None Remove="2138339_8277133795104784193.manifest" />
+      <None Remove="2224070_6727932561784093102.manifest" />
+    </ItemGroup>
+
+</Project>
