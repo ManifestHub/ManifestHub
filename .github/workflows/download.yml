@@ -22,5 +22,8 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore --locked-mode
 
+      - name: Build downloader
+        run: dotnet build --configuration Release
+
       - name: Download manifest
-        run: dotnet run --property:Configuration=Release -- download -t ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet run -- download -t ${{ secrets.GITHUB_TOKEN }}
