@@ -38,7 +38,7 @@ public partial class GitDatabase {
             CredentialsProvider = (_, _, _) => credential
         };
 
-        Commands.Fetch(_repo, _remote.Name, _remote.FetchRefSpecs.Select(spec => spec.Specification),
+        Commands.Fetch(_repo, _remote.Name, ["+refs/heads/*:refs/remotes/origin/*"],
             new FetchOptions
                 { Prune = true, TagFetchMode = TagFetchMode.All, CredentialsProvider = (_, _, _) => credential }, null);
     }
