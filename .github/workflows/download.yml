@@ -1,0 +1,26 @@
+﻿name: Manifest Download
+
+on:
+  schedule:
+    # Run every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+          cache: true
+
+      - name: Restore dependencies
+        run: dotnet restore --locked-mode
+
+      - name: Download manifest
+        run: dotnet run --property:Configuration=Release -- download -t ${{ secrets.GITHUB_TOKEN }}

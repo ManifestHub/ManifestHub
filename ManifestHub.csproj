@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include=".github\"/>
+      <Content Include=".github\workflows\download.yml" />
     </ItemGroup>
 
 </Project>
