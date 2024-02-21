@@ -2,6 +2,7 @@
 using SteamKit2;
 using SteamKit2.Authentication;
 using SteamKit2.CDN;
+using SteamKit2.Discovery;
 
 namespace ManifestHub;
 
@@ -32,7 +33,14 @@ class ManifestDownloader {
     }
 
     public ManifestDownloader(string username, string? password = null, string? refreshToken = null) {
-        _steamClient = new SteamClient();
+        _steamClient = new SteamClient(SteamConfiguration.Create(
+            builder => {
+                builder.WithProtocolTypes(ProtocolTypes.All);
+                builder.WithServerListProvider(new FileStorageServerListProvider("servers.bin"));
+                builder.WithDirectoryFetch(true);
+                builder.WithUniverse(EUniverse.Public);
+            }
+        ));
         _cdnClient = new Client(_steamClient);
         _steamApps = _steamClient.GetHandler<SteamApps>() ?? throw new NullReferenceException();
         _steamUser = _steamClient.GetHandler<SteamUser>() ?? throw new NullReferenceException();
