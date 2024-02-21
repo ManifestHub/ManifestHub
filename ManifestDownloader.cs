@@ -128,7 +128,7 @@ class ManifestDownloader {
             $"Failed to download manifest. AppID: {appid}, DepotID: {depotId}, ManifestID: {manifestId}");
     }
 
-    public async Task<List<ManifestInfoCallback>> DownloadAllManifestsAsync(int maxConcurrentDownloads = 16,
+    public async Task DownloadAllManifestsAsync(int maxConcurrentDownloads = 16,
         GitDatabase? gdb = null) {
         await _licenseReady.Task.ConfigureAwait(false);
 
@@ -166,7 +166,7 @@ class ManifestDownloader {
 
         var semaphore = new SemaphoreSlim(maxConcurrentDownloads);
         var tasksList = new List<Func<Task<ManifestInfoCallback>>>();
-        var tasks = new List<Task<ManifestInfoCallback?>>();
+        var tasks = new List<Task>();
 
         foreach (var app in apps) {
             var depots = app.Value.KeyValues["depots"].Children
@@ -196,11 +196,9 @@ class ManifestDownloader {
                             gdb?.WriteManifest(result);
                             Console.WriteLine(
                                 $"[Written]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}");
-                            return result;
                         }
                         catch (Exception e) {
                             Console.WriteLine("[Failed]: " + e.Message);
-                            return null;
                         }
                         finally {
                             semaphore.Release();
@@ -211,11 +209,6 @@ class ManifestDownloader {
         }
 
         await Task.WhenAll(tasks).ConfigureAwait(false);
-
-        return tasks.Select(task => task.Result)
-            .Where(result => result != null)
-            .Cast<ManifestInfoCallback>()
-            .ToList();
     }
 
 
@@ -303,7 +296,7 @@ class ManifestDownloader {
 
     private async void OnDisconnected(SteamClient.DisconnectedCallback callback) {
         if (!callback.UserInitiated) {
-            Console.WriteLine("Disconnected from Steam, reconnecting...");
+            Console.WriteLine($"[Reconnecting] {Username} disconnected from Steam. Reconnecting in 5 seconds...");
             await Task.Delay(5000);
             _steamClient.Connect();
         } else {

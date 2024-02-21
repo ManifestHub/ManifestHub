@@ -2,6 +2,18 @@
 
 on:
   workflow_dispatch:
+    inputs:
+      account-concurrency:
+        description: 'Account concurrency'
+        required: true
+        default: 4
+        type: number
+
+      manifest-concurrency:
+        description: 'Manifest concurrency'
+        required: true
+        default: 16
+        type: number
 
 jobs:
   download:
@@ -25,4 +37,4 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Download manifest
-        run: dotnet run -- download -t ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet run -- download -t ${{ secrets.GITHUB_TOKEN }} -c ${{ github.event.inputs.account-concurrency }} -p ${{ github.event.inputs.manifest-concurrency }}

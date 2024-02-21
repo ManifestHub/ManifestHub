@@ -19,10 +19,13 @@ var tasks = new List<Task>();
 switch (result.Value.Mode) {
     case "download":
 
+        var index = 0;
+        var total = gdb.GetAccounts().Count();
+
         foreach (var downloader in gdb.GetAccounts().Select(account => new ManifestDownloader(account))) {
             await semaphore.WaitAsync();
 
-            Console.WriteLine($"Dispatching {downloader.Username}...");
+            Console.WriteLine($"[{index++}/{total}]Dispatching {downloader.Username}...");
             tasks.Add(Task.Run(async () => {
                 try {
                     await downloader.Connect().ConfigureAwait(false);
