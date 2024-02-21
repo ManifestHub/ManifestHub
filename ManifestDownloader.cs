@@ -174,7 +174,8 @@ class ManifestDownloader {
 
         var semaphore = new SemaphoreSlim(maxConcurrentDownloads);
         var tasksList = new List<Func<Task<ManifestInfoCallback>>>();
-        var tasks = new List<Task>();
+        var downloadTasks = new List<Task>();
+        var writeTasks = new List<Task>();
 
         foreach (var app in apps) {
             var depots = app.Value.KeyValues["depots"].Children
@@ -197,16 +198,20 @@ class ManifestDownloader {
             await semaphore.WaitAsync();
             Debug.Assert(gdb != null, nameof(gdb) + " != null");
 
-            tasks.Add(Task.Run(
+            downloadTasks.Add(Task.Run(
                     async () => {
                         try {
                             var result = await task();
                             Console.WriteLine(
                                 $"[Success]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}");
 
-                            var commit = await gdb.WriteManifest(result);
-                            Console.WriteLine(
-                                $"[Written]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}, Commit: {commit?.Sha}");
+                            writeTasks.Add(Task.Run(
+                                async () => {
+                                    var commit = await gdb.WriteManifest(result);
+                                    Console.WriteLine(
+                                        $"[Written]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}, Commit: {commit?.Sha}");
+                                }
+                            ));
                         }
                         catch (Exception e) {
                             if (!e.Message.Contains("Access denied to manifest") &&
@@ -221,7 +226,8 @@ class ManifestDownloader {
             );
         }
 
-        await Task.WhenAll(tasks).ConfigureAwait(false);
+        await Task.WhenAll(downloadTasks).ConfigureAwait(false);
+        await Task.WhenAll(writeTasks).ConfigureAwait(false);
     }
 
 
