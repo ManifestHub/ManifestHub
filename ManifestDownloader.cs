@@ -137,7 +137,7 @@ class ManifestDownloader {
     }
 
     public async Task DownloadAllManifestsAsync(int maxConcurrentDownloads = 16,
-        GitDatabase? gdb = null) {
+        GitDatabase? gdb = null, List<Task>? writeTasks = null) {
         await _licenseReady.Task.ConfigureAwait(false);
 
         var packagePicsRequest = _licenses
@@ -175,7 +175,6 @@ class ManifestDownloader {
         var semaphore = new SemaphoreSlim(maxConcurrentDownloads);
         var tasksList = new List<Func<Task<ManifestInfoCallback>>>();
         var downloadTasks = new List<Task>();
-        var writeTasks = new List<Task>();
 
         foreach (var app in apps) {
             var depots = app.Value.KeyValues["depots"].Children
@@ -197,6 +196,7 @@ class ManifestDownloader {
         foreach (var task in tasksList) {
             await semaphore.WaitAsync();
             Debug.Assert(gdb != null, nameof(gdb) + " != null");
+            Debug.Assert(writeTasks != null, nameof(writeTasks) + " != null");
 
             downloadTasks.Add(Task.Run(
                     async () => {
@@ -227,7 +227,6 @@ class ManifestDownloader {
         }
 
         await Task.WhenAll(downloadTasks).ConfigureAwait(false);
-        await Task.WhenAll(writeTasks).ConfigureAwait(false);
     }
 
 

@@ -21,6 +21,7 @@ switch (result.Value.Mode) {
 
         var index = 0;
         var total = gdb.GetAccounts().Count();
+        var writeTasks = new List<Task>();
 
         foreach (var downloader in gdb.GetAccounts().Select(account => new ManifestDownloader(account))) {
             await semaphore.WaitAsync();
@@ -31,7 +32,7 @@ switch (result.Value.Mode) {
                     await downloader.Connect().ConfigureAwait(false);
                     var info = await downloader.GetAccountInfoAsync();
                     await gdb.WriteAccount(info);
-                    await downloader.DownloadAllManifestsAsync(result.Value.ConcurrentManifest, gdb)
+                    await downloader.DownloadAllManifestsAsync(result.Value.ConcurrentManifest, gdb, writeTasks)
                         .ConfigureAwait(false);
                 }
                 catch (Exception e) {
@@ -42,10 +43,11 @@ switch (result.Value.Mode) {
                     semaphore.Release();
                 }
             }));
-
         }
 
         await Task.WhenAll(tasks);
+        Console.WriteLine("Waiting for write tasks...");
+        await Task.WhenAll(writeTasks);
 
         break;
     case "account":
