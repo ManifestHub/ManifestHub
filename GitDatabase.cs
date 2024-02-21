@@ -18,7 +18,7 @@ public partial class GitDatabase {
     private uint _uniqueId;
 
     // Generated Regex for account branch names
-    [GeneratedRegex(@"origin/[A-HJ-NP-Z2-9]{5}-[A-HJ-NP-Z2-9]{4}")]
+    [GeneratedRegex("origin/[A-HJ-NP-Z2-9]{5}-[A-HJ-NP-Z2-9]{4}")]
     private static partial Regex AccountBranchPattern();
 
 
@@ -43,7 +43,7 @@ public partial class GitDatabase {
                 { Prune = true, TagFetchMode = TagFetchMode.All, CredentialsProvider = (_, _, _) => credential }, null);
     }
 
-    public async void WriteManifest(ManifestInfoCallback manifest) {
+    public async Task<Commit?> WriteManifest(ManifestInfoCallback manifest) {
         var branchName = manifest.AppId.ToString();
 
         var uniqueFileName =
@@ -52,7 +52,7 @@ public partial class GitDatabase {
         // Skip if manifest already exists
         if (HasManifest(manifest.AppId, manifest.DepotId, manifest.ManifestId)) {
             Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} already exists.");
-            return;
+            return null;
         }
 
         await Task.Run(() => manifest.Manifest.SaveToFile(uniqueFileName));
@@ -97,7 +97,7 @@ public partial class GitDatabase {
             var newTree = _repo.ObjectDatabase.CreateTree(treeDef);
             if (tree != null && newTree.Id == tree.Id) {
                 Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} no changes.");
-                return;
+                return null;
             }
 
             // Commit
@@ -117,6 +117,8 @@ public partial class GitDatabase {
                 $"{newCommit.Id.Sha}:refs/tags/{manifest.AppId}_{manifest.DepotId}_{manifest.ManifestId}",
                 _pushOptions);
             _repo.Tags.Add($"{manifest.AppId}_{manifest.DepotId}_{manifest.ManifestId}", newCommit);
+
+            return newCommit;
         }
         finally {
             locker.Release();
@@ -128,7 +130,7 @@ public partial class GitDatabase {
         return _repo.Tags[$"{appId}_{depotId}_{manifestId}"] != null;
     }
 
-    public async void WriteAccount(AccountInfoCallback account) {
+    public async Task WriteAccount(AccountInfoCallback account) {
         var branchName = account.Index ?? throw new ArgumentNullException(nameof(account));
 
         var locker = _lockDictionary.GetOrAdd(branchName, new SemaphoreSlim(1));

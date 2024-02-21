@@ -30,7 +30,7 @@ switch (result.Value.Mode) {
                 try {
                     await downloader.Connect().ConfigureAwait(false);
                     var info = await downloader.GetAccountInfoAsync();
-                    gdb.WriteAccount(info);
+                    await gdb.WriteAccount(info);
                     await downloader.DownloadAllManifestsAsync(result.Value.ConcurrentManifest, gdb)
                         .ConfigureAwait(false);
                 }
@@ -81,7 +81,7 @@ switch (result.Value.Mode) {
                     await downloader.Connect().ConfigureAwait(false);
                     var info = await downloader.GetAccountInfoAsync();
                     if (infoPrev == null || info.RefreshToken != infoPrev.RefreshToken)
-                        gdb.WriteAccount(info);
+                        await gdb.WriteAccount(info);
                 }
                 catch (Exception e) {
                     Console.WriteLine(e.Message);

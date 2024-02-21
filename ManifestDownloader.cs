@@ -195,15 +195,18 @@ class ManifestDownloader {
 
         foreach (var task in tasksList) {
             await semaphore.WaitAsync();
+            Debug.Assert(gdb != null, nameof(gdb) + " != null");
+
             tasks.Add(Task.Run(
                     async () => {
                         try {
                             var result = await task();
                             Console.WriteLine(
                                 $"[Success]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}");
-                            gdb?.WriteManifest(result);
+
+                            var commit = await gdb.WriteManifest(result);
                             Console.WriteLine(
-                                $"[Written]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}");
+                                $"[Written]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}, Commit: {commit?.Sha}");
                         }
                         catch (Exception e) {
                             if (!e.Message.Contains("Access denied to manifest") &&
