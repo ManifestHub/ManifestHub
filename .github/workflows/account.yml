@@ -29,6 +29,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: servers.bin
+          key: ${{ runner.os }}-servers-
           restore-keys: ${{ runner.os }}-servers-
 
       - name: Save comment to file

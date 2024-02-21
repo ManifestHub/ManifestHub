@@ -39,12 +39,18 @@ jobs:
       - name: Build downloader
         run: dotnet build --configuration Release
 
-      - name: Cache serverlist
-        uses: actions/cache@v4
+      - name: Restore serverlist
+        uses: actions/cache/restore@v4
         with:
           path: servers.bin
-          key: ${{ runner.os }}-servers-${{ hashFiles('**/servers.bin') }}
+          key: ${{ runner.os }}-servers-
           restore-keys: ${{ runner.os }}-servers-
 
       - name: Download manifest
         run: dotnet run -- download -t ${{ secrets.GITHUB_TOKEN }} -c ${{ github.event.inputs.account-concurrency || 32 }} -p ${{ github.event.inputs.manifest-concurrency || 8 }}
+
+      - name: Save serverlist
+        uses: actions/cache/save@v4
+        with:
+          path: servers.bin
+          key: ${{ runner.os }}-servers-${{ hashFiles('servers.bin') }}
