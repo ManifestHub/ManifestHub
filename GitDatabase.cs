@@ -50,7 +50,10 @@ public partial class GitDatabase {
             $"{manifest.DepotId}_{manifest.ManifestId}_{Interlocked.Increment(ref _uniqueId)}.manifest";
 
         // Skip if manifest already exists
-        if (HasManifest(manifest.AppId, manifest.DepotId, manifest.ManifestId)) return;
+        if (HasManifest(manifest.AppId, manifest.DepotId, manifest.ManifestId)) {
+            Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} already exists.");
+            return;
+        }
 
         await Task.Run(() => manifest.Manifest.SaveToFile(uniqueFileName));
 
@@ -92,7 +95,10 @@ public partial class GitDatabase {
 
             // Skip if no changes
             var newTree = _repo.ObjectDatabase.CreateTree(treeDef);
-            if (tree != null && newTree.Id == tree.Id) return;
+            if (tree != null && newTree.Id == tree.Id) {
+                Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} no changes.");
+                return;
+            }
 
             // Commit
             var newCommit = _repo.ObjectDatabase.CreateCommit(
