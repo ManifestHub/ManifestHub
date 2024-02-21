@@ -206,7 +206,9 @@ class ManifestDownloader {
                                 $"[Written]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}");
                         }
                         catch (Exception e) {
-                            Console.WriteLine("[Failed]: " + e.Message);
+                            if (!e.Message.Contains("Access denied to manifest") &&
+                                !e.Message.Contains("Failed to get depot key"))
+                                Console.WriteLine("[Failed]: " + e.Message);
                         }
                         finally {
                             semaphore.Release();
