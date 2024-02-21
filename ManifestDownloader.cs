@@ -289,7 +289,6 @@ class ManifestDownloader {
                 _refreshToken = null;
                 _steamClient.Connect();
             } else {
-                Console.WriteLine($"Unable to logon to Steam: {callback.Result} / {callback.ExtendedResult}");
                 _loginReady.TrySetException(new Exception($"Unable to logon to Steam: {callback.Result}"));
             }
 
