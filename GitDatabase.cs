@@ -55,7 +55,7 @@ public partial class GitDatabase {
             return null;
         }
 
-        await Task.Run(() => manifest.Manifest.SaveToFile(uniqueFileName));
+        manifest.Manifest.SaveToFile(uniqueFileName);
 
         var locker = _lockDictionary.GetOrAdd(branchName, new SemaphoreSlim(1));
         await locker.WaitAsync();
