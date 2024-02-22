@@ -37,9 +37,6 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore --locked-mode
 
-      - name: Build downloader
-        run: dotnet build --configuration Release
-
       - name: Restore serverlist
         uses: actions/cache/restore@v4
         with:
@@ -48,7 +45,7 @@ jobs:
           restore-keys: ${{ runner.os }}-servers-
 
       - name: Download manifest
-        run: dotnet run -- download -t ${{ secrets.GITHUB_TOKEN }} -c ${{ github.event.inputs.account-concurrency || 4 }} -p ${{ github.event.inputs.manifest-concurrency || 8 }}
+        run: dotnet run --configuration Release -- download -t ${{ secrets.GITHUB_TOKEN }} -c ${{ github.event.inputs.account-concurrency || 4 }} -p ${{ github.event.inputs.manifest-concurrency || 8 }}
 
       - name: Save serverlist
         uses: actions/cache/save@v4

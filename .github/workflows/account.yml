@@ -23,9 +23,6 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore --locked-mode
 
-      - name: Build downloader
-        run: dotnet build --configuration Release
-
       - name: Restore serverlist
         uses: actions/cache/restore@v4
         with:
@@ -37,7 +34,7 @@ jobs:
         run: printf ${{ toJson(github.event.comment.body) }} > comment.txt
 
       - name: Download manifest
-        run: dotnet run -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet run --configuration Release -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }}
 
       - name: Save serverlist
         uses: actions/cache/save@v4
