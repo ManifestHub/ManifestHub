@@ -39,7 +39,7 @@ switch (result.Value.Mode) {
                     Console.WriteLine(e.Message);
                 }
                 finally {
-                    await downloader.Disconnect();
+                    _ = downloader.Disconnect();
                     semaphore.Release();
                 }
             }));
