@@ -55,7 +55,9 @@ public partial class GitDatabase {
             return null;
         }
 
+        var timeStart = DateTime.Now;
         manifest.Manifest.SaveToFile(uniqueFileName);
+        Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} saved in {DateTime.Now - timeStart}.");
 
         var locker = _lockDictionary.GetOrAdd(branchName, new SemaphoreSlim(1));
         await locker.WaitAsync();
