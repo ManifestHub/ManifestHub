@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using ManifestHub;
 using CommandLine;
+using Newtonsoft.Json;
 
 var result = Parser.Default.ParseArguments<Options>(args)
     .WithNotParsed(errors => {
@@ -55,18 +56,28 @@ switch (result.Value.Mode) {
             .Replace("账号", "\n")
             .Replace("密码", "\n");
 
-        var account = raw.Split('\n')
-            .Select(line => line.Trim())
-            .Select(line => line.Trim([':', '：']))
-            .Select(line => line.Trim())
-            .Where(line => !string.IsNullOrWhiteSpace(line))
-            .ToArray();
-        if (account.Length % 2 != 0) {
-            Console.WriteLine("Invalid account file.");
-            Environment.Exit(1);
+        List<string> account;
+
+        try {
+            var accountJson = JsonConvert.DeserializeObject<Dictionary<string, List<string?>>>(raw);
+            account = accountJson!
+                .SelectMany(kvp => new List<string> { kvp.Key, kvp.Value.First()! })
+                .ToList();
+        }
+        catch (Exception) {
+            account = raw.Split('\n')
+                .Select(line => line.Trim())
+                .Select(line => line.Trim([':', '：']))
+                .Select(line => line.Trim())
+                .Where(line => !string.IsNullOrWhiteSpace(line))
+                .ToList();
+            if (account.Count % 2 != 0) {
+                Console.WriteLine("Invalid account file.");
+                Environment.Exit(1);
+            }
         }
 
-        for (var i = 0; i < account.Length; i += 2) {
+        for (var i = 0; i < account.Count; i += 2) {
             var infoPrev = gdb.GetAccount(account[i]);
 
             ManifestDownloader downloader;
