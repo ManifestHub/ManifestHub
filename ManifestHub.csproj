@@ -13,12 +13,27 @@
         <PackageReference Include="Gameloop.Vdf" Version="0.6.2"/>
         <PackageReference Include="LibGit2Sharp" Version="0.29.0"/>
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
-        <PackageReference Include="SteamKit2" Version="2.5.0"/>
     </ItemGroup>
 
     <ItemGroup>
       <Content Include=".github\workflows\account.yml" />
       <Content Include=".github\workflows\download.yml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="SteamKit\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="SteamKit\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="SteamKit\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="SteamKit\SteamKit2\SteamKit2\SteamKit2.csproj" />
     </ItemGroup>
 
 </Project>

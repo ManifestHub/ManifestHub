@@ -1,0 +1,3 @@
+[submodule "SteamKit"]
+	path = SteamKit
+	url = https://github.com/skylayer/SteamKit.git

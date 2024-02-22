@@ -34,16 +34,6 @@
         "resolved": "13.0.3",
         "contentHash": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ=="
       },
-      "SteamKit2": {
-        "type": "Direct",
-        "requested": "[2.5.0, )",
-        "resolved": "2.5.0",
-        "contentHash": "ovJcRXI93RtKlKFhv12EyJ9xCVBkrksL48Sgbc9ZVOcfhms06BU1SJp1NKDMKAYWhbwswWEHCiNqQKoIc0J1Rg==",
-        "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
-          "protobuf-net": "3.2.26"
-        }
-      },
       "LibGit2Sharp.NativeBinaries": {
         "type": "Transitive",
         "resolved": "2.0.321",
@@ -536,6 +526,11 @@
         "dependencies": {
           "System.Runtime": "4.3.0"
         }
+      },
+      "System.IO.Hashing": {
+        "type": "Transitive",
+        "resolved": "8.0.0",
+        "contentHash": "ne1843evDugl0md7Fjzy6QjJrzsjh46ZKbhf8GwBXb5f/gw97J4bxMs0NQKifDuThh/f0bZ0e62NPl1jzTuRqA=="
       },
       "System.Linq": {
         "type": "Transitive",
@@ -1061,6 +1056,14 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "steamkit2": {
+        "type": "Project",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "[5.0.0, )",
+          "System.IO.Hashing": "[8.0.0, )",
+          "protobuf-net": "[3.2.26, )"
         }
       }
     }
