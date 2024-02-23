@@ -77,7 +77,7 @@ switch (result.Value.Mode) {
             }
         }
 
-        for (var i = result.Value.Index; i < account.Count; i += 2 * result.Value.Number) {
+        for (var i = 2 * result.Value.Index; i < account.Count; i += 2 * result.Value.Number) {
             var infoPrev = gdb.GetAccount(account[i]);
 
             ManifestDownloader downloader;
