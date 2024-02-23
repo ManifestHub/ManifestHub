@@ -31,8 +31,10 @@ jobs:
     needs: generate-list
     runs-on: ubuntu-latest
     strategy:
+      max-parallel: 8
       matrix:
         index: ${{fromJson(needs.generate-list.outputs.matrix)}}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
