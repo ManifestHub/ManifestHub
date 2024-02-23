@@ -77,7 +77,7 @@ switch (result.Value.Mode) {
             }
         }
 
-        for (var i = 0; i < account.Count; i += 2) {
+        for (var i = result.Value.Index; i < account.Count; i += 2 * result.Value.Number) {
             var infoPrev = gdb.GetAccount(account[i]);
 
             ManifestDownloader downloader;
@@ -133,5 +133,11 @@ namespace ManifestHub {
 
         [Option('p', "concurrent-manifest", Required = false, HelpText = "Concurrent manifest.", Default = 16)]
         public int ConcurrentManifest { get; set; }
+
+        [Option('i', "index", Required = false, HelpText = "Index of instance.", Default = 0)]
+        public int Index { get; set; }
+
+        [Option('n', "number", Required = false, HelpText = "Number of instances.", Default = 1)]
+        public int Number { get; set; }
     }
 }
