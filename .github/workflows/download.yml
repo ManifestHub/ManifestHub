@@ -9,7 +9,7 @@ on:
       account-concurrency:
         description: 'Account concurrency'
         required: true
-        default: 4
+        default: 32
         type: number
 
       manifest-concurrency:
@@ -45,7 +45,7 @@ jobs:
           restore-keys: ${{ runner.os }}-servers-
 
       - name: Download manifest
-        run: dotnet run --configuration Release -- download -t ${{ secrets.GITHUB_TOKEN }} -c ${{ github.event.inputs.account-concurrency || 4 }} -p ${{ github.event.inputs.manifest-concurrency || 8 }}
+        run: dotnet run --configuration Release -- download -t ${{ secrets.GITHUB_TOKEN }} -c ${{ github.event.inputs.account-concurrency || 32 }} -p ${{ github.event.inputs.manifest-concurrency || 8 }}
 
       - name: Save serverlist
         uses: actions/cache/save@v4
