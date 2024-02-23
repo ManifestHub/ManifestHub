@@ -18,6 +18,9 @@ on:
         default: 8
         type: number
 
+concurrency:
+  group: download
+
 jobs:
   download:
     runs-on: ubuntu-latest
