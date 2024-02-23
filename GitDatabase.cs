@@ -49,18 +49,18 @@ public partial class GitDatabase {
         var uniqueFileName =
             $"{manifest.DepotId}_{manifest.ManifestId}_{Interlocked.Increment(ref _uniqueId)}.manifest";
 
-        // Skip if manifest already exists
-        if (HasManifest(manifest.AppId, manifest.DepotId, manifest.ManifestId)) {
-            Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} already exists.");
-            return null;
-        }
-
         var timeStart = DateTime.Now;
         manifest.Manifest.SaveToFile(uniqueFileName);
         Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} saved in {DateTime.Now - timeStart}.");
 
         var locker = _lockDictionary.GetOrAdd(branchName, new SemaphoreSlim(1));
         await locker.WaitAsync();
+
+        // Skip if manifest already exists
+        if (HasManifest(manifest.AppId, manifest.DepotId, manifest.ManifestId)) {
+            Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} already exists.");
+            return null;
+        }
 
         try {
             var branch = _repo.Branches[_remote.Name + "/" + branchName];
@@ -99,6 +99,18 @@ public partial class GitDatabase {
             var newTree = _repo.ObjectDatabase.CreateTree(treeDef);
             if (tree != null && newTree.Id == tree.Id) {
                 Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} no changes.");
+
+                try {
+                    // Failsafe: push branch tip as tag
+                    _repo.Tags.Add($"{manifest.AppId}_{manifest.DepotId}_{manifest.ManifestId}", branch.Tip);
+                    _repo.Network.Push(_remote,
+                        $"{branch.Tip.Id.Sha}:refs/tags/{manifest.AppId}_{manifest.DepotId}_{manifest.ManifestId}",
+                        _pushOptions);
+                }
+                catch (LibGit2SharpException) {
+                    // Ignore if tag already exists
+                }
+
                 return null;
             }
 
