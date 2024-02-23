@@ -1,0 +1,36 @@
+﻿name: Dynamic Account Merge
+
+on:
+  issue_comment:
+    types: [ created ]
+
+jobs:
+  generate-list:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.generate-list.outputs.list }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      - name: Generate list and set as output
+        id: generate-list
+        run: |
+          JSON_DATA='${{ github.event.comment.body }}'
+          NUM_KEYS=$(echo $JSON_DATA | jq 'keys | length')
+          LIST=$(seq 1 $NUM_KEYS | jq -Rsc 'split("\n")[:-1]')
+          echo "::set-output name=list::$LIST"
+
+  use-list-in-matrix:
+    needs: generate-list
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        index: ${{fromJson(needs.generate-list.outputs.matrix)}}
+    steps:
+      - name: Use the matrix
+        run: |
+          echo "This job is running instance ${{ matrix.index }}"
