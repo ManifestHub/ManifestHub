@@ -1,7 +1,9 @@
 {
   "AccountName": "wegfc571",
-  "AccountPassword": "junjun896010",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTEzMzcwOTcyNSIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEzMjI0MDEsICJuYmYiOiAxNzAwMDM0OTIxLCAiaWF0IjogMTcwODY3NDkyMSwgImp0aSI6ICIwRUU1XzIzRkVENzg5X0U5MkZDIiwgIm9hdCI6IDE3MDg2NzQ5MjEsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICI1Mi4yMjUuNzcuMTAwIiwgImlwX2NvbmZpcm1lciI6ICI1Mi4yMjUuNzcuMTAwIiB9.Fjz7IyEhDfT6kjwXFaUNFVc76KfKxKw_W11IbrgkffnwMy8imwX8wfzZeylBBXoV_HANqMEqGEQuWpQ8B4UeCw",
+  "AccountPassword": "7hzntfXiTdKjkxSgBOXLyQ==",
+  "RefreshToken": "22KwkhDZwfGzzta9Oegvg7Wbj/AeVmthd4sedfu8c9JCxNNGjs3WoSs+246XCy/S3RL3jaMKFIh/V1iQNnT22uN3AAye7qCW2sDPp88ov4amuTeZ9/vTCkEeVtrg2Ayp7APjfWZyRQcXZwjREXAvyckMus4VGkzku1UejSeKJ9yGahsFqS303z2RmPj8z3sXxu1W8xnWxmJoSsbi8GQ/s+HWewo1opX4TIhI/tNffIdQhXMUjjYH0mi/Mna+C5rmb1kVNk5PPZxQlJ7dZ53mHlUb2daqAZTQhbLDUMcv1AnwSkwIEt7oHSyhchqNINjTPGuLsrST3+iNCa2O72ijmCOyt1Bz8yWKRbakM0so+qaszAuDdgpY6N3brkZ3nH6HD8WuaV4z+sAyVCHrAnSREn83PoltaFa8G3hpmbGJrS0TgAWMVcmofdJo+1Ok/w2q37UHcRDGaHc0tqCAmJnViCvocWM+UuozQ3leE74XyaE+v61PrMsfGX1ov/9ROsIbBuMekxs8Ccgba12BKBrwy3+4PpSj3p4GiDzM2z5il2PhwNL6W+GWAcMdKWtsNRR/yV97pnw6r53Ferw3rVQZUFxlqLlYDr25FMgn6WmThZVjfk11S964xH4KY9ev2CQ+DxKCb3/+MmJwgI8dFl/9Ng==",
   "LastRefresh": "2024-02-23T07:55:22.8027477+00:00",
-  "Index": "AQ54T-P9SG"
+  "Index": "AQ54T-P9SG",
+  "AesEncrypted": true,
+  "AesIV": "kN1+hbtQkF98P2XeFR2g6A=="
 }
