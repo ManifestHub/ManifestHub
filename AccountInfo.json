@@ -1,7 +1,9 @@
 {
   "AccountName": "shwj8tuotuo21",
-  "AccountPassword": "lyx5211314",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTE2ODIwMzk2NiIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNzQ1MDMsICJuYmYiOiAxNzAwMDMzODAyLCAiaWF0IjogMTcwODY3MzgwMiwgImp0aSI6ICIwRUY3XzIzRkVENzg2XzhDNEJEIiwgIm9hdCI6IDE3MDg2NzM4MDIsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC45Ny4xOTEuMjQxIiwgImlwX2NvbmZpcm1lciI6ICIyMC45Ny4xOTEuMjQxIiB9.Qb44i2BJfdp3Tsjkwf71YIzuo2-3sfarfvlbNbtpX0S8PF4cDNSQ-dO5awoXt6v8L_1a14l4zgH6mZLFV8zoAw",
+  "AccountPassword": "YA5QjdFu3wFayGTlm/lLig==",
+  "RefreshToken": "Btyik+KJccn+Q7kJQwSeVaJoVRIRIreRmbFTW0paQbp93ISPgMptvpTyUsW3fnso4OWSHouPtRmkqJbNSlTtDULwKFNYbZbuOgfeDXYVzxsQHW8pWcyN1QGzO+Ag1NVk/mP+u8wovNTRoPi7ayssnRxwqUg/R5wdKxJ7Qem6jfRQTRhcDDspgQFxqJafRIV7zf84/v2r1cUfNBcDuJvQM5CKsvta6q2ko2wr+QxbwuakYHF19VjUgAFiErL3Epfzhxzda28hnEfrR3CSpb7cilXbqWaEJKXcfDAj8njL7O8xd1v3xY7CokcuHDcdaaFqJEIfA2yLP+cNqtOUgfuY924egJU0Pkoy0bxppV/GJjy+J2muEkAlNWbGeaRdPWdPwIbfCWgNe3mX0D5UXKWbldoh0ck434VMmlwyDYViidG92PUjrUmxltji2NOuAg90MRQdsY4l6CbF4qF68zkz3paXyOouA8LhFu8kIpyj8pKFq7Wuhbt7siVvs4CI+UjlyCCqfTVffrOmuNDI9QzXRvhPwjGAS4dA71U1TgmVKJXN4Q6lsTdLyk0EuPvPEqV03TFgUPgRPDeZukQgabDrTVYtTLx4903D6aYP4rn7sXxoWsAAOlAUOv/p+84SjkZAG9iLLYkJRpLIapwq9j76pw==",
   "LastRefresh": "2024-02-23T07:36:43.4343562+00:00",
-  "Index": "SUH8R-L8UN"
+  "Index": "SUH8R-L8UN",
+  "AesEncrypted": true,
+  "AesIV": "CZKpndvas4efEocYS2FVxg=="
 }
