@@ -1,7 +1,9 @@
 {
   "AccountName": "syk26067",
-  "AccountPassword": "huc44756",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTM1NzQ4NzQ5MiIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNDUzNDYsICJuYmYiOiAxNzAwMDM2MDU1LCAiaWF0IjogMTcwODY3NjA1NSwgImp0aSI6ICIwRUVBXzIzRkVENzhGXzY1RDQyIiwgIm9hdCI6IDE3MDg2NzYwNTUsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICI3NC4yNDkuMTQuMTkwIiwgImlwX2NvbmZpcm1lciI6ICI3NC4yNDkuMTQuMTkwIiB9.ma-eeZgSx-yU5pxX4sMn0QCcW1NoeCdj_LX7Pvw8mkEcxuq0EBuZOovuSqxYJ6OZN8ZvwIHM8whbRvUynGLoBw",
+  "AccountPassword": "ZBsnuRcFcKBVwou6+T/2oA==",
+  "RefreshToken": "/pWsgsnWTlF3P71cIhwC2Xc+8aa1YwxIDSnbzUj3sCjUNrN/5RyI+C24srIsHtRdbNhP4D302xbwJoJyOnhAzQnP6sfn+5v0XQQCtC/s+z7FjgWdkCFWr9lZyV1Kc0VFfVNeLJb8tyEJ2mmnD8ZlYurRaxhJn7KuttcCvEm14uuDC/d57koZ8wkU7yoPI+01x+54FdqZd+GGbpjg32eEqEuSWeIrxTQ3gXhA5QwghNUVxWJAyPUFBiVSRQ0YWBocwiUseF/Mk83dJCJwV68j/BRfK8B2fpNwr5baUXzU+CyyhvUgczDZ3+kJXKqrQUdytSV3PS+vQf/H0L2O1ZipXjiupqI3al0Hl1DgdL+yClpkH3bBK8jRphGdam+RB73qqBbSLAmdHh+OKA+9G5zPxmG+n4Ag80I9GESnHUBwVWxdNJOjE++jGouDoBvYsoPc5a6uXCHuURzjohnOWNA7ESUASLgukdxDWrHJIPsXL0vy550o3KvUkxIRbanJF4skZefkrjNo48+97h+trQognPyzqe3LCcMm/Lnfx5GVi2g+h/RfJJMLtuQp/9IWogvQJmPxSx1carS1071d286p9Y74ODA1GoCmfebRKnMa1a19xPebrVUnuoK37A8OMYfMlqevlCHWA5jcDLeqFZB58Q==",
   "LastRefresh": "2024-02-23T08:14:16.1767182+00:00",
-  "Index": "AGXEH-GKYQ"
+  "Index": "AGXEH-GKYQ",
+  "AesEncrypted": true,
+  "AesIV": "Kl6R/526QUdFfQXnHBt+Xw=="
 }
