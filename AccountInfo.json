@@ -1,7 +1,9 @@
 {
   "AccountName": "srzfy37675",
-  "AccountPassword": "Pathless222",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTIxMjc3OTYyNyIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyODQ1MDcsICJuYmYiOiAxNzAwMDM2NDUxLCAiaWF0IjogMTcwODY3NjQ1MSwgImp0aSI6ICIwRUU3XzIzRkVENzhCXzBEOEIxIiwgIm9hdCI6IDE3MDg2NzY0NTEsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICI0MC43Ni4xMTkuMTM3IiwgImlwX2NvbmZpcm1lciI6ICI0MC43Ni4xMTkuMTM3IiB9.pzjA7mgPZ1cg9tBW19ojRNbObEIsOVjykZq70HmRy84AAstdgegXdPyuIJQuRD_4G0uKD4uExndXhGrdmaduDQ",
+  "AccountPassword": "/kbxxAnssNHbU47eCNd0tA==",
+  "RefreshToken": "pa/lVMvl+rE2O6qOBxQhMN6PHg9ifnWyEkJ6IXc1PC4XyfYBf830+29bbDFUcNh8Hvg8e5o4LwwDdDZmQyKdoNIWN0X7DkDOBk4FbPFEcWOPb8FUZOO2UwC0y02CXBeuFA+M7g5oCixLOb96ySM7gCDEb5p1C3qvo6TlhPHR8iOvJ3AmD0OqqPqHmTXI6jG8ycmkldVgwag2DJ/1wbkbt47BTNdYmUCTkpVft0+5PcztLtqSguskfy83D7zpMANrt0zr9EMf+vnpg+fyf90ORP76uEyhJK/Dnb/8N2cbhA8AJxF3M00wGem/q7l5QKgQkvYT3mdpixFllz3wSg5yBRMhaoiMv6JLlN7regE0PmckzKWF7CHVaB/8adrBtmY5C+T7oMeMPnjXMarHcEpTVLgrxjrwwedmuHkgLZu+a5UaSP2UK02tpSJ9gpJKSqRriNOvqG/Vgtg1HrTe4qMh+2+n4Bz6l7aXuohLZNkUiBg9FYSoqScfpy7Zujh2bGRfDpzOud7xxcnFAIztvOny7/95Gdx8/OTIcHrcFj/4dvvt6d5cOfaV5ny06D2s4BwChenf3fTuimUyeVlPFNcklHdwj/38F8geYcLbEspvVBL2c8MYrVZdvjiRNKxDKqvt8r1NKfWQJOjmrMRjqqEjZg==",
   "LastRefresh": "2024-02-23T08:20:52.2623782+00:00",
-  "Index": "S3QNZ-XXTJ"
+  "Index": "S3QNZ-XXTJ",
+  "AesEncrypted": true,
+  "AesIV": "jNAhSxwT7/tl/SGWzwLVBg=="
 }
