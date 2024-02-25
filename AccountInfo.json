@@ -1,7 +1,9 @@
 {
   "AccountName": "ThKas49068",
-  "AccountPassword": "Hh39512c8",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTAxNjUzNzU3NyIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyMjUxNTQsICJuYmYiOiAxNzAwMDI1MTM3LCAiaWF0IjogMTcwODY2NTEzNywgImp0aSI6ICIwRUU2XzIzRkVENzg4XzU1NTgyIiwgIm9hdCI6IDE3MDg2NjUxMzcsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxMy44Ny4yNDMuMzkiLCAiaXBfY29uZmlybWVyIjogIjEzLjg3LjI0My4zOSIgfQ.XzF72-h7cAoN9HaxqZQ3JmQWWh9DVcMVi41t8wZ6j3UcKn2RdQsJp_kkY2iWmfNpl7uTGow2ZYkcTyxPlyGFAg",
+  "AccountPassword": "GAyazMcUYtY+bz0ZdvUu3w==",
+  "RefreshToken": "oYETqI5DWgj4l+bk3RTn5C3LnpX4kwo/oc3kPlzpealuzRZHKV8O/N5ssieuqr7aLS94HMnvciN0D8TkiDgmpWXKLZxn6LybHtnS+GPPbDCEtoy/ICGyU/ZF2EmAO4Bhnxc9Uj4GCNzc011q70QwxceYYMYZFCWNE2Qy4/CHNzAFAk/SIwPSoOHcwP0c3akBEmVxGyD/JdwylafZtXt0RUZkeb+oE/+rn2PZYEF+tO0oP+uDIrSeCmOY3LawFAszQ/60LSrbCQWxTKRLZknjfs51nrx0zr1W2netIQfqHZosPjqdnRtBPFEmv/egjywk8HsGHwhiTEXEtmmSl0PtSiWgHOyzu3UhCJ3tjhpMzLjrlwTpdiVA0KmYzg8ZRPIVdc6aoA43GEQO9zdDVdoNccvO9qEHRMz8DtXxKbJ6AmYbRxSZ5u4yshre42ygV2nRaJBH9qATbbPo5S4Tb7cJCxvBdSnWiOM4F/KzExnBxh8q4g3XwvacwzfltaB3ifwo+3mU1xkmGVp0x8yLxm2nC+xvpd6FPH6BsiPIfzo6wD4N7bjUTGyvalFVWzzklsDv+dGcZ7byjfLdVFbELdkYj1MSLDe3OaLdhmLH3ZwAMOjWkJIjhUI/xhP1YIwu3cQY7wxe7Tqig71Is5+tCtpKyA==",
   "LastRefresh": "2024-02-23T05:12:18.1982283+00:00",
-  "Index": "SMUGF-89RJ"
+  "Index": "SMUGF-89RJ",
+  "AesEncrypted": true,
+  "AesIV": "I1vwXu18dZmYRvPRy5l/ig=="
 }
