@@ -1,7 +1,9 @@
 {
   "AccountName": "pav22050",
-  "AccountPassword": "rst74423",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTM1NjQ3ODcwOCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEzMzg1ODUsICJuYmYiOiAxNzAwMDM1NzEyLCAiaWF0IjogMTcwODY3NTcxMiwgImp0aSI6ICIwRUU0XzIzRkVENzhCXzk4QTk0IiwgIm9hdCI6IDE3MDg2NzU3MTIsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxNzIuMTgzLjUzLjEyOSIsICJpcF9jb25maXJtZXIiOiAiMTcyLjE4My41My4xMjkiIH0.jPs1oASWyeKAzNho6s4b5l1n2bd-ZigRuC8_f_8D6-XNPhsTtHA-OlXs7nN9QicnDXOrbepc6VFCcR6V2n52AA",
+  "AccountPassword": "PvKDqIbPkkWvnL+vhb1NIw==",
+  "RefreshToken": "MqW8jHx2g9YPG8mEW8CYtw5is1wMTvUal08PtH4BZwelpmC16u8bmD9+S1hRj61dZbv43avYqadPYvstAgb6/Y8lRka9xTqgOVh7Py5olhM84Oe/R7LGhsl7RPWG9VW6MS36Br/gbobpmLgfhy5AsAfum7HplWBAt/Un3NYgyYCAYQJZG4SYDSoWdpGcVqoEj9MbsukDEwc8CqiSBLbku/IcBL74xHTyBlfaTAFBVYA7DNdR5o6bMbO8yXeikazICqqOeHOTW0jZTRauYMXbZAdOBz84azCZ6DzSDyBeVSvnEGj8N77tb5+JjjcbBqw4axgyaBTsTYM7OQ7poYruFt3NsW9qi17csR6UugwkQjMm0/prm0iY63AN6a94E2DmNNHparMmK9FvRy+jA4itlkdspPmfhHB0/okZIWUbmyQvhtQ7PYdeK03u/LvdjcCW2EXko2TwY1ZEczmNgqPTh1XnJ60cpGpzNtQbjmspzSrnwORzQFZ+B+HdluEq36hw8XQGRHnrdKG+cKUaJzu0ppM9j2lMq6Nm3I7KLP8pIA+cMUfarlRHuWISCWIXabl9cwVtDERWszx7RrfN3CKxFcnDvTemm2xnShvDRaRClEjTEG4JEkzvygwyjjGsHjJhUXijbzFKlpEY4t3QehbQ99pAqbN5gCpjce+etRLF5VQ=",
   "LastRefresh": "2024-02-23T08:08:33.3060303+00:00",
-  "Index": "SDP42-AGYQ"
+  "Index": "SDP42-AGYQ",
+  "AesEncrypted": true,
+  "AesIV": "7YOkOT6kRmfM0757ZhSWXA=="
 }
