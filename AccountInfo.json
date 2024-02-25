@@ -1,7 +1,9 @@
 {
   "AccountName": "ocmy951762",
-  "AccountPassword": "ile2fmtr",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTE3MjE2ODMwNCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNTEzNjUsICJuYmYiOiAxNzAwMDM2NzY1LCAiaWF0IjogMTcwODY3Njc2NSwgImp0aSI6ICIwRUYyXzIzRkVENzhEXzQxRDNGIiwgIm9hdCI6IDE3MDg2NzY3NjUsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC4xNzIuMi4xMDAiLCAiaXBfY29uZmlybWVyIjogIjIwLjE3Mi4yLjEwMCIgfQ.k-Dn3xTujo7To1WxE7q-DtAjej3KQVxd0AOg8MHO7HshcApfVwb-8W0SFb_IOyl1ovpkQq8Kftt_66xbzZs1Dw",
+  "AccountPassword": "QY2rX6/IzDbmTzncVbpIaw==",
+  "RefreshToken": "KMc4TRbI9Ce2MtlnXGPRGceCk1SiN06+Jhj48opuKUkBulLbbqTcw19sGnE55XKJnRi6UhUiEZUx/jq8Oct7UWLDCLl7W/l/m+4Tr/CCkvCGJG52A5KLiK65byluoZmg6XiUFV+7BfgrkVfqeRLmexc1JtUvFSlsFYNAKvYZg3TutpBt6BS3Wp03WUDPMwwLU1ca+vJRt3uoSjunY6i+0dZxjAG3XMic5pxduF3QNtDGjpuF9wLw9TLFuK6jCWPjn7J09Ji5ug7cm25iwZsr+ZrIzE8XWrqKi7bReL2cueN1kE7PslLDBJmyWojcWzeTiVMOW6or+Q+RFbIdJUSB0I97czRji+kAg+LOG4WP3DCP/pp5Xl0JmYuLduQ3nglXi80755CaNnhKDE1Tj1EL/Wi1GInaKxmt6NbFcC31aYT5RYHkdsTQQdDMyoJVv+dYuK5OSnAN2UJl54xZfkIpyODwcnYg+dGz7PxqFPlAhBNTbFS/NdyuFqbuDvSLPW4GoLenF0740kX2r6IghhSfya4UQ1X2TzfeKdAFVkLC6D7qn96r0BsJHwvzqyNyImunRWoy5O0mmoXx+SRNiRU+JBbg4hH5goxFx+XO4XjAqO8VJaNs0T7XMyxajMf6c+8qh6yBPygHhj5rimRo1vvQ+w==",
   "LastRefresh": "2024-02-23T08:26:06.0989686+00:00",
-  "Index": "SFA76-UHSC"
+  "Index": "SFA76-UHSC",
+  "AesEncrypted": true,
+  "AesIV": "rUvyZmUFj7GJfzCyHKb9Dw=="
 }
