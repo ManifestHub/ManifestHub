@@ -1,7 +1,9 @@
 {
   "AccountName": "asme78077",
-  "AccountPassword": "kcg4q5tj",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTE4NzA4MTMzOCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyOTkyNjgsICJuYmYiOiAxNzAwMDM0MTAyLCAiaWF0IjogMTcwODY3NDEwMiwgImp0aSI6ICIwRUYwXzIzRkVENzhDX0Y3MzBDIiwgIm9hdCI6IDE3MDg2NzQxMDIsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC43NS45NS4yMDgiLCAiaXBfY29uZmlybWVyIjogIjIwLjc1Ljk1LjIwOCIgfQ.m8wGGq1aHgcdnqt6JcdcVXFigzC2ySYIoFX0skoD8IL7fDxqXzxdntCgmBLsL_1PfuckWYY13XrH9pMzxG6cBA",
+  "AccountPassword": "w4M57iMqeyjb8fFhPF0Ehw==",
+  "RefreshToken": "teLsq1s6RJzVHtNyTVF+WYz4eerK0woZj/04pbxfXSixteakbUO5HH0/j2y5/cql8Nz+ktakh3fy99EV7E1p0jW1SZ3sG/YTQIOSgDOImVmI0/oQnrdasyklk+doZL78ZtBRLB3S3c2O5FLduOdF83qFOUSt0nCfPGUnR+C1IfhYyU4VT7NtmlhtNCGSjMPfF8M9N+yyGZZ7LXkzYpbAyS7JzEde4uuji3fv8LYb4LUfq0Ly34iTit5s7+CygRwjEfRKxDFknKJMdhm5DNu9i25CHla3IFEXeSb2DlkfRcpNIUp2Ru298mTeIXjBoeFZEMZe3nbFodSoBXOiWhfWbfplBwOZnIdTnCOofBKA4DeTn857RpqOmAFmIafIPhL74DIpzfmGlTCez2N4EBM4xKUCUJ+a/Diyt3yWaoEdV8NR1fLlS/PWcbTlaUdlnDLnDgKmmvRafP9V/ClZD7ud9VelDcQcWBfbWeo73l7eN56fafMtvdKHrxrIt/BlMIK7dLmb7nhCo1P2NBXEN9MHWTvag30cFYjfJeeYjZVWXmvSrjxV643g9Zr/YcKegbJG1/qAO+6r4fWDXjXiMcOlJRtNErIXGLrXPlxJfkZZrJAo8wCMSKAvVwUp4eBfK3a1M2g+lcJtFXqabaifSTgGpg==",
   "LastRefresh": "2024-02-23T07:41:43.2239965+00:00",
-  "Index": "STGWR-VDTE"
+  "Index": "STGWR-VDTE",
+  "AesEncrypted": true,
+  "AesIV": "HVoJY6Ma5c0egopB/RGaSg=="
 }
