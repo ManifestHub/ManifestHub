@@ -1,7 +1,9 @@
 {
   "AccountName": "lmcuw954",
-  "AccountPassword": "junjunjiaoao89307",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTEyMDMyNzgwNyIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEzMjY0NTgsICJuYmYiOiAxNzAwMDM1OTU2LCAiaWF0IjogMTcwODY3NTk1NiwgImp0aSI6ICIwRUUyXzIzRkVEN0VFX0VFM0U3IiwgIm9hdCI6IDE3MDg2NzU5NTYsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC4xMDIuNDYuMTQ5IiwgImlwX2NvbmZpcm1lciI6ICIyMC4xMDIuNDYuMTQ5IiB9.8wj5tg-FTIFSsPwAMo2H9tN7_mRBub5b4c1xrJSR9hvcGnDcVfQaIsF4xIXpYCKsm4nJtdRUVi1m56DF8beqBw",
+  "AccountPassword": "c5CompnSCpbzQpCsmL/NRpWceCH9YiJPWWWmZnsbEL8=",
+  "RefreshToken": "vMDyWML64dJmuS7u8MQICWUbHQrZJOYSX/f5Ir7KoUdm4Rjnzolu6Yw2mJsv0pshKwwW7Mtj3fpvDQRx+nfcmyrbWcLhLsjh6kBOe/DMiyyO492nztl67cGRlmc+2rAL2G7sqP1khmMOW2dtdSLow2/OFvHyGZY9Ujq1N61ZKMrEkE58MH+uK3fhmO8tRd3iHwRxGoyGDMWU0JlA3yfPpywC6PMHwbFPVWZ23cETjT0ggk/jmTLGRZFosKCySuZI5sBY79h/ObNQQwP4M+K0yjERyhsSEV3FefxybthVPD/RM/uizqaij+nTAH7omQ7RgfQ4rWLouwnUMr1v+eaUzmUKaLx7eyWsfy+IIzyUbCXi1oVCpwFszQ/+jqv2MVAvMycfqz3V+jF17W4oniE6S7bctU5Msb3XqVqgUMLM7ohqO2VSJ+vT/UpoM41gX1tib59Uqzd5JfDzC29Uv1PXCmUIILvXL0+dpHdKyb/D7TmTkwKJquMQFptZIM7Eqr7T1pmSFlWbR9MtlZmtUT2zpj5zmw750J4oczWg1INcm2oP3VF4gPsbExe7UEWh0Dy/8AVijwpuAxB1/3mzj/IiR9FfcWVaO3pNLVBeWmqtKBLVKdsfsTMY4qk8r8Qp+C/dZfvEttulsVsqcQshbItQZA==",
   "LastRefresh": "2024-02-23T08:12:37.3885971+00:00",
-  "Index": "S7D4F-LEUE"
+  "Index": "S7D4F-LEUE",
+  "AesEncrypted": true,
+  "AesIV": "ZHU8kekU2xbC5UXKj3bLZA=="
 }
