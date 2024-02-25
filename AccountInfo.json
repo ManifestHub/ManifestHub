@@ -1,7 +1,9 @@
 {
   "AccountName": "pandagame9509",
-  "AccountPassword": "pandaga6045",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTAwMDA5NTUyMSIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNjQ3NDAsICJuYmYiOiAxNzAwMDM0NTQxLCAiaWF0IjogMTcwODY3NDU0MSwgImp0aSI6ICIwRUYyXzIzRkVENzhDX0U4M0YyIiwgIm9hdCI6IDE3MDg2NzQ1NDEsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICI3NC4yNDkuMTQuMTc2IiwgImlwX2NvbmZpcm1lciI6ICI3NC4yNDkuMTQuMTc2IiB9.Qre0LmP-jMhnQmfIAwnCsC7Fs6Ps5_lo1gVeBTVZa68wWvRtiU0qyD3L2nEk6ez5wreJGQ1mXvwJi8d_GEdMDw",
+  "AccountPassword": "tIQ/je6vIhboZpxlHcLcxQ==",
+  "RefreshToken": "dqBbOq2gYF57pdZ0bXa5UCEXwHAf4CCXMqde+ozvzenHs3zwL4DzlD3y13+xc5xuyWqci2vSpMLbBTEqJmCnuOX8Wz+k8Svl1scezjzDrhEiy+jPQk4gaMbLy0vBXP6Rh2mKkTzGaxUfJRlV79E3ID3+HHl1rx1TgTmfvaSj3BhN3W6bQhBPVYjtqX45ZvrcXckZ0fcE49auiL7I7lfkQ8fBdPgLyK29ewnARmUIrdkReRdSTclGDqYJOPn5V/N325sSIIklLF+b6mspLB199KFdMqSwilIKFbrkKHOdMcV2q0E1Wc9fEF8uos9UQGxPZCNSX3aZQziYe4NduBPRdi1qOo/7YJt61eU9w9W32jqn+uxvRKagGv4DZE/zenHAgmvMIyj9lizXtsZ0sMSMcwcjqriTlFniq4S0Vwf/XTNlmzLmzK3sEFR8/iGUAoW7gOJlF7oNaKWBJU7b76c204/qVxLCko+S9Y+lOCA4RyhaqwDHfwRrpsw5QX6/XpQrvehEszXYQ6Z5PNX8y8jX97GM9LRrKCUmbcbJjaSFB95GnBJjBw3WdqmbCxMUe4lovNYzCE8ukalHJmlAfL1w/EthIk3RnG8Vks/LFq9HrvqprOlDi1bIHJ0GpnV2xVUpTLaj9MStRTRypVIzrefC0Q==",
   "LastRefresh": "2024-02-23T07:49:02.0255573+00:00",
-  "Index": "SN6PL-28NE"
+  "Index": "SN6PL-28NE",
+  "AesEncrypted": true,
+  "AesIV": "SMLdYxmfJCvtcDa4u/tQ4A=="
 }
