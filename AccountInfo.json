@@ -1,7 +1,9 @@
 {
   "AccountName": "odbeo42353",
-  "AccountPassword": "zuobiao99823",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTQ4Mjk2NDAzMyIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNTMzMDcsICJuYmYiOiAxNzAwMDM1NzE2LCAiaWF0IjogMTcwODY3NTcxNiwgImp0aSI6ICIwRUU4XzIzRkVENzhGX0IwQ0UzIiwgIm9hdCI6IDE3MDg2NzU3MTYsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC41MS4yMDcuMTQwIiwgImlwX2NvbmZpcm1lciI6ICIyMC41MS4yMDcuMTQwIiB9.qZRhDlN2d0C6IQxXiPVkjYCucUexTtZLvNJyjvyaJYrc3tcmP57NXaKYN78MHwEqzVQNyIuswj0DsHSkmUoYBw",
+  "AccountPassword": "uEewUJkNqb6ZbVts5L335w==",
+  "RefreshToken": "eO1SyQ0lEBWPFwH96OhElW8dxYjy0epJv3W/ExDaPqZ+aviJi93j1VEi/cLAR5E7ivl5ZwJM+pSp31C6KkLHnF7LPdeBACZo+1UlRZu4x+DmAyvlGkHohakRG3SWIsinwJwDAsnE6Qxg4orONbz+uhgO0dL57DfvbsAvc71hvSJe91ohqxaHuZjbdIDS4Fc2V3iVW1jQChPqJnpx7jMlo9gxlnhSxzGT+0QSnL72W5Sx17lljzhdKNM4AwYEJ1Bf+mHQFUwipYx0ckTtKwCGpg22kfgsfrps1PC3ThWR8BRZBRv0lERqEjv4FhPHCc4WCFeqDee0Fcy4f1rrukPPxCU2lnifx4MzLqx4d8qy+/Rs4RNnus5PKunRrCJiShlahus0jY0r0ye5qrOFb1YCe8iU1KBP5OZShdXDeKQ0CTXSoMyfNgtYl3Z7ewyWCmfpqJxxfbhh59tXOpHlzwC74S3Y4tVO/hYs093zTCqgEG42mbFYxSKv+eZ5C+4/ACzuojuMokEkcv4ejcp4yRXvMkLqoW6TRzYaa5EkXg7ZAKsdIiJhA96lvgA6U9suL2f8KmLoILJ/i/cZ8bQ9O94pxpULIpPyBlPbxkMdQytqI3DCsCwVUgDOKEBDsTWgk64VmrEYJfAhklifKqvfA7aQZA==",
   "LastRefresh": "2024-02-23T08:08:37.6404547+00:00",
-  "Index": "AKNNC-S3ZL"
+  "Index": "AKNNC-S3ZL",
+  "AesEncrypted": true,
+  "AesIV": "8U9FZ5hXoloc2eGzlyiXGw=="
 }
