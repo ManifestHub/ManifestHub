@@ -1,7 +1,9 @@
 {
   "AccountName": "pnfrp57903",
-  "AccountPassword": "8avc5zvj",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTE4NjI1NjAyNCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyODg0ODMsICJuYmYiOiAxNzAwMDM2NzU5LCAiaWF0IjogMTcwODY3Njc1OSwgImp0aSI6ICIwRUVGXzIzRkVENzg5X0E1N0YyIiwgIm9hdCI6IDE3MDg2NzY3NTksICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC43NS45NS4xNzMiLCAiaXBfY29uZmlybWVyIjogIjIwLjc1Ljk1LjE3MyIgfQ.bwyJIKV15IHmxWS8_LPzyPkaXzoyi5nXDm1rFXLQi4qvrqukod-rKoYYDAyEfzYgf6YNMNYTyh3sTy3WCeIiBw",
+  "AccountPassword": "3npL62pwMSCXONPy3rirWA==",
+  "RefreshToken": "K74Xf4JikHa2BHlrdRfGghOEfvLaqIjdWOFbkqy6ap1MYfD4MdzRwKtvcCasK+OPPTtTG3hyd8CKASMafQCzga6hhAkBo17ldCkP5rWqYSdQhjlpmPnRHIl45ZRaYlFj+X9cOeewzZ0JGZR1lAqPN8JTuzAqdXPgz4kxJKK91l110XuqnwXeUN7qZnryW46YWOpQy8QvHxlquH5Geg+GUQR1SmqbjG8g4iS2hHiusQMYtpB7IOHuOZgTwZOiAVKUmbOfIiGKIOf736kHce/9RNepeSTcVn0jxqLK2qcrbHtiIzf353pt2doHw9mnQvJ858Cvm8904e39Ir1b9Gi3WHF6Uw6qUsVwU3/92dkeCoamDzmQWj0+rDavKqsR96Eja5LmM/ijL6qQwjv/vDYgoNBnOWJdOVuHrBRjY9Bh8stJUX4clwlcZCssscE6U94jZOsV3mk82O0qd4WjfGBLhB7PmbRjhEJvZeXw+QKyfu0mLmhKIn9GfYC3GyjungbUk+tIwMbB3nTJCe53mJUHzPpnRhw4vmjW4YS4STMogwenssD0E9CrePx/kLdIRaWENWUwU95YSE6w9AiA3SvpcizQsnidjFhpVxN9Ir2uYTYyadviAjxtdIDPDBwfXsl1iGKDlmelxZD12OkOYSd4KA==",
   "LastRefresh": "2024-02-23T08:25:59.877194+00:00",
-  "Index": "ACLSD-UDUE"
+  "Index": "ACLSD-UDUE",
+  "AesEncrypted": true,
+  "AesIV": "L9tx3VaTkecNCfNov3MLpQ=="
 }
