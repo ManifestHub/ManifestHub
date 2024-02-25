@@ -1,7 +1,9 @@
 {
   "AccountName": "Hellblade100",
-  "AccountPassword": "NieR10000",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5ODQxMDM0MzY0NSIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNDE2MjEsICJuYmYiOiAxNzAwMDI1MTEwLCAiaWF0IjogMTcwODY2NTExMCwgImp0aSI6ICIwRUY4XzIzRkVENzg5X0RGMkM3IiwgIm9hdCI6IDE3MDg2NjUxMTAsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxMy44Ny4yNDMuMzkiLCAiaXBfY29uZmlybWVyIjogIjEzLjg3LjI0My4zOSIgfQ.2qkQ0RzgiuHKBsPnl5GdBgVd--WzRD0V-onMpAswDRybtn6eRTNxJjCOXUF2w12F1ulw_6qC1UczHKTUQVJYAQ",
+  "AccountPassword": "hs/skBJGQHTcVtDUYrIG5g==",
+  "RefreshToken": "t5UcvMiBBJrVXSpQrxuejZgm0EiWw8tH0bF2+IFQIiZmPZLKm0ml2qWGiMpKWbgcF19l4M6j5nVFa6dOmVKnHdVdTkgalCGlYNhn36hulLxpHIveYekAiTJekbw37q4zmNpGvTSUY3FE+7tpMs+omhq4LFuYFevmyIeoN5KjtYlHI3OVe7S76vFpf+lWbYHYFcIZ+AhY2x1VaFQKpF9E/GdpimryTPVREJMuqYbaBwsDlFqCAWGC6cdzv/q5/plG3xuTpl17NIYrU3hloHETHZLG4mmSyAAOvmZBhpWFau84hhWiCO5spVPsElANtDktcQQh06Ow3RdiuQm5pPHtdUsQm1QZw5q/7NAKUE9/UR8d+BosOUs2+o0M1II7fIOnpTYDZeJQchJDdH4CG9fuHQtCdrxS6g+jBPwRSXqubwOFDnr9voafhzlck2dnh5dOJiSpXnTgF+AmyBzLhobR0TXagbjx4q8Ayt1PlyTZ0kjg0p0I3RLEwUYrmC87vpV90GOrdGZoCUfdodLFZYAFMX4w8T+fxgrgVt1AuA16hghQwPOYi+jDamaF3gMwZJb9qXGeA9zW+io9eTMUnkj7NxRrb0UygDxMmawIqDJTDmgyOys2TNSXT6acBilLzN+KDymVMMxD0c/+68CtKFm7Ww==",
   "LastRefresh": "2024-02-23T05:11:51.3971374+00:00",
-  "Index": "AMHUV-U5HJ"
+  "Index": "AMHUV-U5HJ",
+  "AesEncrypted": true,
+  "AesIV": "DyU1IeouhmdV/v8c2+D4ow=="
 }
