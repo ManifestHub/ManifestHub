@@ -1,7 +1,9 @@
 {
   "AccountName": "eocjn28022",
-  "AccountPassword": "B3UcZDnkFM",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTIzNjA0MzI2OCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNjQxOTQsICJuYmYiOiAxNzAwMDM2NTU1LCAiaWF0IjogMTcwODY3NjU1NSwgImp0aSI6ICIwRUU5XzIzRkVENzhGXzNCMjNBIiwgIm9hdCI6IDE3MDg2NzY1NTUsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICI0MC43Ni4xMDYuNTMiLCAiaXBfY29uZmlybWVyIjogIjQwLjc2LjEwNi41MyIgfQ.SnZg-UqhbkNU1g6dRmfsACna6EV3o6WloeI5mnY3Q0yw_rMbgjRipLaJ5sYEi1aq7MN9E1SIcIJ9_PYlr3_ZBQ",
+  "AccountPassword": "hb2N2MGsg37MV7rtzhXgJg==",
+  "RefreshToken": "MXDLkfsZVx9hHWjxJeTCMgy4Cx5qBViVQ9VCm08zYQJAjEYz0CoZc2euognv6Z5yUz394IIo3TFks8vwnpjreZ3a+21eiuAeo9TihMzWl7eOgznF+ibWemZqrm6zj3gRVYGG3VjHgU8UJRkzX7K800QQ0idawhn6vAkdlnjY7Rj6svfMruIiDVBUa+Kd/ui8MAqfB28+Gwupin1qLW0a4mo5o74naDtzuQUFrycphYmZ2jPNa3+ZCVCUBxME0Y3pe2qxfjlPsKctXOg5bkmgteUnAFMU9A6bFDjsk7SrnHGc/HFOFMNw9M8zWf3KrDhT8rODXd2MdXH+zRYMsGYViWssL+tEEtHvWElqqRN7zhagJSfplHy0gtRQzD834aG216b/YmBKzg8uhaWAIKaK6fI4wQ8bO8/CUmkshB03w1lZO842J5WISgnfzFB9KmfgugBzjgzoUUlUsNUt+sLX0EmthHKhIdFYDQQC5X/lVz3UcOtQE8MUCYf3RSQgwuBKijLkxo6qnhQXPVTIpYhtrqNu7LdZWuXS5AqVmtE+tg8sdup/vYapSOgDL7lLntFm3lrFs0rCwEyMuzu3Gh14IAwdj2gcR9dt8j1hOt9Xels58mUxKhxhLjbr5tg7Ar04/Yu7o06OILGYLOQcJODZhA==",
   "LastRefresh": "2024-02-23T08:22:36.3200285+00:00",
-  "Index": "AEFBL-7AVC"
+  "Index": "AEFBL-7AVC",
+  "AesEncrypted": true,
+  "AesIV": "+bxjpvrmU8t7IHeIS+cgtg=="
 }
