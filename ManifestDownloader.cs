@@ -21,6 +21,8 @@ class ManifestDownloader {
     private readonly DateTime? _lastRefresh;
     private string? _newRefreshToken;
 
+    private AccountInfoCallback? _accountInfo;
+
     private readonly TaskCompletionSource _licenseReady = new();
     private readonly HashSet<SteamApps.LicenseListCallback.License> _licenses = [];
     private readonly TaskCompletionSource _loginReady = new();
@@ -30,6 +32,7 @@ class ManifestDownloader {
         accountInfo.AccountPassword,
         accountInfo.RefreshToken) {
         _lastRefresh = accountInfo.LastRefresh;
+        _accountInfo = accountInfo;
     }
 
     public ManifestDownloader(string username, string? password = null, string? refreshToken = null) {
@@ -230,15 +233,16 @@ class ManifestDownloader {
     public async Task<AccountInfoCallback> GetAccountInfoAsync() {
         await _loginReady.Task.ConfigureAwait(false);
 
-        var info = new AccountInfoCallback(
-            accountName: Username,
-            accountPassword: _password,
-            refreshToken: _newRefreshToken ?? _refreshToken,
-            lastRefresh: (_newRefreshToken != null ? DateTime.Now : _lastRefresh) ?? DateTime.Now,
-            index: _steamUser.SteamID?.AsCsgoFriendCode()
+        _accountInfo ??= new AccountInfoCallback(
+            accountName: Username
         );
 
-        return info;
+        _accountInfo.AccountPassword = _password;
+        _accountInfo.RefreshToken = _newRefreshToken ?? _refreshToken;
+        _accountInfo.LastRefresh = (_newRefreshToken != null ? DateTime.Now : _lastRefresh) ?? DateTime.Now;
+        _accountInfo.Index = _steamUser.SteamID?.AsCsgoFriendCode();
+
+        return _accountInfo;
     }
 
 
