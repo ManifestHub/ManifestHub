@@ -1,7 +1,9 @@
 {
   "AccountName": "jiaoao188809",
-  "AccountPassword": "junyi778999120",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTAyNjczMjY0MSIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyODg4ODEsICJuYmYiOiAxNzAwMDM3MzA1LCAiaWF0IjogMTcwODY3NzMwNSwgImp0aSI6ICIwRUUwXzIzRkVEN0VGXzIyNzM1IiwgIm9hdCI6IDE3MDg2NzczMDUsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC45Ny4xOTEuMzMiLCAiaXBfY29uZmlybWVyIjogIjIwLjk3LjE5MS4zMyIgfQ._FvyMMFVS-ve4ft9Ax8cqx_8HnH56K8AbhgfUD1tcCGfijiKaPBPH4BhhJJ-WKaSdZDjvlsedzsOVfir9pdbBA",
+  "AccountPassword": "4MbfvzJrrcrj1Pg7Nxx3Qg==",
+  "RefreshToken": "hoD/CmMpw5t1nSjGPHGDPIBsKuxBiOK0ik+EdxjJt4YU9olnCjg7Vo+aQ0zP1i7NDJx1mibnErLsNmbOqVOn7T7qFvyytqvMC6SQecd9XmALFf3R+URv/IUmAerdpkBr1REpo8z0M4oq77BwDe4RO+/BC15gVymAIHJoPQWKTxFjSoyWbCpsuo2uyFqxfIifsewB6/IVCJtRpKVEIB+Qmdc/CO1xtttw+7M6L8pcsBuSa4MicXapMAj/Qmv4jDSxZGo073I2pAwgrO6Sjto+lNjO9OS8Mrlt7zx68KtDXZ/xjtEpylPW5rsu+/AVif+RbkG4zlyTQ1lAkbdMTAl1PsrG0NZIeLup9v+mvza14y8hwVkLz1ZbWHNU4UThRyIxb6R6dnRPUJd1Mu3SDS1HN0/N1R67VomeRAH+cebylwJED8ff8xcW7FXOya0UkS9FdPqXlQu8LhH4Ppdyq4SmvtTEFSc+Ccz5eonTs2MCXNGjMi7pAwW8qw36HSR/lVlqT9/+aVisSKoxVsSqktSLs7SbNEjEGOuDrmU9U0WhjpsicxJoqpYHjG6RVnIOUWg7l1iW2kTfE7sSu/ux68OICEC134yMU89FsmDJPDEMH3ocL7EsLo+2AWWTdIDPT/5rXdeB+BOU8O07m3fNsbyL3Q==",
   "LastRefresh": "2024-02-23T08:35:06.0832949+00:00",
-  "Index": "SPERA-9VNQ"
+  "Index": "SPERA-9VNQ",
+  "AesEncrypted": true,
+  "AesIV": "SlS2Whhpmq1LWY5D9D55vg=="
 }
