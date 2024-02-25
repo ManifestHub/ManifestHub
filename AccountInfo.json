@@ -1,7 +1,9 @@
 {
   "AccountName": "djaso71988",
-  "AccountPassword": "o4iuyWA23",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTExODY4MjkzMCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyODc2NTQsICJuYmYiOiAxNzAwMDI1MDc1LCAiaWF0IjogMTcwODY2NTA3NSwgImp0aSI6ICIwRUY1XzIzRkVENzhEXzYzMjE1IiwgIm9hdCI6IDE3MDg2NjUwNzUsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxMy44Ny4yNDMuMzkiLCAiaXBfY29uZmlybWVyIjogIjEzLjg3LjI0My4zOSIgfQ.b7pfnAbZGHjVJbOtGrEXy6NhfCeD5qNgdSWXZqBFJVTfAAgA6nqIbBUqxXJBQdqC6Nn2w5rW9ywhUrMXwNKQDQ",
+  "AccountPassword": "Iog/IjcQ14jbhnexYwYGew==",
+  "RefreshToken": "Br+yTDmq/hG1tMkTwyK5MHxQm7HhuoMar94zTmAadYg67lUb4otxj3H39y9x0bUBchRptGx1lm+2w6ABzJn1C00GwB8vy+uh0X3LBu4c5+s2noWwMsavxCSby2zaeX4H7wDEctKPS9ecWUNifbU3La//Iv1QpErd837ouzeRYzzRPJfifGJ1qx2qFsFWaYyo25aHRQxbfsNv/MA3pOODLpKt9m6NcpIU8AbgYN9glBTZiU6olkjMWHkN071F+jJNXJrRzO5yxRhfV6ZpDC5up52FSJYeyKRfpKluoYoDQmFrR/OnlWysK6C/z01lfLcZpd1ku1TfKFzvC9NZ3HrphhZk4BJNpcvLevAi7eqyMamEd8O+ZA/lXK7lZFkInxh+ByHeAd5kcDTpORyaq3QTt/VhBTQqhz1QjbpKhztacNrsRmLl1jMGD0BjyCMZi1SQ+E7511PioySnY/qXpKaLRNoAgXLtDSXjB4eDd9p6ML7Yrd7f02qnmJg7fCogK9i5R7LqGlOEHoygGdEBEtJEntQqB+c9nQRyXQrUkImZnyLKj+CtVvAIqrRAvhMIxe8fZ+byzJKHQ3UVzH9A8di1Ge+AQ1jVjN/Q4TjpJ8xTk3MyinWsWpKA/aff6p+7L89t7KcNx8yND6HeMb2JD9wMcQ==",
   "LastRefresh": "2024-02-23T05:11:16.5987378+00:00",
-  "Index": "SW27N-JAVE"
+  "Index": "SW27N-JAVE",
+  "AesEncrypted": true,
+  "AesIV": "nmzO1AqrQX02rLpeOsA5kw=="
 }
