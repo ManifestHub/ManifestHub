@@ -1,7 +1,9 @@
 {
   "AccountName": "gdz25343",
-  "AccountPassword": "vps17198",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTM1NjYyMTkzMiIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNzE1ODksICJuYmYiOiAxNzAwMDM2NjkxLCAiaWF0IjogMTcwODY3NjY5MSwgImp0aSI6ICIwRUYyXzIzRkVENzhEXzNFRDZBIiwgIm9hdCI6IDE3MDg2NzY2OTEsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxMy45MS42OC4xNTYiLCAiaXBfY29uZmlybWVyIjogIjEzLjkxLjY4LjE1NiIgfQ.YUErfN_SkWjJiuS7x3XV_gsaoknIr3V2Fku2FpjtPGIlG94iLubq9u0SQ0o7y9J_R2TIjjek0nQRpTFYQlhhAg",
+  "AccountPassword": "MBLN5yFOhR4LkG9aSx6+aA==",
+  "RefreshToken": "M24x07w8rqvy/4XgIOnkXDgMCKPFG9/cccOwUb4/Jx05BmnnIs5cH0OK9zXvIdgsgiFIlaW4bLXAtuJ6MfEp/aR9Fr1YAqhox5YOgYZeaqfto4Su/9mO3uiKs/V4IN5/Sxt2GgCebAnZ+o9jVO6kHBOFPNF6ms+pI7Ix3U4NTQhXL1ijIqLIOyI/SxApSsY0u7CtK3yEvzbhgKEVAxQr0kELIbTr3OZOY1pvHybK2q3ocD0YxP0N9j6H5PLFBJjvPYGwIkmzA02rGKAuodTtQ02vcuD/k1THFWACzRNff/HGxBgGRQXtB1dTXo2AUNtTtldKrOjyBek0/xHvz2gQbYm7KM7UbnKdAxWPqxwhEMmeMQydzrW5gUpGENx5fVitApgFQEabdd+5y9Wi/R8DBGHBssJf6qgQqR5AlQKVCms/pvcf3oOQoKnGgUNn7vyGG5QAPRUMEBHbdyePuuv/LK1rUnvb6k1XTHqMeLyAqqPpuyskhOkFyyyLZy+l5IkX+kyHOIlJ5gfuRifRlFsuivg79jEyjYlfeKBcsdS10eCCCKnMiJI0VMJqjq+aO0FylfsfYZMqgH7M8KEG8ZsJqkU1Uq1Z+5Td7+FUCmOCkv3lJvjTb0wm6gICkwpTLQZlkcwjFTfcqxtpUXdi8QMSuQ==",
   "LastRefresh": "2024-02-23T08:24:52.3445245+00:00",
-  "Index": "SFRC4-DHZN"
+  "Index": "SFRC4-DHZN",
+  "AesEncrypted": true,
+  "AesIV": "sAtyyQv8sx9rA8yow8FTOA=="
 }
