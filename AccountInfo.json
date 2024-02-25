@@ -1,7 +1,9 @@
 {
   "AccountName": "huamaoyouxi60",
-  "AccountPassword": "htshm0933",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5ODg0NzYzNTU5MCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyNjA4MjQsICJuYmYiOiAxNzAwMDM3MTI1LCAiaWF0IjogMTcwODY3NzEyNSwgImp0aSI6ICIwRUY3XzIzRkVENzg3XzFBRDJDIiwgIm9hdCI6IDE3MDg2NzcxMjUsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC41NS40Ni4xMTIiLCAiaXBfY29uZmlybWVyIjogIjIwLjU1LjQ2LjExMiIgfQ.wAiXx-S9WTSU3I23Zvuy1k15UOMhpVCetqa1zSrYW20IEwiEJKzYKZt2yHY7q8xkuBNPArmTqGX4cbuUXvdVBw",
+  "AccountPassword": "sigsar8i2PYAGng1SCLv9g==",
+  "RefreshToken": "1J4UA2CuXaWmzttrfAJxpiMvFd37VCn1lSC4kPi42MZ2T3usWk9WOy2PaMuzyS5BSafyRN7ytC7Rzt8WiIVwFhvRw1OVT7sqhwisu1/rCiI9+vpoWU+nrdxu9VncI8DwEvhK2lir38wtt5amfcYr8uVnk6tavHvM1ovuKlaLlm76hbtCSXSJoJDP5JtApgIWtbSjQz4Iv4kLW9z51o48HjsseqL3YIKrGRe3mUY+lyBDP1ycAqtlCy+wiP3jwi4siwd7A4A0wEtQXz2enTQZm3bA0anOkQVyciM7ZHNQ69v7tv345O+6hBvb0dO/BqOsnmgp6Yl2kAtcv1og8FnqcyH5av3cjkrNoZ+/Qzx6SPQTU7rFO7fmEVc2qJyxDKc5yG9f8quw9Bpm814A3IilXe5gCXYOHW+A1DfQd1q73ZGoJtPr7rNv/EJUdA/t8zJqHy68EP6/hHNmTVK1k7p+c0vvYVQv9iG86N/BxBWWuLBp/j4vA0pQZx0zikIoteMSnUPEE3dTOvN7CHsRZ7wiewigKrzhpE7MQM+MpperVdNvS2EAZA34nU7My5M2Lx2o0tarRpjeh5+bA4OifhTzcZvU4cgiOp2izSB5pxnRtCtQwvkbHQnEhzEDP1SyrBeY70Ab60uRWH0j+hJM7cOvjw==",
   "LastRefresh": "2024-02-23T08:32:05.9998096+00:00",
-  "Index": "AYBAE-M7QC"
+  "Index": "AYBAE-M7QC",
+  "AesEncrypted": true,
+  "AesIV": "3+tJXsZktxu0OcdJv9MEsw=="
 }
