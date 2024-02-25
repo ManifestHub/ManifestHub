@@ -13,6 +13,7 @@ public partial class GitDatabase {
     private readonly Remote _remote;
     private readonly Signature _signature;
     private readonly PushOptions _pushOptions;
+    private readonly string _aesKey;
 
     private static ConcurrentDictionary<string, SemaphoreSlim> _lockDictionary = new();
     private uint _uniqueId;
@@ -22,10 +23,11 @@ public partial class GitDatabase {
     private static partial Regex AccountBranchPattern();
 
 
-    public GitDatabase(string repoPath, string token) {
+    public GitDatabase(string repoPath, string token, string aesKey) {
         _repo = new Repository(repoPath);
         _remote = _repo.Network.Remotes["origin"];
         _signature = new Signature("ManifestHub", "manifesthub@localhost", DateTimeOffset.Now);
+        _aesKey = aesKey;
 
         _lockDictionary = new ConcurrentDictionary<string, SemaphoreSlim>();
 
@@ -102,7 +104,7 @@ public partial class GitDatabase {
 
                 try {
                     // Failsafe: push branch tip as tag
-                    _repo.Tags.Add($"{manifest.AppId}_{manifest.DepotId}_{manifest.ManifestId}", branch.Tip);
+                    _repo.Tags.Add($"{manifest.AppId}_{manifest.DepotId}_{manifest.ManifestId}", branch!.Tip);
                     _repo.Network.Push(_remote,
                         $"{branch.Tip.Id.Sha}:refs/tags/{manifest.AppId}_{manifest.DepotId}_{manifest.ManifestId}",
                         _pushOptions);
@@ -156,6 +158,8 @@ public partial class GitDatabase {
             var tree = branch?.Tip.Tree;
             var treeDef = tree != null ? TreeDefinition.From(tree) : new TreeDefinition();
 
+            account.Encrypt(_aesKey);
+
             var accountBlob =
                 _repo.ObjectDatabase.CreateBlob(
                     new MemoryStream(
@@ -187,7 +191,10 @@ public partial class GitDatabase {
                 JsonConvert.DeserializeObject<AccountInfoCallback>(b["AccountInfo.json"]?.Target.Peel<Blob>()
                     .GetContentText() ?? "{}"))
             .Where(a => a != null)
-            .Cast<AccountInfoCallback>();
+            .Cast<AccountInfoCallback>()
+            .ToList();
+
+        accounts.ForEach(a => a.Decrypt(_aesKey));
 
         return accounts;
     }

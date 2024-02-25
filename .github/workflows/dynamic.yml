@@ -62,7 +62,7 @@ jobs:
         run: printf ${{ toJson(github.event.comment.body) }} > comment.txt
 
       - name: Validate account
-        run: dotnet run --configuration Release -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }} -i ${{ matrix.index }} -n ${{ needs.generate-list.outputs.total }}
+        run: dotnet run --configuration Release -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }} -i ${{ matrix.index }} -n ${{ needs.generate-list.outputs.total }} -k ${{ secrets.AES_KEY }}
 
       - name: Save serverlist
         uses: actions/cache/save@v4

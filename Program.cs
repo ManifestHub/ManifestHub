@@ -12,7 +12,7 @@ var result = Parser.Default.ParseArguments<Options>(args)
         Environment.Exit(1);
     });
 
-var gdb = new GitDatabase(".", result.Value.Token ?? throw new NullReferenceException());
+var gdb = new GitDatabase(".", result.Value.Token ?? throw new NullReferenceException(), result.Value.Key ?? throw new NullReferenceException());
 
 var semaphore = new SemaphoreSlim(result.Value.ConcurrentAccount);
 var tasks = new List<Task>();
@@ -139,5 +139,8 @@ namespace ManifestHub {
 
         [Option('n', "number", Required = false, HelpText = "Number of instances.", Default = 1)]
         public int Number { get; set; }
+
+        [Option('k', "key", Required = false, HelpText = "Encryption key.")]
+        public string? Key { get; set; }
     }
 }
