@@ -264,10 +264,11 @@ class ManifestDownloader {
                         Password = _password,
                         IsPersistentSession = false,
                         GuardData = null,
-                        Authenticator = null
+                        Authenticator = new UserConsoleAuthenticator()
                     }).ConfigureAwait(false);
 
-                pollResponse = await authSession.PollingWaitForResultAsync().ConfigureAwait(false);
+                var cts = new CancellationTokenSource(TimeSpan.FromSeconds(60));
+                pollResponse = await authSession.PollingWaitForResultAsync(cts.Token).ConfigureAwait(false);
             }
             catch (Exception e) {
                 _loginReady.TrySetException(e);
