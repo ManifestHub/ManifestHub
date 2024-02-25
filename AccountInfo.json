@@ -1,7 +1,9 @@
 {
   "AccountName": "chenxi23669",
-  "AccountPassword": "chenxi73692",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTA0NzU3ODEzMyIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEyOTM3MzcsICJuYmYiOiAxNzAwMDMzOTA4LCAiaWF0IjogMTcwODY3MzkwOCwgImp0aSI6ICIwRUY2XzIzRkVENzhGXzM0M0IwIiwgIm9hdCI6IDE3MDg2NzM5MDgsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIyMC4xMDkuMzguMTk2IiwgImlwX2NvbmZpcm1lciI6ICIyMC4xMDkuMzguMTk2IiB9.pkwvLFVadiyMdmXMpsLJbBQYwyXEipuZuqLSrURmsyLB16vgw5agtaqn6iXyq1Vxt6IIdM5k3elSipdJCg7HDw",
+  "AccountPassword": "AFNVear46gmPZWgGdrj3ZQ==",
+  "RefreshToken": "IM6ipJ7KB57j5HyzebJGhzBugDqqm6ZFvmHRmkFa21EFPaLN87tnMi0Az1o1R0p+UUVh6XhilMhfz/S1UkjafwmhqEb3DuOdhx+d8k69uu5iY7/bQ+PjmhFIPzmMuha9MfsDQi3yKNfakoTQ+CDf6//8rZDAg6S+y89W7aIdOAzqA8jefnnEOMSOfh3IlsZ0s7c4YQrD97SfWlGdzciRyPq3ZuPcbV3umtvOXZnSvs/enM1tzKd+IagpRHLizAMKn1iQWAzBPavly4Ci0OVCcWzqz/qDjfLatokcHj5JFzB35FJOxGRXce4oJL2bDLVu9jXa/+C//g4yiuHoTAOLS2IaVoYfQVggeN9AIWQ9v+lyqqMVdIZXJXiM0ariRs0WjtmB7bNvK+BilUXyUJVyeedbuOMYzqXSimW+WPR0MJ80sbVZmz4pFNO+liuHF1GGWYlk7g3nhuBD3bEmgsEyWtl2PhfGX4B5rF+S9Nc5hixfLRTR5/7/5esjEBzyhBWGA8wfuUPg637eUIwfAFD+mKcsFq7l8RjSufnL3W9J4Ija+09j1n0yWt2214NS/3mnc2qJ3j60HE66TzBsjZqrbxHli/ottpjcAZdiRcwhlyYj3ceRsVkdPdwgOmfzXA/FFC330HPO9HjGQXwkOsj8+A==",
   "LastRefresh": "2024-02-23T07:38:29.2140179+00:00",
-  "Index": "AJKT9-B3VC"
+  "Index": "AJKT9-B3VC",
+  "AesEncrypted": true,
+  "AesIV": "L1QU1cgMow5xkNp3calrww=="
 }
