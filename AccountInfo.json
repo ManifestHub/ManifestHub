@@ -1,7 +1,9 @@
 {
   "AccountName": "steamok1090024",
-  "AccountPassword": "steamok2692253",
-  "RefreshToken": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInN0ZWFtIiwgInN1YiI6ICI3NjU2MTE5OTQwNDkxMDkwOCIsICJhdWQiOiBbICJjbGllbnQiLCAid2ViIiwgInJlbmV3IiwgImRlcml2ZSIgXSwgImV4cCI6IDE3MTEwMjk1ODUsICJuYmYiOiAxNjk5NzYxMjUzLCAiaWF0IjogMTcwODQwMTI1MywgImp0aSI6ICIxQUJDXzIzRjcxNzk3X0QwMkQ3IiwgIm9hdCI6IDE3MDg0MDEyNTMsICJwZXIiOiAwLCAiaXBfc3ViamVjdCI6ICIxNzIuMjMzLjgxLjczIiwgImlwX2NvbmZpcm1lciI6ICIxNzIuMjMzLjgxLjczIiB9.P97rJVinRXnD61sbtlh6J5boS_jyp3tZDh5d3HIbQs4k_CahpyakcsJVdWd91meRBRTcEAGcXn5jnBjamHzcBA",
+  "AccountPassword": "Jl4csXctd6ZxnbO7t9iFPw==",
+  "RefreshToken": "ZrWgv6dAdO3qGkuuR/c0guMm1TVa8jsyRKU11FfC3OdaPJerp7pEJibtX1cL4lGLrSynBddqxO2TmLzMiPSsBahtINXAZY1+An5GxZhMs+UgC0M4kowMoUGZ+rrzFgWV+34vMKfobBE/aai42Mc77vWXbj1a9IbMiMmiHNjPcGzW+lpAd9YOvpoR/G9PE/UIP/Lqx5FOR2B9vy+OBcBkC3Dt6w4LCSsjCEqfZeCgTkZ0VaIrfMa504iU/Q9/MuOie5infcUpR68apSiAqGJSDiM2aNBg0qQlAKgZW/wcFRCCfDuGuypM05TFNqGeEveL0qGB+OX4gb1taKMlTXoLlG/zcU9CXGqGHnFINNVRUlnl9wDWHUkMcRckrsb1VSliYps933PB+ld/PzfaalJvb2s1KrqyMxLTHXE8B0HIVCKk61kmdd3iZquETregVaqzlhl9n8kQuqDk8M3FueIpYXyUcgnspb5aFPiU7gDyweth+lfiiD1oILsBGUxY7kbYj3UBwID3CVmRvSnP4Nw4sYlg7Qmv6weRz1x3VjRI7TDAkinaoDGr/Nir7xngxxzR2NhxjAFRWJ+Svv7ya2zKeE5/6tsLU3hbDiMeBVgQXQeI440brznYKuqgzrxVbLJ81bQz7eNDLUuKUn66/m1wlg==",
   "LastRefresh": "2024-02-20T03:54:14.7191632+00:00",
-  "Index": "SAZWM-JCYJ"
+  "Index": "SAZWM-JCYJ",
+  "AesEncrypted": true,
+  "AesIV": "xSt5Y1CMjAsOv34PFLG++g=="
 }
