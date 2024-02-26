@@ -33,14 +33,14 @@ switch (result.Value.Mode) {
             tasks.Add(Task.Run(async () => {
                 try {
                     await downloader.Connect().ConfigureAwait(false);
-                    var info = await downloader.GetAccountInfoAsync();
+                    var info = downloader.GetAccountInfo();
                     await gdb.WriteAccount(info);
                     await downloader.DownloadAllManifestsAsync(result.Value.ConcurrentManifest, gdb, writeTasks)
                         .ConfigureAwait(false);
                 }
                 catch (AuthenticationException e) when (e.Result == EResult.InvalidPassword) {
                     Console.WriteLine($"Invalid password for {downloader.Username}.");
-                    await gdb.RemoveAccount(await downloader.GetAccountInfoAsync());
+                    await gdb.RemoveAccount(downloader.GetAccountInfo());
                 }
                 catch (Exception e) {
                     Console.WriteLine(e.Message);
@@ -98,7 +98,7 @@ switch (result.Value.Mode) {
             tasks.Add(Task.Run(async () => {
                 try {
                     await downloader.Connect().ConfigureAwait(false);
-                    var info = await downloader.GetAccountInfoAsync();
+                    var info = downloader.GetAccountInfo();
                     if (infoPrev == null || info.RefreshToken != infoPrev.RefreshToken)
                         await gdb.WriteAccount(info);
                 }

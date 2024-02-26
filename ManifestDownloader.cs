@@ -231,9 +231,7 @@ class ManifestDownloader {
     }
 
 
-    public async Task<AccountInfoCallback> GetAccountInfoAsync() {
-        await _loginReady.Task.ConfigureAwait(false);
-
+    public AccountInfoCallback GetAccountInfo() {
         _accountInfo ??= new AccountInfoCallback(
             accountName: Username
         );
