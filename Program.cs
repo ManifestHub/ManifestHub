@@ -2,6 +2,8 @@
 using ManifestHub;
 using CommandLine;
 using Newtonsoft.Json;
+using SteamKit2;
+using SteamKit2.Authentication;
 
 var result = Parser.Default.ParseArguments<Options>(args)
     .WithNotParsed(errors => {
@@ -35,6 +37,10 @@ switch (result.Value.Mode) {
                     await gdb.WriteAccount(info);
                     await downloader.DownloadAllManifestsAsync(result.Value.ConcurrentManifest, gdb, writeTasks)
                         .ConfigureAwait(false);
+                }
+                catch (AuthenticationException e) when (e.Result == EResult.InvalidPassword) {
+                    Console.WriteLine($"Invalid password for {downloader.Username}.");
+                    await gdb.RemoveAccount(await downloader.GetAccountInfoAsync());
                 }
                 catch (Exception e) {
                     Console.WriteLine(e.Message);

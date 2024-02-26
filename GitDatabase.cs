@@ -184,6 +184,21 @@ public partial class GitDatabase {
         }
     }
 
+    public async Task RemoveAccount(AccountInfoCallback account) {
+        var branchName = account.Index ?? throw new ArgumentNullException(nameof(account));
+
+        var locker = _lockDictionary.GetOrAdd(branchName, new SemaphoreSlim(1));
+
+        await locker.WaitAsync();
+
+        try {
+            _repo.Network.Push(_remote, $"+:refs/heads/{branchName}", _pushOptions);
+        }
+        finally {
+            locker.Release();
+        }
+    }
+
     public IEnumerable<AccountInfoCallback> GetAccounts() {
         var accounts = _repo.Branches
             .Where(b => AccountBranchPattern().IsMatch(b.FriendlyName))
