@@ -216,7 +216,8 @@ class ManifestDownloader {
                         catch (Exception e) {
                             if (!e.Message.Contains("Access denied to manifest") &&
                                 !e.Message.Contains("Failed to get depot key"))
-                                Console.WriteLine("[Failed]: " + e.Message);
+                                Console.WriteLine(
+                                    "[Failed]: AppID: {result.AppId}, DepotID: {result.DepotId}, ManifestID: {result.ManifestId}, Error: {e.Message}");
                         }
                         finally {
                             semaphore.Release();
@@ -285,7 +286,7 @@ class ManifestDownloader {
                     ShouldRememberPassword = true,
                 });
             } else {
-                Console.WriteLine("Failed to get RefreshToken");
+                Console.WriteLine($"Failed to get RefreshToken, Username: {Username}");
                 await _cancellationTokenSource.CancelAsync().ConfigureAwait(false);
             }
         }
@@ -295,7 +296,7 @@ class ManifestDownloader {
         if (callback.Result != EResult.OK) {
             if (!string.IsNullOrEmpty(_refreshToken)) {
                 Console.WriteLine(
-                    $"[Previous RefreshToken] Unable to logon to Steam: {callback.Result}, Retrying...");
+                    $"[Previous RefreshToken] Unable to logon to User: {Username}, Result: {callback.Result}");
                 _refreshToken = null;
                 _steamClient.Connect();
             } else {
@@ -305,9 +306,9 @@ class ManifestDownloader {
             return;
         }
 
-        Console.WriteLine(string.IsNullOrEmpty(_newRefreshToken)
-            ? "Logged on using previous RefreshToken"
-            : "Logged on using new RefreshToken");
+        Console.WriteLine((string.IsNullOrEmpty(_newRefreshToken)
+                ? "Logged on using previous RefreshToken"
+                : "Logged on using new RefreshToken") + $" as {Username}");
 
         await _licenseReady.Task.ConfigureAwait(false);
         _loginReady.TrySetResult();
@@ -319,12 +320,12 @@ class ManifestDownloader {
             await Task.Delay(5000);
             _steamClient.Connect();
         } else {
-            Console.WriteLine("Disconnected from Steam");
+            Console.WriteLine($"[Disconnected] {Username} disconnected from Steam.");
         }
     }
 
     private void OnLicenseList(SteamApps.LicenseListCallback callback) {
-        Console.WriteLine("License list received");
+        Console.WriteLine($"Received {callback.LicenseList.Count} licenses for {Username}");
         _licenses.UnionWith(callback.LicenseList);
         _licenseReady.TrySetResult();
     }
