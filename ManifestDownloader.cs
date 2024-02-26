@@ -233,13 +233,13 @@ class ManifestDownloader {
 
     public AccountInfoCallback GetAccountInfo() {
         _accountInfo ??= new AccountInfoCallback(
-            accountName: Username
+            accountName: Username,
+            index: _steamUser.SteamID?.AsCsgoFriendCode()
         );
 
         _accountInfo.AccountPassword = _password;
         _accountInfo.RefreshToken = _newRefreshToken ?? _refreshToken;
         _accountInfo.LastRefresh = (_newRefreshToken != null ? DateTime.Now : _lastRefresh) ?? DateTime.Now;
-        _accountInfo.Index = _steamUser.SteamID?.AsCsgoFriendCode();
 
         return _accountInfo;
     }
