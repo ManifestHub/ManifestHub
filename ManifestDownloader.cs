@@ -237,6 +237,8 @@ class ManifestDownloader {
             index: _steamUser.SteamID?.AsCsgoFriendCode()
         );
 
+        _accountInfo.Index ??= _steamUser.SteamID?.AsCsgoFriendCode();
+
         _accountInfo.AccountPassword = _password;
         _accountInfo.RefreshToken = _newRefreshToken ?? _refreshToken;
         _accountInfo.LastRefresh = (_newRefreshToken != null ? DateTime.Now : _lastRefresh) ?? DateTime.Now;
