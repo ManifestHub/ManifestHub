@@ -200,6 +200,8 @@ public partial class GitDatabase {
     }
 
     public IEnumerable<AccountInfoCallback> GetAccounts() {
+        var rng = new Random();
+
         var accounts = _repo.Branches
             .Where(b => AccountBranchPattern().IsMatch(b.FriendlyName))
             .Select(b =>
@@ -207,6 +209,7 @@ public partial class GitDatabase {
                     .GetContentText() ?? "{}"))
             .Where(a => a != null)
             .Cast<AccountInfoCallback>()
+            .OrderBy(_ => rng.Next())
             .ToList();
 
         accounts.ForEach(a => a.Decrypt(_aesKey));
