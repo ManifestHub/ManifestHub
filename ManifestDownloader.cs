@@ -295,6 +295,10 @@ class ManifestDownloader {
             if (!string.IsNullOrEmpty(_refreshToken)) {
                 Console.WriteLine(
                     $"[Previous RefreshToken] Unable to logon to User: {Username}, Result: {callback.Result}");
+
+                if (callback.Result == EResult.AlreadyLoggedInElsewhere)
+                    _loginReady.TrySetException(new Exception($"Unable to logon to Steam: {callback.Result}"));
+
                 _refreshToken = null;
                 _steamClient.Connect();
             } else {
