@@ -263,7 +263,7 @@ class ManifestDownloader {
                         Password = _password,
                         IsPersistentSession = false,
                         GuardData = null,
-                        Authenticator = new HeadlessAuthenticator()
+                        Authenticator = new HeadlessAuthenticator(GetAccountInfo())
                     }).ConfigureAwait(false);
 
                 var cts = new CancellationTokenSource(TimeSpan.FromSeconds(60));

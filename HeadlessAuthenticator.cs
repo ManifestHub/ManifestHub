@@ -2,19 +2,21 @@
 
 namespace ManifestHub;
 
-public class HeadlessAuthenticator : IAuthenticator {
+public class HeadlessAuthenticator(AccountInfoCallback account) : IAuthenticator {
+    private AccountInfoCallback _account = account;
+
     public Task<bool> AcceptDeviceConfirmationAsync() {
-        Console.Error.WriteLine("STEAM GUARD! Pending device confirmation.");
+        Console.Error.WriteLine($"STEAM GUARD! Pending device confirmation for {_account.AccountName}...");
         return Task.FromResult(true);
     }
 
     public Task<string> GetDeviceCodeAsync(bool previousCodeWasIncorrect) {
         return Task.FromException<string>(
-            new NotImplementedException("Device code is not supported in headless mode."));
+            new NotImplementedException($"Device code is not supported in headless mode for {_account.AccountName}."));
     }
 
     public Task<string> GetEmailCodeAsync(string email, bool previousCodeWasIncorrect) {
         return Task.FromException<string>(
-            new NotImplementedException("Email code is not supported in headless mode."));
+            new NotImplementedException($"Email code is not supported in headless mode for {_account.AccountName}."));
     }
 }
