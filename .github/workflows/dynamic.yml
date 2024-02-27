@@ -48,9 +48,6 @@ jobs:
           dotnet-version: 8.0.x
           cache: true
 
-      - name: Restore dependencies
-        run: dotnet restore --locked-mode
-
       - name: Restore serverlist
         uses: actions/cache/restore@v4
         with:
@@ -58,11 +55,24 @@ jobs:
           key: ${{ runner.os }}-servers-
           restore-keys: ${{ runner.os }}-servers-
 
+      - name: Restore previous build
+        uses: actions/cache@v4
+        id: binaries
+        with:
+          path: |
+            bin/
+            obj/
+          key: ${{ runner.os }}-bin-${{ github.sha }}
+
+      - name: Build manifest downloader
+        if: steps.binaries.outputs.cache-hit != 'true'
+        run: dotnet build --configuration Release
+
       - name: Save comment to file
         run: printf ${{ toJson(github.event.comment.body) }} > comment.txt
 
       - name: Validate account
-        run: dotnet run --configuration Release -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }} -i ${{ matrix.index }} -n ${{ needs.generate-list.outputs.total }} -k ${{ secrets.AES_KEY }}
+        run: dotnet run --no-build --configuration Release -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }} -i ${{ matrix.index }} -n ${{ needs.generate-list.outputs.total }} -k ${{ secrets.AES_KEY }}
 
       - name: Save serverlist
         uses: actions/cache/save@v4
