@@ -50,14 +50,19 @@ jobs:
 
       - name: Restore previous build
         uses: actions/cache@v4
+        id: binaries
         with:
           path: |
             bin/
             obj/
           key: ${{ runner.os }}-bin-${{ github.sha }}
 
+      - name: Build manifest downloader
+        if: steps.binaries.outputs.cache-hit != 'true'
+        run: dotnet build --configuration Release
+
       - name: Download manifest
-        run: dotnet run --configuration Release -- download -t ${{ secrets.GITHUB_TOKEN }} -c ${{ github.event.inputs.account-concurrency || 32 }} -p ${{ github.event.inputs.manifest-concurrency || 8 }} -k ${{ secrets.AES_KEY }}
+        run: dotnet run --no-build --configuration Release -- download -t ${{ secrets.GITHUB_TOKEN }} -c ${{ github.event.inputs.account-concurrency || 32 }} -p ${{ github.event.inputs.manifest-concurrency || 8 }} -k ${{ secrets.AES_KEY }}
 
       - name: Save serverlist
         uses: actions/cache/save@v4
