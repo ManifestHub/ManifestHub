@@ -199,8 +199,8 @@ public partial class GitDatabase {
         }
     }
 
-    public IEnumerable<AccountInfoCallback> GetAccounts() {
-        var rng = new Random();
+    public IEnumerable<AccountInfoCallback> GetAccounts(bool randomize = false) {
+        var rng = randomize ? new Random() : new Random(0);
 
         var accounts = _repo.Branches
             .Where(b => AccountBranchPattern().IsMatch(b.FriendlyName))
