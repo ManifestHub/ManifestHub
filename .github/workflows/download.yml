@@ -38,9 +38,6 @@ jobs:
           dotnet-version: 8.0.x
           cache: true
 
-      - name: Restore dependencies
-        run: dotnet restore --locked-mode
-
       - name: Restore serverlist
         uses: actions/cache/restore@v4
         with:
