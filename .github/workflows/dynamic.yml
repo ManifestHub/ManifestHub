@@ -4,6 +4,13 @@ on:
   issue_comment:
     types: [ created ]
 
+  workflow_dispatch:
+    inputs:
+      comment:
+        description: 'The comment to process'
+        required: true
+        default: ''
+
 jobs:
   generate-list:
     runs-on: ubuntu-latest
@@ -17,10 +24,28 @@ jobs:
       - name: Generate list and set as output
         id: generate-list
         run: |
-          JSON_DATA=$(jq -r '.comment.body' $GITHUB_EVENT_PATH)
-          NUM_KEYS=$(echo $JSON_DATA | jq 'keys | length')
-          MAX_KEYS=$((NUM_KEYS>256?256:NUM_KEYS))
-          LIST=$(seq 0 $((MAX_KEYS-1)) | jq -Rsc 'split("\n")[:-1]')
+          # Detect the event type and set JSON_DATA accordingly
+          if [[ "$GITHUB_EVENT_NAME" == "issue_comment" ]]; then
+            # Extract the body of the issue comment from the GitHub event JSON
+            JSON_DATA=$(jq -r '.comment.body' "$GITHUB_EVENT_PATH")
+          elif [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            # Extract the input comment from the workflow dispatch event
+            JSON_DATA=$(jq -r '.inputs.comment' "$GITHUB_EVENT_PATH")
+          else
+            # Exit the script if the event type is unsupported
+            echo "Unsupported event type: $GITHUB_EVENT_NAME"
+            exit 1
+          fi
+          
+          # Count the number of keys in the JSON data
+          NUM_KEYS=$(echo "$JSON_DATA" | jq 'keys | length')
+          # Limit the number of keys to a maximum of 256, or use the actual number if less
+          MAX_KEYS=$(echo "$NUM_KEYS" | jq '[. / 10, 256] | min | ceil')
+          
+          # Generate a compact JSON array of integers from 0 to MAX_KEYS-1
+          LIST=$(jq -cn "[range($MAX_KEYS)]")
+          
+          # Output the list and total number of keys to the GitHub Actions output
           echo "list=$LIST" >> $GITHUB_OUTPUT
           echo "total=$MAX_KEYS" >> $GITHUB_OUTPUT
 
@@ -66,7 +91,21 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Save comment to file
-        run: jq -r '.comment.body' $GITHUB_EVENT_PATH > comment.txt
+        run: |
+          # Detect the event type and set JSON_DATA accordingly
+          if [[ "$GITHUB_EVENT_NAME" == "issue_comment" ]]; then
+            # Extract the body of the issue comment from the GitHub event JSON
+            JSON_DATA=$(jq -r '.comment.body' "$GITHUB_EVENT_PATH")
+          elif [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            # Extract the input comment from the workflow dispatch event
+            JSON_DATA=$(jq -r '.inputs.comment' "$GITHUB_EVENT_PATH")
+          else
+            # Exit the script if the event type is unsupported
+            echo "Unsupported event type: $GITHUB_EVENT_NAME"
+            exit 1
+          fi
+          
+          echo "$JSON_DATA" > comment.txt
 
       - name: Validate account
         run: dotnet run --no-build --configuration Release -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }} -i ${{ matrix.index }} -n ${{ needs.generate-list.outputs.total }} -k ${{ secrets.AES_KEY }}
