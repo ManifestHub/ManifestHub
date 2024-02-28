@@ -58,9 +58,7 @@ switch (result.Value.Mode) {
 
         break;
     case "account":
-        var raw = File.ReadAllText(result.Value.Account ?? throw new NullReferenceException())
-            .Replace("账号", "\n")
-            .Replace("密码", "\n");
+        var raw = File.ReadAllText(result.Value.Account ?? throw new NullReferenceException());
 
         List<string> account;
 
@@ -71,16 +69,9 @@ switch (result.Value.Mode) {
                 .ToList();
         }
         catch (Exception) {
-            account = raw.Split('\n')
-                .Select(line => line.Trim())
-                .Select(line => line.Trim([':', '：']))
-                .Select(line => line.Trim())
-                .Where(line => !string.IsNullOrWhiteSpace(line))
-                .ToList();
-            if (account.Count % 2 != 0) {
-                Console.WriteLine("Invalid account file.");
-                Environment.Exit(1);
-            }
+            account = [];
+            Console.WriteLine("Invalid account file.");
+            Environment.Exit(1);
         }
 
         for (var i = 2 * result.Value.Index; i < account.Count; i += 2 * result.Value.Number) {
