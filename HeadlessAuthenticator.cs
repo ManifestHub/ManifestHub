@@ -1,4 +1,5 @@
-﻿using SteamKit2.Authentication;
+﻿using SteamKit2;
+using SteamKit2.Authentication;
 
 namespace ManifestHub;
 
@@ -12,11 +13,11 @@ public class HeadlessAuthenticator(AccountInfoCallback account) : IAuthenticator
 
     public Task<string> GetDeviceCodeAsync(bool previousCodeWasIncorrect) {
         return Task.FromException<string>(
-            new NotImplementedException($"Device code is not supported in headless mode for {_account.AccountName}."));
+            new AuthenticationException("Authentication failed", EResult.AccountLoginDeniedNeedTwoFactor));
     }
 
     public Task<string> GetEmailCodeAsync(string email, bool previousCodeWasIncorrect) {
         return Task.FromException<string>(
-            new NotImplementedException($"Email code is not supported in headless mode for {_account.AccountName}."));
+            new AuthenticationException("Authentication failed", EResult.AccountLogonDeniedVerifiedEmailRequired));
     }
 }

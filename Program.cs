@@ -39,9 +39,12 @@ switch (result.Value.Mode) {
                     await downloader.DownloadAllManifestsAsync(result.Value.ConcurrentManifest, gdb, writeTasks)
                         .ConfigureAwait(false);
                 }
-                catch (AuthenticationException e) when (e.Result == EResult.InvalidPassword) {
-                    Console.WriteLine($"Invalid password for {downloader.Username}.");
+                catch (AuthenticationException e) when (e.Result is
+                                                            EResult.InvalidPassword
+                                                            or EResult.AccountLogonDeniedVerifiedEmailRequired
+                                                            or EResult.AccountLoginDeniedNeedTwoFactor) {
                     await gdb.RemoveAccount(downloader.GetAccountInfo());
+                    Console.WriteLine($"{e.Result} for {downloader.Username}. Removed.");
                 }
                 catch (Exception e) {
                     Console.WriteLine(e.Message);
