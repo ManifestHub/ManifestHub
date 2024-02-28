@@ -18,9 +18,6 @@ jobs:
       matrix: ${{ steps.generate-list.outputs.list }}
       total: ${{ steps.generate-list.outputs.total }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Generate list and set as output
         id: generate-list
         run: |
@@ -63,6 +60,7 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+          show-progress: false
 
       - name: Setup dotnet
         uses: actions/setup-dotnet@v4
