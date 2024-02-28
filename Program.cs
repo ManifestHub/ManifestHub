@@ -88,7 +88,7 @@ switch (result.Value.Mode) {
             }
 
             await semaphore.WaitAsync();
-            Console.WriteLine($"Dispatching {account[i]}...");
+            Console.WriteLine($"Dispatching {account[i].Key}...");
             tasks.Add(Task.Run(async () => {
                 try {
                     await downloader.Connect().ConfigureAwait(false);
