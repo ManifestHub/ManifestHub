@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System.Collections.Concurrent;
+using System.Diagnostics.CodeAnalysis;
 using ManifestHub;
 using CommandLine;
 using Newtonsoft.Json;
@@ -17,14 +18,14 @@ var result = Parser.Default.ParseArguments<Options>(args)
 var gdb = new GitDatabase(".", result.Value.Token ?? throw new NullReferenceException(), result.Value.Key ?? throw new NullReferenceException());
 
 var semaphore = new SemaphoreSlim(result.Value.ConcurrentAccount);
-var tasks = new List<Task>();
+var tasks = new ConcurrentBag<Task>();
+var writeTasks = new ConcurrentBag<Task>();
 
 switch (result.Value.Mode) {
     case "download":
 
         var index = 0;
         var total = gdb.GetAccounts().Count();
-        var writeTasks = new List<Task>();
 
         foreach (var downloader in gdb.GetAccounts(true).Select(account => new ManifestDownloader(account))) {
             await semaphore.WaitAsync();

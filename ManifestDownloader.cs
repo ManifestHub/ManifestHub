@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Concurrent;
+using System.Diagnostics;
 using SteamKit2;
 using SteamKit2.Authentication;
 using SteamKit2.CDN;
@@ -140,7 +141,7 @@ class ManifestDownloader {
     }
 
     public async Task DownloadAllManifestsAsync(int maxConcurrentDownloads = 16,
-        GitDatabase? gdb = null, List<Task>? writeTasks = null) {
+        GitDatabase? gdb = null, ConcurrentBag<Task>? writeTasks = null) {
         await _licenseReady.Task.ConfigureAwait(false);
 
         var packagePicsRequest = _licenses
