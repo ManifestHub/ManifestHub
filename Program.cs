@@ -60,13 +60,11 @@ switch (result.Value.Mode) {
     case "account":
         var raw = File.ReadAllText(result.Value.Account ?? throw new NullReferenceException());
 
-        List<string> account;
+        KeyValuePair<string, List<string?>>[] account;
 
         try {
             var accountJson = JsonConvert.DeserializeObject<Dictionary<string, List<string?>>>(raw);
-            account = accountJson!
-                .SelectMany(kvp => new List<string> { kvp.Key, kvp.Value.First()! })
-                .ToList();
+            account = accountJson!.ToArray();
         }
         catch (Exception) {
             account = [];
@@ -74,15 +72,19 @@ switch (result.Value.Mode) {
             Environment.Exit(1);
         }
 
-        for (var i = 2 * result.Value.Index; i < account.Count; i += 2 * result.Value.Number) {
-            var infoPrev = gdb.GetAccount(account[i]);
+        for (var i = result.Value.Index; i < account.Length; i += result.Value.Number) {
+            var infoPrev = gdb.GetAccount(account[i].Key);
 
             ManifestDownloader downloader;
             if (infoPrev != null) {
-                infoPrev.AccountPassword = account[i + 1];
+                infoPrev.AccountPassword = account[i].Value.FirstOrDefault();
                 downloader = new ManifestDownloader(infoPrev);
-            } else
-                downloader = new ManifestDownloader(account[i], account[i + 1]);
+            } else {
+                downloader = new ManifestDownloader(new AccountInfoCallback(
+                    account[i].Key,
+                    account[i].Value.FirstOrDefault()
+                ));
+            }
 
             await semaphore.WaitAsync();
             Console.WriteLine($"Dispatching {account[i]}...");
