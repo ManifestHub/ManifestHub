@@ -16,8 +16,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include=".github\workflows\account.yml" />
       <Content Include=".github\workflows\download.yml" />
+      <Content Include=".github\workflows\dynamic.yml" />
     </ItemGroup>
 
     <ItemGroup>
