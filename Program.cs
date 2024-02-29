@@ -59,6 +59,9 @@ switch (result.Value.Mode) {
         await Task.WhenAll(tasks);
         Console.WriteLine("Waiting for write tasks...");
         await Task.WhenAll(writeTasks);
+        Console.WriteLine("Start tag pruning...");
+        await gdb.PruneExpiredTags();
+        Console.WriteLine("Done.");
 
         break;
     case "account":

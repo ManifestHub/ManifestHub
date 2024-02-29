@@ -22,6 +22,10 @@ public partial class GitDatabase {
     [GeneratedRegex("origin/[A-HJ-NP-Z2-9]{5}-[A-HJ-NP-Z2-9]{4}")]
     private static partial Regex AccountBranchPattern();
 
+    // Generated Regex for manifest tag names
+    [GeneratedRegex(@"(\d+)_(\d+)_(\d+)")]
+    private static partial Regex ManifestTagPattern();
+
 
     public GitDatabase(string repoPath, string token, string aesKey) {
         _repo = new Repository(repoPath);
@@ -224,5 +228,49 @@ public partial class GitDatabase {
 
     public AccountInfoCallback? GetAccount(string accountName) {
         return GetAccounts().FirstOrDefault(account => account.AccountName == accountName);
+    }
+
+    public Task PruneExpiredTags() {
+        var tags = _repo.Tags
+            .Select(t => new {
+                Tag = t,
+                TimeStamp = t.Target.Peel<Commit>().Author.When,
+                Match = ManifestTagPattern().Match(t.FriendlyName)
+            })
+            .Where(t => t.Match.Success)
+            .ToList();
+
+        var validTags = new Dictionary<Tuple<uint, uint>, Tuple<ulong, DateTimeOffset>>();
+
+        foreach (var tag in tags) {
+            var match = tag.Match;
+            var appId = uint.Parse(match.Groups[1].Value);
+            var depotId = uint.Parse(match.Groups[2].Value);
+            var manifestId = ulong.Parse(match.Groups[3].Value);
+
+            var expiredTagName = null as string;
+
+            if (!validTags.ContainsKey(Tuple.Create(appId, depotId))) {
+                validTags.Add(Tuple.Create(appId, depotId), Tuple.Create(manifestId, tag.TimeStamp));
+            } else if (validTags[Tuple.Create(appId, depotId)].Item2 < tag.TimeStamp) {
+                // Previous tag expired
+                expiredTagName = $"{appId}_{depotId}_{validTags[Tuple.Create(appId, depotId)].Item1}";
+                // Update valid tag
+                validTags[Tuple.Create(appId, depotId)] = Tuple.Create(manifestId, tag.TimeStamp);
+            } else {
+                // Current tag expired
+                expiredTagName = $"{appId}_{depotId}_{manifestId}";
+            }
+
+            // Skip if no expired tag
+            if (expiredTagName == null) continue;
+
+            // Remove expired tag
+            _repo.Tags.Remove(expiredTagName);
+            _repo.Network.Push(_remote, $"+:refs/tags/{expiredTagName}", _pushOptions);
+            Console.WriteLine($"Pruned expired tag {expiredTagName}.");
+        }
+
+        return Task.CompletedTask;
     }
 }
