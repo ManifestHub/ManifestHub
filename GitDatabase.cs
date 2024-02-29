@@ -65,6 +65,7 @@ public partial class GitDatabase {
         // Skip if manifest already exists
         if (HasManifest(manifest.AppId, manifest.DepotId, manifest.ManifestId)) {
             Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} already exists.");
+            locker.Release();
             return null;
         }
 
