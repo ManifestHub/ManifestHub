@@ -56,7 +56,11 @@ public partial class GitDatabase {
         Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} saved in {DateTime.Now - timeStart}.");
 
         var locker = _lockDictionary.GetOrAdd(branchName, new SemaphoreSlim(1));
-        await locker.WaitAsync();
+
+        // Wait for lock with status message
+        while (!await locker.WaitAsync(5000))
+            Console.WriteLine(
+                $"Manifest {manifest.DepotId}_{manifest.ManifestId} is waiting for lock on {branchName}...");
 
         // Skip if manifest already exists
         if (HasManifest(manifest.AppId, manifest.DepotId, manifest.ManifestId)) {
