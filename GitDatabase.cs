@@ -16,7 +16,6 @@ public partial class GitDatabase {
     private readonly string _aesKey;
 
     private static ConcurrentDictionary<string, SemaphoreSlim> _lockDictionary = new();
-    private uint _uniqueId;
 
     // Generated Regex for account branch names
     [GeneratedRegex("origin/[A-HJ-NP-Z2-9]{5}-[A-HJ-NP-Z2-9]{4}")]
@@ -51,13 +50,6 @@ public partial class GitDatabase {
 
     public async Task<Commit?> WriteManifest(ManifestInfoCallback manifest) {
         var branchName = manifest.AppId.ToString();
-
-        var uniqueFileName =
-            $"{manifest.DepotId}_{manifest.ManifestId}_{Interlocked.Increment(ref _uniqueId)}.manifest";
-
-        var timeStart = DateTime.Now;
-        manifest.Manifest.SaveToFile(uniqueFileName);
-        Console.WriteLine($"Manifest {manifest.DepotId}_{manifest.ManifestId} saved in {DateTime.Now - timeStart}.");
 
         var locker = _lockDictionary.GetOrAdd(branchName, new SemaphoreSlim(1));
 
@@ -103,7 +95,7 @@ public partial class GitDatabase {
             treeDef.Add("Key.vdf", keyBlob, Mode.NonExecutableFile);
 
             // Insert manifest
-            var manifestBlob = _repo.ObjectDatabase.CreateBlob(uniqueFileName);
+            var manifestBlob = _repo.ObjectDatabase.CreateBlob(new MemoryStream(manifest.Manifest.Serialize()!));
             treeDef.Add($"{manifest.DepotId}_{manifest.ManifestId}.manifest", manifestBlob, Mode.NonExecutableFile);
 
             // Skip if no changes
