@@ -42,10 +42,6 @@ public partial class GitDatabase {
         _pushOptions = new PushOptions {
             CredentialsProvider = (_, _, _) => credential
         };
-
-        Commands.Fetch(_repo, _remote.Name, ["+refs/heads/*:refs/remotes/origin/*"],
-            new FetchOptions
-                { Prune = true, TagFetchMode = TagFetchMode.All, CredentialsProvider = (_, _, _) => credential }, null);
     }
 
     public async Task<Commit?> WriteManifest(ManifestInfoCallback manifest) {
