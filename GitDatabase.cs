@@ -27,6 +27,9 @@ public partial class GitDatabase {
 
 
     public GitDatabase(string repoPath, string token, string aesKey) {
+        // Disable strict object creation
+        GlobalSettings.SetEnableStrictObjectCreation(false);
+
         _repo = new Repository(repoPath);
         _remote = _repo.Network.Remotes["origin"];
         _signature = new Signature("ManifestHub", "manifesthub@localhost", DateTimeOffset.Now);
