@@ -61,7 +61,7 @@ jobs:
           submodules: true
           fetch-depth: 0
           fetch-tags: true
-          filter: blob:limit=10k
+          filter: blob:limit=100k
 
       - name: Setup dotnet
         uses: actions/setup-dotnet@v4
