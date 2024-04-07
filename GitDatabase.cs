@@ -15,7 +15,9 @@ public partial class GitDatabase {
     private readonly PushOptions _pushOptions;
     private readonly string _aesKey;
 
-    private static ConcurrentDictionary<string, SemaphoreSlim> _lockDictionary = new();
+    private readonly ConcurrentDictionary<uint, byte> _trackingApps;
+    private readonly ConcurrentDictionary<uint, byte> _trackingDepots;
+    private readonly ConcurrentDictionary<string, SemaphoreSlim> _lockDictionary;
 
     // Generated Regex for account branch names
     [GeneratedRegex("origin/[A-HJ-NP-Z2-9]{5}-[A-HJ-NP-Z2-9]{4}")]
@@ -35,6 +37,8 @@ public partial class GitDatabase {
         _signature = new Signature("ManifestHub", "manifesthub@localhost", DateTimeOffset.Now);
         _aesKey = aesKey;
 
+        _trackingApps = new ConcurrentDictionary<uint, byte>();
+        _trackingDepots = new ConcurrentDictionary<uint, byte>();
         _lockDictionary = new ConcurrentDictionary<string, SemaphoreSlim>();
 
         var credential = new UsernamePasswordCredentials {
@@ -142,7 +146,10 @@ public partial class GitDatabase {
     }
 
     public bool HasManifest(uint appId, uint depotId, ulong manifestId) {
-        // Commands.Fetch(_repo, _remote.Name, ["+refs/tags/*:refs/tags/*"], null, "Fetching tags for manifest check");
+        // Update trackingCounters
+        _trackingApps.TryAdd(appId, 0);
+        _trackingDepots.TryAdd(depotId, 0);
+
         return _repo.Tags[$"{appId}_{depotId}_{manifestId}"] != null;
     }
 
@@ -219,6 +226,60 @@ public partial class GitDatabase {
 
     public AccountInfoCallback? GetAccount(string accountName) {
         return GetAccounts().FirstOrDefault(account => account.AccountName == accountName);
+    }
+
+    public string ReportTrackingStatus() {
+        // Parse IDs of managed apps from tags matching app branch pattern
+        var managedApps = _repo.Tags
+            .Where(t => ManifestTagPattern().IsMatch(t.FriendlyName))
+            .Select(t => uint.Parse(ManifestTagPattern().Match(t.FriendlyName).Groups[1].Value))
+            .ToHashSet(); // Use HashSet for optimized search performance
+
+        // Parse IDs of managed depots from tags matching manifest tag pattern
+        var managedDepots = _repo.Tags
+            .Where(t => ManifestTagPattern().IsMatch(t.FriendlyName))
+            .Select(t => uint.Parse(ManifestTagPattern().Match(t.FriendlyName).Groups[2].Value))
+            .ToHashSet();
+
+        // IDs of touched apps and depots
+        var touchedApps = new HashSet<uint>(_trackingApps.Keys);
+        var touchedDepots = new HashSet<uint>(_trackingDepots.Keys);
+
+        // Calculate status for Apps
+        var appsData = CalculateStatus(managedApps, touchedApps);
+        // Calculate status for Depots
+        var depotsData = CalculateStatus(managedDepots, touchedDepots);
+
+        var markdownBuilder = new StringBuilder();
+        markdownBuilder.AppendLine("# Tracking Status Report :rocket:\n");
+
+        // Append status tables for Apps and Depots to the report
+        AppendStatusTable(markdownBuilder, "Apps", appsData);
+        AppendStatusTable(markdownBuilder, "Depots", depotsData);
+
+        return markdownBuilder.ToString();
+    }
+
+    private static void AppendStatusTable(StringBuilder markdownBuilder, string category,
+        (int Active, int Orphan, int AccessDenied) data) {
+        // Append a status table for a category (Apps or Depots) to the markdown builder
+        markdownBuilder.AppendLine($"## {category}\n");
+        markdownBuilder.AppendLine("| Status | Count |");
+        markdownBuilder.AppendLine("|--------|-------|");
+        markdownBuilder.AppendLine($"| Active | {data.Active} |");
+        markdownBuilder.AppendLine($"| Orphan | {data.Orphan} |");
+        markdownBuilder.AppendLine($"| Access Denied | {data.AccessDenied} |");
+        markdownBuilder.AppendLine();
+    }
+
+    private static (int Active, int Orphan, int AccessDenied) CalculateStatus(IReadOnlyCollection<uint> managed,
+        IReadOnlyCollection<uint> touched) {
+        // Calculate active, orphan, and access denied counts
+        var active = managed.Intersect(touched).Count(); // Count of items both managed and touched
+        var orphan = managed.Except(touched).Count(); // Count of items managed but not touched
+        var accessDenied = touched.Except(managed).Count(); // Count of items touched but not managed
+
+        return (active, orphan, accessDenied);
     }
 
     public Task PruneExpiredTags() {

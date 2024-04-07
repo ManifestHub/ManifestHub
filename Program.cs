@@ -61,6 +61,18 @@ switch (result.Value.Mode) {
         await Task.WhenAll(writeTasks);
         Console.WriteLine("Start tag pruning...");
         await gdb.PruneExpiredTags();
+
+        Console.WriteLine("Writing summary...");
+        var summaryPath = Environment.GetEnvironmentVariable("GITHUB_STEP_SUMMARY");
+        if (summaryPath != null) {
+            var summaryFile = File.OpenWrite(summaryPath);
+            summaryFile.Write(System.Text.Encoding.UTF8.GetBytes(gdb.ReportTrackingStatus()));
+            summaryFile.Close();
+            Console.WriteLine("Summary written.");
+        } else {
+            Console.WriteLine("Cannot find GITHUB_STEP_SUMMARY");
+        }
+
         Console.WriteLine("Done.");
 
         break;
