@@ -184,9 +184,12 @@ class ManifestDownloader {
             var depots = app.Value.KeyValues["depots"].Children
                 .Where(depot => depot.Name?.All(char.IsDigit) ?? false)
                 .Where(depot => depot["manifests"]["public"] != KeyValue.Invalid)
-                .SelectMany(depot => new Dictionary<uint, ulong> {
-                    { uint.Parse(depot.Name!), depot["manifests"]["public"]["gid"].AsUnsignedLong() }
-                })
+                .Select(depot =>
+                    new KeyValuePair<uint, ulong>(
+                        uint.Parse(depot.Name!),
+                        depot["manifests"]["public"]["gid"].AsUnsignedLong()
+                    )
+                )
                 .Where(depot => !(gdb?.HasManifest(app.Key, depot.Key, depot.Value) ?? false)).ToDictionary();
 
             tasksList.AddRange(depots.Select(depot => (Func<Task<ManifestInfoCallback>>)(
