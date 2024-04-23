@@ -97,8 +97,14 @@ public partial class GitDatabase {
                     new MemoryStream(Encoding.UTF8.GetBytes(VdfConvert.Serialize(keyConfig))));
             treeDef.Add("Key.vdf", keyBlob, Mode.NonExecutableFile);
 
-            // Insert manifest
-            var manifestBlob = _repo.ObjectDatabase.CreateBlob(new MemoryStream(manifest.Manifest.Serialize()!));
+            // Create a MemoryStream to hold the serialized data
+            using var ms = new MemoryStream();
+            // Serialize the manifest directly into the MemoryStream
+            manifest.Manifest.Serialize(ms);
+            ms.Position = 0; // Reset the stream position to the beginning for reading
+
+            // Insert manifest blob into the repository
+            var manifestBlob = _repo.ObjectDatabase.CreateBlob(ms);
             treeDef.Add($"{manifest.DepotId}_{manifest.ManifestId}.manifest", manifestBlob, Mode.NonExecutableFile);
 
             // Skip if no changes
