@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-24T19:18:02.1612569+00:00",
   "Index": "ACTDF-GSVE",
   "AesEncrypted": true,
-  "AesIV": "1DxZHJeV6nyqo30GWqmSag==",
-  "AppIds": [
-    600090,
-    681390,
-    714740
-  ]
+  "AesIV": "1DxZHJeV6nyqo30GWqmSag=="
 }
