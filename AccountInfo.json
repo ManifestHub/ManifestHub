@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-23T13:18:04.6177861+00:00",
   "Index": "SCVBS-CQSG",
   "AesEncrypted": true,
-  "AesIV": "W5zH6a5xrQD49LL4VASDBQ=="
+  "AesIV": "W5zH6a5xrQD49LL4VASDBQ==",
+  "AppIds": [
+    108710,
+    108726,
+    253920
+  ]
 }
