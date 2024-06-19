@@ -5,5 +5,16 @@
   "LastRefresh": "2024-05-24T03:16:04.8958214+00:00",
   "Index": "ATAC6-7KUL",
   "AesEncrypted": true,
-  "AesIV": "TIZ1wivRkZ86z2ROr9KW1A=="
+  "AesIV": "TIZ1wivRkZ86z2ROr9KW1A==",
+  "AppIds": [
+    1811950,
+    2024280,
+    2024360,
+    2024420,
+    2024430,
+    2024440,
+    2024450,
+    2024580,
+    2024590
+  ]
 }
