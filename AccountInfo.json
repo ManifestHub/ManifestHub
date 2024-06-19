@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T02:02:52.6001336+00:00",
   "Index": "ARXCU-RCZL",
   "AesEncrypted": true,
-  "AesIV": "tuuRJK1XNpo+ysa6gjzqpQ=="
+  "AesIV": "tuuRJK1XNpo+ysa6gjzqpQ==",
+  "AppIds": [
+    518790
+  ]
 }
