@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-28T15:19:37.0514489+00:00",
   "Index": "SSPSJ-RCWE",
   "AesEncrypted": true,
-  "AesIV": "xgn3qMjeygVnfiTxEHkY8A==",
-  "AppIds": [
-    973580,
-    1202190,
-    1203520,
-    1203530,
-    1213590
-  ]
+  "AesIV": "xgn3qMjeygVnfiTxEHkY8A=="
 }
