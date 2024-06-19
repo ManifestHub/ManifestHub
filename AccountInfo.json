@@ -5,16 +5,5 @@
   "LastRefresh": "2024-06-16T15:03:21.6478243+00:00",
   "Index": "SKCFS-QTVL",
   "AesEncrypted": true,
-  "AesIV": "zXIx3Y6w3kRnPPB9g4i98A==",
-  "AppIds": [
-    939850,
-    1016230,
-    1167920,
-    1194630,
-    1259810,
-    1281590,
-    1537710,
-    1656800,
-    1775270
-  ]
+  "AesIV": "zXIx3Y6w3kRnPPB9g4i98A=="
 }
