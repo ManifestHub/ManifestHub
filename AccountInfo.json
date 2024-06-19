@@ -5,8 +5,5 @@
   "LastRefresh": "2024-06-18T14:20:16.2745659+00:00",
   "Index": "S6PAS-PMTE",
   "AesEncrypted": true,
-  "AesIV": "fm5oPclPpc0FlR1TTyrMog==",
-  "AppIds": [
-    544750
-  ]
+  "AesIV": "fm5oPclPpc0FlR1TTyrMog=="
 }
