@@ -5,5 +5,12 @@
   "LastRefresh": "2024-05-23T19:15:39.5482759+00:00",
   "Index": "AMAVA-USSE",
   "AesEncrypted": true,
-  "AesIV": "un3TinMDVV3M19NmM+EupA=="
+  "AesIV": "un3TinMDVV3M19NmM+EupA==",
+  "AppIds": [
+    1604030,
+    1829350,
+    1983900,
+    1983901,
+    1999270
+  ]
 }
