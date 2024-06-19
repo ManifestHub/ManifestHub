@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T13:17:43.4220624+00:00",
   "Index": "SEBEG-JBVE",
   "AesEncrypted": true,
-  "AesIV": "9h+fldQyyL9s8MCTKGTCHQ=="
+  "AesIV": "9h+fldQyyL9s8MCTKGTCHQ==",
+  "AppIds": [
+    1480560,
+    1685910
+  ]
 }
