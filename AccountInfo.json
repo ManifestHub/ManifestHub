@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T02:29:35.1865151+00:00",
   "Index": "ACLSM-NDSA",
   "AesEncrypted": true,
-  "AesIV": "IPuVOj0kW2ARylFiTJpMEw=="
+  "AesIV": "IPuVOj0kW2ARylFiTJpMEw==",
+  "AppIds": [
+    435530
+  ]
 }
