@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-04T18:22:00.8011993+00:00",
   "Index": "AS74C-NUVE",
   "AesEncrypted": true,
-  "AesIV": "Yco0SrE1nr+/AQs026Jt/w=="
+  "AesIV": "Yco0SrE1nr+/AQs026Jt/w==",
+  "AppIds": [
+    250620
+  ]
 }
