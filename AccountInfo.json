@@ -5,18 +5,5 @@
   "LastRefresh": "2024-05-29T00:59:15.2041516+00:00",
   "Index": "SK2KL-VCSE",
   "AesEncrypted": true,
-  "AesIV": "08H6gDJJ9Ix6a/ur0yAksw==",
-  "AppIds": [
-    699130,
-    1640650,
-    1708020,
-    2170270,
-    2226070,
-    2243210,
-    2313390,
-    2475060,
-    2540380,
-    2614650,
-    2614660
-  ]
+  "AesIV": "08H6gDJJ9Ix6a/ur0yAksw=="
 }
