@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-08T04:23:19.8902994+00:00",
   "Index": "SRR2J-VMSQ",
   "AesEncrypted": true,
-  "AesIV": "74slFJzMOHBfnxUYyTFReg==",
-  "AppIds": [
-    245850,
-    322330,
-    343050
-  ]
+  "AesIV": "74slFJzMOHBfnxUYyTFReg=="
 }
