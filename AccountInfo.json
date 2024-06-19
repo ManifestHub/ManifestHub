@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-07T22:18:23.9085712+00:00",
   "Index": "S3XEM-VXTL",
   "AesEncrypted": true,
-  "AesIV": "JIkvbYHJ0RUJa0VSH9+J0Q==",
-  "AppIds": [
-    526870,
-    1690800
-  ]
+  "AesIV": "JIkvbYHJ0RUJa0VSH9+J0Q=="
 }
