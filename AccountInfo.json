@@ -5,18 +5,5 @@
   "LastRefresh": "2024-06-18T14:20:24.9788211+00:00",
   "Index": "AC7TB-QUWL",
   "AesEncrypted": true,
-  "AesIV": "yYVrEZUSUioBuMh9H0/1Tw==",
-  "AppIds": [
-    1364210,
-    1899720,
-    1901800,
-    1901840,
-    1901850,
-    1903250,
-    1903920,
-    1903930,
-    1904020,
-    1904840,
-    1904870
-  ]
+  "AesIV": "yYVrEZUSUioBuMh9H0/1Tw=="
 }
