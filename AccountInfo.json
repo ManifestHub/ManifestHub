@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-16T01:15:01.5356389+00:00",
   "Index": "SEQKN-TNSN",
   "AesEncrypted": true,
-  "AesIV": "grsitL9oKmLgfxrOYsvGHw=="
+  "AesIV": "grsitL9oKmLgfxrOYsvGHw==",
+  "AppIds": [
+    1398740,
+    1919590
+  ]
 }
