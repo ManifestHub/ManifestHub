@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-28T09:18:11.538294+00:00",
   "Index": "SZK47-BNYL",
   "AesEncrypted": true,
-  "AesIV": "fqtMlITDpIa2wyERI7PpTg==",
-  "AppIds": [
-    501900,
-    690530,
-    884600
-  ]
+  "AesIV": "fqtMlITDpIa2wyERI7PpTg=="
 }
