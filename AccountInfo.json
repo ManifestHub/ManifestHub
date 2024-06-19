@@ -5,19 +5,5 @@
   "LastRefresh": "2024-06-08T22:14:40.4261957+00:00",
   "Index": "SZWQN-NTTC",
   "AesEncrypted": true,
-  "AesIV": "JvCc+Job01k8DXIiSTQKMQ==",
-  "AppIds": [
-    740130,
-    1109050,
-    1202030,
-    1202031,
-    1202040,
-    1202041,
-    1202042,
-    1202043,
-    1202044,
-    1202045,
-    1202053,
-    1202062
-  ]
+  "AesIV": "JvCc+Job01k8DXIiSTQKMQ=="
 }
