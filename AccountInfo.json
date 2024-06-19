@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-23T10:43:23.939729+00:00",
   "Index": "SAMML-8GUC",
   "AesEncrypted": true,
-  "AesIV": "BPRGdVdwZdrg7WRVYeLrVg==",
-  "AppIds": [
-    1411740,
-    1788850
-  ]
+  "AesIV": "BPRGdVdwZdrg7WRVYeLrVg=="
 }
