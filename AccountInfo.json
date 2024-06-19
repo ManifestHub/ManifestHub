@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-04T03:23:15.7402343+00:00",
   "Index": "S9AHQ-MESG",
   "AesEncrypted": true,
-  "AesIV": "eEmUCJbr3VzgQku0ye0UeQ==",
-  "AppIds": [
-    1335240,
-    1409720,
-    1409721
-  ]
+  "AesIV": "eEmUCJbr3VzgQku0ye0UeQ=="
 }
