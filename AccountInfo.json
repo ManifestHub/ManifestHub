@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-04T21:16:31.1244141+00:00",
   "Index": "SCZV2-EFUL",
   "AesEncrypted": true,
-  "AesIV": "sX+gethPlwfhdEm8/krOzg==",
-  "AppIds": [
-    512900,
-    1064720,
-    1285810
-  ]
+  "AesIV": "sX+gethPlwfhdEm8/krOzg=="
 }
