@@ -5,14 +5,5 @@
   "LastRefresh": "2024-05-29T14:13:34.178396+00:00",
   "Index": "AAM6A-HMXL",
   "AesEncrypted": true,
-  "AesIV": "cV3bfaWyjRcm83UMjm0BQA==",
-  "AppIds": [
-    1280930,
-    1619520,
-    2230650,
-    2455290,
-    2633220,
-    2633990,
-    2677440
-  ]
+  "AesIV": "cV3bfaWyjRcm83UMjm0BQA=="
 }
