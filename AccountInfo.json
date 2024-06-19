@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-28T15:17:55.149233+00:00",
   "Index": "A26CX-KLVE",
   "AesEncrypted": true,
-  "AesIV": "lkVQcOlDU2joQWW6iueHAQ==",
-  "AppIds": [
-    298900,
-    816090,
-    842330,
-    1303800
-  ]
+  "AesIV": "lkVQcOlDU2joQWW6iueHAQ=="
 }
