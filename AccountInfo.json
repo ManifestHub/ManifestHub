@@ -5,19 +5,5 @@
   "LastRefresh": "2024-05-24T05:36:31.3749484+00:00",
   "Index": "SNKVG-FUVE",
   "AesEncrypted": true,
-  "AesIV": "p4Xnsm70lTJyWM073W8Eqw==",
-  "AppIds": [
-    265300,
-    317200,
-    317201,
-    317202,
-    317203,
-    317208,
-    327270,
-    328820,
-    328821,
-    333800,
-    449960,
-    991890
-  ]
+  "AesIV": "p4Xnsm70lTJyWM073W8Eqw=="
 }
