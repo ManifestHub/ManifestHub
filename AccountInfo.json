@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:19:55.4938214+00:00",
   "Index": "S86PM-AWXL",
   "AesEncrypted": true,
-  "AesIV": "x/Eu+4LEdvstA96Nfnm55w=="
+  "AesIV": "x/Eu+4LEdvstA96Nfnm55w==",
+  "AppIds": [
+    1919740
+  ]
 }
