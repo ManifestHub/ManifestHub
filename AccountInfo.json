@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-08T12:26:08.4318431+00:00",
   "Index": "SDMRX-T3XN",
   "AesEncrypted": true,
-  "AesIV": "G0S/7G8PHMWivilKkCdljw=="
+  "AesIV": "G0S/7G8PHMWivilKkCdljw==",
+  "AppIds": [
+    2521180
+  ]
 }
