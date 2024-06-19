@@ -5,5 +5,14 @@
   "LastRefresh": "2024-05-23T22:41:06.0252556+00:00",
   "Index": "SVDHV-CFVL",
   "AesEncrypted": true,
-  "AesIV": "GPp3uHpPFC6Ad2z4Rxr7IQ=="
+  "AesIV": "GPp3uHpPFC6Ad2z4Rxr7IQ==",
+  "AppIds": [
+    253980,
+    588650,
+    1204130,
+    1451460,
+    1558320,
+    1580050,
+    2101430
+  ]
 }
