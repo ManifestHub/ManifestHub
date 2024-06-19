@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T00:59:02.8307661+00:00",
   "Index": "ANMFX-BASJ",
   "AesEncrypted": true,
-  "AesIV": "i60Bo3Z6WbOug0mZST1ukQ=="
+  "AesIV": "i60Bo3Z6WbOug0mZST1ukQ==",
+  "AppIds": [
+    1012030,
+    1061010
+  ]
 }
