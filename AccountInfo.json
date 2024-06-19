@@ -5,11 +5,5 @@
   "LastRefresh": "2024-06-17T16:20:03.5662247+00:00",
   "Index": "SLDSX-DKTL",
   "AesEncrypted": true,
-  "AesIV": "3PZSmpU5rgmQjGRxyBT7DA==",
-  "AppIds": [
-    250900,
-    401920,
-    570660,
-    1426300
-  ]
+  "AesIV": "3PZSmpU5rgmQjGRxyBT7DA=="
 }
