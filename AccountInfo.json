@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-08T12:29:03.7604988+00:00",
   "Index": "A9GPS-D2VG",
   "AesEncrypted": true,
-  "AesIV": "+J6RkfcaAJONA7ARrf6qHg==",
-  "AppIds": [
-    388120,
-    784150,
-    1049900
-  ]
+  "AesIV": "+J6RkfcaAJONA7ARrf6qHg=="
 }
