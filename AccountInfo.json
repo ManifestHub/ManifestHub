@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T04:18:08.1035989+00:00",
   "Index": "AKC2Y-RUVE",
   "AesEncrypted": true,
-  "AesIV": "CmH0R+2+XYx1kNHQSCrABA=="
+  "AesIV": "CmH0R+2+XYx1kNHQSCrABA==",
+  "AppIds": [
+    1016960
+  ]
 }
