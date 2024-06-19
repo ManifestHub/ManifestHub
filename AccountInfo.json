@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-24T16:42:23.7861132+00:00",
   "Index": "SPT6B-NHTE",
   "AesEncrypted": true,
-  "AesIV": "eme5040pKF8dZyGoL3C2Hw==",
-  "AppIds": [
-    1577120,
-    1877110,
-    1877111,
-    1891950
-  ]
+  "AesIV": "eme5040pKF8dZyGoL3C2Hw=="
 }
