@@ -5,5 +5,14 @@
   "LastRefresh": "2024-06-04T07:18:19.3759654+00:00",
   "Index": "AF4TM-WYSE",
   "AesEncrypted": true,
-  "AesIV": "Xl35IPXCWRUcCY7ogoWtYw=="
+  "AesIV": "Xl35IPXCWRUcCY7ogoWtYw==",
+  "AppIds": [
+    668630,
+    815370,
+    1082430,
+    1618230,
+    1831450,
+    2024150,
+    2536840
+  ]
 }
