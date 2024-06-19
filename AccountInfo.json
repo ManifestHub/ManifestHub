@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-23T17:37:31.0139381+00:00",
   "Index": "S9TTC-PTUG",
   "AesEncrypted": true,
-  "AesIV": "i2lDmGShEiooyoOdpnIdaw==",
-  "AppIds": [
-    254700,
-    403570,
-    619400,
-    1139900
-  ]
+  "AesIV": "i2lDmGShEiooyoOdpnIdaw=="
 }
