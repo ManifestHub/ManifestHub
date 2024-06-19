@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-29T08:22:25.2668334+00:00",
   "Index": "SGE8S-PUVE",
   "AesEncrypted": true,
-  "AesIV": "s5p1rho3qJf18YmWUbDDGw==",
-  "AppIds": [
-    414340,
-    747350
-  ]
+  "AesIV": "s5p1rho3qJf18YmWUbDDGw=="
 }
