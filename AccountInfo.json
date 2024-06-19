@@ -5,16 +5,5 @@
   "LastRefresh": "2024-05-20T19:12:15.4411119+00:00",
   "Index": "AVW2P-BFSL",
   "AesEncrypted": true,
-  "AesIV": "j0121VtyM5S2gjkPbalrwA==",
-  "AppIds": [
-    211,
-    215,
-    218,
-    400,
-    620,
-    629,
-    644,
-    1097150,
-    1394420
-  ]
+  "AesIV": "j0121VtyM5S2gjkPbalrwA=="
 }
