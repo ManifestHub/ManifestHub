@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-22T20:39:07.8752084+00:00",
   "Index": "AMHCH-KATE",
   "AesEncrypted": true,
-  "AesIV": "buue6J0BS2qIUHUaylDpmQ==",
-  "AppIds": [
-    629820,
-    913720,
-    1451940,
-    1611940,
-    1750570
-  ]
+  "AesIV": "buue6J0BS2qIUHUaylDpmQ=="
 }
