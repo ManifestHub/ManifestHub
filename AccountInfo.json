@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-30T05:20:53.5950377+00:00",
   "Index": "ARKYK-CN4L",
   "AesEncrypted": true,
-  "AesIV": "bVs8NVplAV2iaTjt6qCahg=="
+  "AesIV": "bVs8NVplAV2iaTjt6qCahg==",
+  "AppIds": [
+    1839950
+  ]
 }
