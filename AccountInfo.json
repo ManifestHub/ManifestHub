@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-24T12:22:32.0144322+00:00",
   "Index": "SMGPM-CSXN",
   "AesEncrypted": true,
-  "AesIV": "4aA67kLuikWpomfGAqeq1w==",
-  "AppIds": [
-    1065310,
-    1997840
-  ]
+  "AesIV": "4aA67kLuikWpomfGAqeq1w=="
 }
