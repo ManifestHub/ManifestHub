@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-15T02:36:30.5021068+00:00",
   "Index": "SW27N-JAVE",
   "AesEncrypted": true,
-  "AesIV": "nmzO1AqrQX02rLpeOsA5kw=="
+  "AesIV": "nmzO1AqrQX02rLpeOsA5kw==",
+  "AppIds": [
+    733790,
+    1036480
+  ]
 }
