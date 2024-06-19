@@ -5,11 +5,5 @@
   "LastRefresh": "2024-06-15T12:33:53.8703586+00:00",
   "Index": "SSM8S-CDPL",
   "AesEncrypted": true,
-  "AesIV": "YOZEs7CKToXQ3PfXu/UCcw==",
-  "AppIds": [
-    578080,
-    622590,
-    813000,
-    1776090
-  ]
+  "AesIV": "YOZEs7CKToXQ3PfXu/UCcw=="
 }
