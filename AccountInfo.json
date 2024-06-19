@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-18T22:16:23.8441483+00:00",
   "Index": "AMAWQ-CLWL",
   "AesEncrypted": true,
-  "AesIV": "xGfcUYokifAx3W7QcigDEQ==",
-  "AppIds": [
-    1778820,
-    2512940
-  ]
+  "AesIV": "xGfcUYokifAx3W7QcigDEQ=="
 }
