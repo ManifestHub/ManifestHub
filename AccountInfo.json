@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T19:18:02.862463+00:00",
   "Index": "A77AH-PSUG",
   "AesEncrypted": true,
-  "AesIV": "wGqW72rR2bU5HvYtcmbKkg=="
+  "AesIV": "wGqW72rR2bU5HvYtcmbKkg==",
+  "AppIds": [
+    493490
+  ]
 }
