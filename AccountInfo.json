@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-29T00:59:37.9130954+00:00",
   "Index": "SM76R-MSUQ",
   "AesEncrypted": true,
-  "AesIV": "UQ60VMn3/u56sRo0EhpbUg==",
-  "AppIds": [
-    632300,
-    1255390,
-    1468810
-  ]
+  "AesIV": "UQ60VMn3/u56sRo0EhpbUg=="
 }
