@@ -5,13 +5,5 @@
   "LastRefresh": "2024-05-22T14:39:55.6790519+00:00",
   "Index": "AD8WN-KXTN",
   "AesEncrypted": true,
-  "AesIV": "JeMkbMNVS3Bk7eQLXziXPQ==",
-  "AppIds": [
-    1410640,
-    1592110,
-    1656780,
-    1724920,
-    1783690,
-    1943700
-  ]
+  "AesIV": "JeMkbMNVS3Bk7eQLXziXPQ=="
 }
