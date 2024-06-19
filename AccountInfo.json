@@ -5,13 +5,5 @@
   "LastRefresh": "2024-05-24T19:18:02.5608823+00:00",
   "Index": "APPCN-DMUE",
   "AesEncrypted": true,
-  "AesIV": "G2AWMuVV/IIieqh+jgupCQ==",
-  "AppIds": [
-    423580,
-    582540,
-    636500,
-    636501,
-    636502,
-    842020
-  ]
+  "AesIV": "G2AWMuVV/IIieqh+jgupCQ=="
 }
