@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-28T23:17:58.3318804+00:00",
   "Index": "AT2YR-KTWL",
   "AesEncrypted": true,
-  "AesIV": "BGmlSwBjtuZ70qmIkPE6wg==",
-  "AppIds": [
-    1168610,
-    1430760
-  ]
+  "AesIV": "BGmlSwBjtuZ70qmIkPE6wg=="
 }
