@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T20:42:14.3009799+00:00",
   "Index": "SRLFK-39RN",
   "AesEncrypted": true,
-  "AesIV": "eQfavzKNakGLh+Fn77U2dw=="
+  "AesIV": "eQfavzKNakGLh+Fn77U2dw==",
+  "AppIds": [
+    1194930
+  ]
 }
