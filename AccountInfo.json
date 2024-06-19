@@ -5,5 +5,12 @@
   "LastRefresh": "2024-05-30T15:21:57.4098423+00:00",
   "Index": "S833P-DWWL",
   "AesEncrypted": true,
-  "AesIV": "1vdiJRk8b07AO/X4nHAQAQ=="
+  "AesIV": "1vdiJRk8b07AO/X4nHAQAQ==",
+  "AppIds": [
+    1072020,
+    1149660,
+    1191210,
+    1212830,
+    1464930
+  ]
 }
