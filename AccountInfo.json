@@ -5,5 +5,12 @@
   "LastRefresh": "2024-06-04T07:19:09.7765003+00:00",
   "Index": "AMRA8-6MTL",
   "AesEncrypted": true,
-  "AesIV": "rDJqobKahReqhyosGfSlMw=="
+  "AesIV": "rDJqobKahReqhyosGfSlMw==",
+  "AppIds": [
+    788100,
+    1262000,
+    1396440,
+    1518790,
+    1851340
+  ]
 }
