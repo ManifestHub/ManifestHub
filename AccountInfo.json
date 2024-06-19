@@ -5,12 +5,5 @@
   "LastRefresh": "2024-06-10T12:32:05.6401677+00:00",
   "Index": "SC92N-SQSE",
   "AesEncrypted": true,
-  "AesIV": "aI6aeQBsjpTTYvPAtoI5fw==",
-  "AppIds": [
-    834740,
-    951460,
-    1100260,
-    1324060,
-    1515260
-  ]
+  "AesIV": "aI6aeQBsjpTTYvPAtoI5fw=="
 }
