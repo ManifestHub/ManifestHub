@@ -5,11 +5,5 @@
   "LastRefresh": "2024-06-11T06:22:50.1133619+00:00",
   "Index": "AWHDT-49SE",
   "AesEncrypted": true,
-  "AesIV": "1/bF03j9PN5FAO6Rxks4qg==",
-  "AppIds": [
-    261550,
-    1393600,
-    1863440,
-    2240110
-  ]
+  "AesIV": "1/bF03j9PN5FAO6Rxks4qg=="
 }
