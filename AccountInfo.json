@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-11T12:30:42.9317777+00:00",
   "Index": "SWASC-CKUE",
   "AesEncrypted": true,
-  "AesIV": "Kpb7PbNGfbN2xzvHe4K7UQ=="
+  "AesIV": "Kpb7PbNGfbN2xzvHe4K7UQ==",
+  "AppIds": [
+    662960
+  ]
 }
