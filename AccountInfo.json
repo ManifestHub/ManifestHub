@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-05T05:20:28.8956918+00:00",
   "Index": "A3GRT-NFUE",
   "AesEncrypted": true,
-  "AesIV": "XUTuuuHzN98DSDJltPOopw==",
-  "AppIds": [
-    1490890,
-    1760490,
-    1777140
-  ]
+  "AesIV": "XUTuuuHzN98DSDJltPOopw=="
 }
