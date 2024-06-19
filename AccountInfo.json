@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-24T00:55:46.8303319+00:00",
   "Index": "AJNVK-BDSG",
   "AesEncrypted": true,
-  "AesIV": "hN1CFilP3qkt76+kRmSdRg==",
-  "AppIds": [
-    973580,
-    1202190,
-    1203520,
-    1203530,
-    1213590
-  ]
+  "AesIV": "hN1CFilP3qkt76+kRmSdRg=="
 }
