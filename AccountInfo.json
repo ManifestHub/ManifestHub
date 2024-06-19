@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-03T01:03:28.2870031+00:00",
   "Index": "SMX22-U9PQ",
   "AesEncrypted": true,
-  "AesIV": "t/RkXs3X7HzIRITBqKkQOA==",
-  "AppIds": [
-    722020,
-    994730,
-    1139930
-  ]
+  "AesIV": "t/RkXs3X7HzIRITBqKkQOA=="
 }
