@@ -5,11 +5,5 @@
   "LastRefresh": "2024-06-08T11:14:21.1452674+00:00",
   "Index": "SVREJ-WCSL",
   "AesEncrypted": true,
-  "AesIV": "AVxWrP8vnq81exmr+m4ExQ==",
-  "AppIds": [
-    699130,
-    1640650,
-    1708020,
-    2243210
-  ]
+  "AesIV": "AVxWrP8vnq81exmr+m4ExQ=="
 }
