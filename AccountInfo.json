@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-24T19:18:14.1614517+00:00",
   "Index": "SX94R-HYUE",
   "AesEncrypted": true,
-  "AesIV": "kIYgC55avRPf9GC15Oktqw==",
-  "AppIds": [
-    115320,
-    414700,
-    489830,
-    673450,
-    755980
-  ]
+  "AesIV": "kIYgC55avRPf9GC15Oktqw=="
 }
