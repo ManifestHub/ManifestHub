@@ -5,17 +5,5 @@
   "LastRefresh": "2024-06-07T03:23:08.2397599+00:00",
   "Index": "SWA22-HSZQ",
   "AesEncrypted": true,
-  "AesIV": "i7eHKw9HsN+j/4RjqDfhrw==",
-  "AppIds": [
-    1085660,
-    1307090,
-    1506190,
-    1999770,
-    2156230,
-    2156231,
-    2156232,
-    2156233,
-    2156234,
-    2156235
-  ]
+  "AesIV": "i7eHKw9HsN+j/4RjqDfhrw=="
 }
