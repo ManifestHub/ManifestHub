@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-22T18:20:16.1962959+00:00",
   "Index": "SMUGF-89RJ",
   "AesEncrypted": true,
-  "AesIV": "I1vwXu18dZmYRvPRy5l/ig=="
+  "AesIV": "I1vwXu18dZmYRvPRy5l/ig==",
+  "AppIds": [
+    431960,
+    1307550,
+    1670340,
+    1790230
+  ]
 }
