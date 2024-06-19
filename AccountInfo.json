@@ -5,5 +5,12 @@
   "LastRefresh": "2024-06-03T22:17:12.3743362+00:00",
   "Index": "SMD87-JTTC",
   "AesEncrypted": true,
-  "AesIV": "CRousKEj/QrQqhSbt7pvxg=="
+  "AesIV": "CRousKEj/QrQqhSbt7pvxg==",
+  "AppIds": [
+    40950,
+    907650,
+    1498880,
+    1556900,
+    1575250
+  ]
 }
