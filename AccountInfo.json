@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T01:59:47.1244593+00:00",
   "Index": "SRL3G-E2XL",
   "AesEncrypted": true,
-  "AesIV": "3XQqSTGppCls2XtU6LECAA=="
+  "AesIV": "3XQqSTGppCls2XtU6LECAA==",
+  "AppIds": [
+    1385380
+  ]
 }
