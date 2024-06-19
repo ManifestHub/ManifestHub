@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-25T06:43:32.9660765+00:00",
   "Index": "S3Y57-PSTA",
   "AesEncrypted": true,
-  "AesIV": "UfoFC6q8jg+fJnIxZk0gWg==",
-  "AppIds": [
-    1118200,
-    1584090,
-    1778090,
-    1838750
-  ]
+  "AesIV": "UfoFC6q8jg+fJnIxZk0gWg=="
 }
