@@ -5,5 +5,17 @@
   "LastRefresh": "2024-06-08T03:19:27.1238031+00:00",
   "Index": "AFALP-BYPJ",
   "AesEncrypted": true,
-  "AesIV": "/eCmDOCSWc8T8vQNCNu+cQ=="
+  "AesIV": "/eCmDOCSWc8T8vQNCNu+cQ==",
+  "AppIds": [
+    678950,
+    729450,
+    779932,
+    779933,
+    779934,
+    779935,
+    779936,
+    779937,
+    779938,
+    779939
+  ]
 }
