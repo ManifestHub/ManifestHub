@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-23T16:18:58.2671073+00:00",
   "Index": "SYKLY-PAUE",
   "AesEncrypted": true,
-  "AesIV": "sDv30KUAq7pe7wPEsBN0qg==",
-  "AppIds": [
-    1520500,
-    1942440
-  ]
+  "AesIV": "sDv30KUAq7pe7wPEsBN0qg=="
 }
