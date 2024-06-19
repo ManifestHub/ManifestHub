@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T03:21:10.983074+00:00",
   "Index": "SXEDS-B6SE",
   "AesEncrypted": true,
-  "AesIV": "khfAmHDTi1Qh07bBM6ET1g=="
+  "AesIV": "khfAmHDTi1Qh07bBM6ET1g==",
+  "AppIds": [
+    960910
+  ]
 }
