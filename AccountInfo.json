@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T19:41:05.3859768+00:00",
   "Index": "SFP3K-D3UC",
   "AesEncrypted": true,
-  "AesIV": "WJbwLxSMuZKMxWWGZhM+DA=="
+  "AesIV": "WJbwLxSMuZKMxWWGZhM+DA==",
+  "AppIds": [
+    683320,
+    986250
+  ]
 }
