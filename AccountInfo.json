@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T09:36:07.971961+00:00",
   "Index": "S3DT2-MYXL",
   "AesEncrypted": true,
-  "AesIV": "7dJ58brzgcJmAVqxAzRG7w=="
+  "AesIV": "7dJ58brzgcJmAVqxAzRG7w==",
+  "AppIds": [
+    331870
+  ]
 }
