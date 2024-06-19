@@ -5,18 +5,5 @@
   "LastRefresh": "2024-06-17T02:38:56.5883235+00:00",
   "Index": "SKCN5-EJUA",
   "AesEncrypted": true,
-  "AesIV": "j5dA/RYGNqTu1cp4dLB7LA==",
-  "AppIds": [
-    1250,
-    1260,
-    35420,
-    35428,
-    98009,
-    232090,
-    232150,
-    354020,
-    360930,
-    360931,
-    361240
-  ]
+  "AesIV": "j5dA/RYGNqTu1cp4dLB7LA=="
 }
