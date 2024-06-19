@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-10T13:21:21.4236497+00:00",
   "Index": "SXLM6-PASE",
   "AesEncrypted": true,
-  "AesIV": "5nfcQhNl5YLU5x0WsB6wfg=="
+  "AesIV": "5nfcQhNl5YLU5x0WsB6wfg==",
+  "AppIds": [
+    871200
+  ]
 }
