@@ -5,5 +5,20 @@
   "LastRefresh": "2024-06-18T15:18:44.2257006+00:00",
   "Index": "AZNRM-HXTE",
   "AesEncrypted": true,
-  "AesIV": "fa2hiByTe/cBxjCHrUvr0Q=="
+  "AesIV": "fa2hiByTe/cBxjCHrUvr0Q==",
+  "AppIds": [
+    356040,
+    405310,
+    418220,
+    418221,
+    422480,
+    426860,
+    439500,
+    439501,
+    446520,
+    449390,
+    449391,
+    449392,
+    449393
+  ]
 }
