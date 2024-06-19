@@ -5,16 +5,5 @@
   "LastRefresh": "2024-05-23T23:19:44.5708617+00:00",
   "Index": "AWHNE-SAUJ",
   "AesEncrypted": true,
-  "AesIV": "E/V+P4j6uvkDdr/kxugpzQ==",
-  "AppIds": [
-    955050,
-    1178830,
-    1449500,
-    1554690,
-    1671650,
-    1780970,
-    1781000,
-    1781070,
-    1781100
-  ]
+  "AesIV": "E/V+P4j6uvkDdr/kxugpzQ=="
 }
