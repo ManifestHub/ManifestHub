@@ -5,12 +5,5 @@
   "LastRefresh": "2024-06-08T03:16:33.2555744+00:00",
   "Index": "AMQXC-E2UN",
   "AesEncrypted": true,
-  "AesIV": "KN/j9QlgKqfuV1MDufcXAw==",
-  "AppIds": [
-    535460,
-    546560,
-    705160,
-    1295040,
-    1310460
-  ]
+  "AesIV": "KN/j9QlgKqfuV1MDufcXAw=="
 }
