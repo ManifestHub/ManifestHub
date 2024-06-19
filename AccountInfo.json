@@ -5,16 +5,5 @@
   "LastRefresh": "2024-06-08T02:34:13.183865+00:00",
   "Index": "ACRNE-99SA",
   "AesEncrypted": true,
-  "AesIV": "f3SldlvdmxF6E5mRgHbMLg==",
-  "AppIds": [
-    1544020,
-    2005972,
-    2005983,
-    2005984,
-    2006030,
-    2015680,
-    2021871,
-    2341550,
-    2518840
-  ]
+  "AesIV": "f3SldlvdmxF6E5mRgHbMLg=="
 }
