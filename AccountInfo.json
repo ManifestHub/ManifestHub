@@ -5,5 +5,22 @@
   "LastRefresh": "2024-05-24T21:14:18.9899613+00:00",
   "Index": "ALH8C-BCSE",
   "AesEncrypted": true,
-  "AesIV": "SIqFcp2I2WYrV3XuiSU8uQ=="
+  "AesIV": "SIqFcp2I2WYrV3XuiSU8uQ==",
+  "AppIds": [
+    34030,
+    34039,
+    34049,
+    34170,
+    34171,
+    34172,
+    34173,
+    34174,
+    34176,
+    34177,
+    34178,
+    34179,
+    34184,
+    38185,
+    206523
+  ]
 }
