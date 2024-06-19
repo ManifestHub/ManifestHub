@@ -5,20 +5,5 @@
   "LastRefresh": "2024-05-23T18:41:15.3419286+00:00",
   "Index": "S4KCP-APUG",
   "AesEncrypted": true,
-  "AesIV": "VTQql6UwlC3bywB1mdVoYg==",
-  "AppIds": [
-    228380,
-    272860,
-    361580,
-    893310,
-    1131170,
-    1135430,
-    1135431,
-    1135432,
-    1135433,
-    1135434,
-    1135435,
-    1135437,
-    1135438
-  ]
+  "AesIV": "VTQql6UwlC3bywB1mdVoYg=="
 }
