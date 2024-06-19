@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-15T12:34:06.4984533+00:00",
   "Index": "SCAYK-LAVE",
   "AesEncrypted": true,
-  "AesIV": "Yx83+YPgrNM14PUoXeaALg=="
+  "AesIV": "Yx83+YPgrNM14PUoXeaALg==",
+  "AppIds": [
+    367520,
+    527230
+  ]
 }
