@@ -5,13 +5,5 @@
   "LastRefresh": "2024-05-23T21:18:13.5768254+00:00",
   "Index": "SWPCT-BYUL",
   "AesEncrypted": true,
-  "AesIV": "9IdnQ+u37mu+sRP1ZOKiBA==",
-  "AppIds": [
-    1004750,
-    1101810,
-    1101830,
-    1101870,
-    1101880,
-    1101890
-  ]
+  "AesIV": "9IdnQ+u37mu+sRP1ZOKiBA=="
 }
