@@ -5,18 +5,5 @@
   "LastRefresh": "2024-06-11T12:30:04.2697403+00:00",
   "Index": "ATHYQ-HT4L",
   "AesEncrypted": true,
-  "AesIV": "ShekenCR/gsNkpq58IRdRw==",
-  "AppIds": [
-    2161700,
-    2322840,
-    2334530,
-    2334531,
-    2334532,
-    2334533,
-    2334534,
-    2334535,
-    2334536,
-    2517300,
-    2517310
-  ]
+  "AesIV": "ShekenCR/gsNkpq58IRdRw=="
 }
