@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T02:04:21.2976981+00:00",
   "Index": "ATW6P-NHXL",
   "AesEncrypted": true,
-  "AesIV": "AalzmZyUJIiPrCYrSRzOwg=="
+  "AesIV": "AalzmZyUJIiPrCYrSRzOwg==",
+  "AppIds": [
+    686200
+  ]
 }
