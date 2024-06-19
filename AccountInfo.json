@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-22T15:44:01.4872374+00:00",
   "Index": "SUCMR-VFWL",
   "AesEncrypted": true,
-  "AesIV": "yjmYyADF5+wXaKgF2pDu7Q==",
-  "AppIds": [
-    2113920,
-    2252080,
-    2252081
-  ]
+  "AesIV": "yjmYyADF5+wXaKgF2pDu7Q=="
 }
