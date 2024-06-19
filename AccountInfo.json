@@ -5,12 +5,5 @@
   "LastRefresh": "2024-06-05T19:16:55.9586631+00:00",
   "Index": "AE5DJ-MASG",
   "AesEncrypted": true,
-  "AesIV": "nEBx/ZmCM/EeISWZEx4eJA==",
-  "AppIds": [
-    588650,
-    1204130,
-    1451460,
-    1514690,
-    1580050
-  ]
+  "AesIV": "nEBx/ZmCM/EeISWZEx4eJA=="
 }
