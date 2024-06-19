@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-20T22:18:33.0127059+00:00",
   "Index": "SWCL2-2VYL",
   "AesEncrypted": true,
-  "AesIV": "QZ014KSi50akR3sbss/+dA=="
+  "AesIV": "QZ014KSi50akR3sbss/+dA==",
+  "AppIds": [
+    1501750,
+    2370550,
+    2387880
+  ]
 }
