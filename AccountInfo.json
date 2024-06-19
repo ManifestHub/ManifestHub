@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-23T03:16:42.1155133+00:00",
   "Index": "SUCRX-GNTA",
   "AesEncrypted": true,
-  "AesIV": "vqsz2CjX8KjUDpnBt+GN8A=="
+  "AesIV": "vqsz2CjX8KjUDpnBt+GN8A==",
+  "AppIds": [
+    240720,
+    253860,
+    253940
+  ]
 }
