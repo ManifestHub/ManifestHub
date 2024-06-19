@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-29T03:43:07.6149665+00:00",
   "Index": "SEWAM-KCXE",
   "AesEncrypted": true,
-  "AesIV": "uQ5Qs6bdB/+x3vKa25m+GQ==",
-  "AppIds": [
-    324800,
-    565840,
-    592460,
-    592461
-  ]
+  "AesIV": "uQ5Qs6bdB/+x3vKa25m+GQ=="
 }
