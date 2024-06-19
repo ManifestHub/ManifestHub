@@ -5,5 +5,18 @@
   "LastRefresh": "2024-05-28T23:15:35.204912+00:00",
   "Index": "SCDJK-SASL",
   "AesEncrypted": true,
-  "AesIV": "WxD8zU97ujHMfFt4sZgCdw=="
+  "AesIV": "WxD8zU97ujHMfFt4sZgCdw==",
+  "AppIds": [
+    1178830,
+    1554690,
+    1780970,
+    1781000,
+    1781070,
+    1781100,
+    1781130,
+    1870120,
+    1870121,
+    2218530,
+    2218531
+  ]
 }
