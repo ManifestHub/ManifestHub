@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-09T06:25:31.4894256+00:00",
   "Index": "AB29S-PDWA",
   "AesEncrypted": true,
-  "AesIV": "Wu/vbTaoJ8QbTO4VccNK5A=="
+  "AesIV": "Wu/vbTaoJ8QbTO4VccNK5A==",
+  "AppIds": [
+    1862520,
+    1970300
+  ]
 }
