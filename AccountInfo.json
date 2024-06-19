@@ -5,13 +5,5 @@
   "LastRefresh": "2024-06-05T14:20:12.1282564+00:00",
   "Index": "SNFFP-BMSG",
   "AesEncrypted": true,
-  "AesIV": "IElNIQCiD6syAbzSgtR0Uw==",
-  "AppIds": [
-    610370,
-    1279740,
-    1287600,
-    1287601,
-    1287602,
-    1308850
-  ]
+  "AesIV": "IElNIQCiD6syAbzSgtR0Uw=="
 }
