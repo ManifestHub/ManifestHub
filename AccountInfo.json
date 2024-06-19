@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-22T09:21:21.7345051+00:00",
   "Index": "SS8MF-APTA",
   "AesEncrypted": true,
-  "AesIV": "e1ZXvPeaIEpESUf0X2W+XQ=="
+  "AesIV": "e1ZXvPeaIEpESUf0X2W+XQ==",
+  "AppIds": [
+    233860,
+    233870,
+    468550,
+    1593640
+  ]
 }
