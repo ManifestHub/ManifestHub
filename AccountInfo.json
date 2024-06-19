@@ -5,5 +5,17 @@
   "LastRefresh": "2024-05-22T17:12:00.0038062+00:00",
   "Index": "SDRBZ-HGVE",
   "AesEncrypted": true,
-  "AesIV": "J70KwbNXfCBhlZi+8fhuWg=="
+  "AesIV": "J70KwbNXfCBhlZi+8fhuWg==",
+  "AppIds": [
+    502500,
+    868310,
+    868311,
+    868312,
+    929100,
+    929101,
+    929102,
+    929104,
+    929105,
+    929106
+  ]
 }
