@@ -5,5 +5,15 @@
   "LastRefresh": "2024-06-16T13:22:46.8657624+00:00",
   "Index": "AKRGT-5KQQ",
   "AesEncrypted": true,
-  "AesIV": "6m2XWnU9iMdPcxx5ods8Cg=="
+  "AesIV": "6m2XWnU9iMdPcxx5ods8Cg==",
+  "AppIds": [
+    252490,
+    391750,
+    578080,
+    622590,
+    700580,
+    813000,
+    1147560,
+    1776090
+  ]
 }
