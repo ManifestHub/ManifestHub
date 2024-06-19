@@ -5,16 +5,5 @@
   "LastRefresh": "2024-06-15T04:24:59.3338747+00:00",
   "Index": "S6VNM-GSTC",
   "AesEncrypted": true,
-  "AesIV": "1tA1Y/dfZG/ZsSVSiMFKfQ==",
-  "AppIds": [
-    1015500,
-    1132780,
-    1133550,
-    1133551,
-    1146520,
-    1146521,
-    1146522,
-    1146523,
-    1152560
-  ]
+  "AesIV": "1tA1Y/dfZG/ZsSVSiMFKfQ=="
 }
