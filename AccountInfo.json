@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T06:45:30.5218762+00:00",
   "Index": "SDZFT-BGTE",
   "AesEncrypted": true,
-  "AesIV": "RaV0k6z70Z3W5d41x6oJbA=="
+  "AesIV": "RaV0k6z70Z3W5d41x6oJbA==",
+  "AppIds": [
+    413420
+  ]
 }
