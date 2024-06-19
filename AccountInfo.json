@@ -5,13 +5,5 @@
   "LastRefresh": "2024-05-21T08:20:10.9780729+00:00",
   "Index": "SEMUS-H2XL",
   "AesEncrypted": true,
-  "AesIV": "4f46sYZdLu3cliE77fwfsA==",
-  "AppIds": [
-    1466860,
-    1668560,
-    1668570,
-    1797050,
-    1846820,
-    2131250
-  ]
+  "AesIV": "4f46sYZdLu3cliE77fwfsA=="
 }
