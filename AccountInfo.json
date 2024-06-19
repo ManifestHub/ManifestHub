@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-28T19:41:00.4896796+00:00",
   "Index": "AB64W-MBTE",
   "AesEncrypted": true,
-  "AesIV": "ZIuS1tTv5ReyYz86PQ00xQ==",
-  "AppIds": [
-    218620,
-    254260,
-    267381,
-    368870
-  ]
+  "AesIV": "ZIuS1tTv5ReyYz86PQ00xQ=="
 }
