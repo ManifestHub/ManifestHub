@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T09:15:50.908157+00:00",
   "Index": "ATZ53-JMSG",
   "AesEncrypted": true,
-  "AesIV": "Lyw/v42Wus/xGv95xBduzg=="
+  "AesIV": "Lyw/v42Wus/xGv95xBduzg==",
+  "AppIds": [
+    1137460
+  ]
 }
