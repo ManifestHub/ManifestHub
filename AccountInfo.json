@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-29T01:04:39.8076476+00:00",
   "Index": "SRMZX-NUSE",
   "AesEncrypted": true,
-  "AesIV": "ij0wNwS+SPo9DgL+m0pNjA=="
+  "AesIV": "ij0wNwS+SPo9DgL+m0pNjA==",
+  "AppIds": [
+    1061090,
+    2245910
+  ]
 }
