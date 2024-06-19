@@ -5,11 +5,5 @@
   "LastRefresh": "2024-06-02T23:15:38.0789572+00:00",
   "Index": "AZUPY-TBVC",
   "AesEncrypted": true,
-  "AesIV": "WTnopBynxnTGQhQYqbBTjg==",
-  "AppIds": [
-    1330660,
-    2052580,
-    2052581,
-    2057990
-  ]
+  "AesIV": "WTnopBynxnTGQhQYqbBTjg=="
 }
