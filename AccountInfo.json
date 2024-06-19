@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-29T06:20:49.3792861+00:00",
   "Index": "ANUBR-MCPE",
   "AesEncrypted": true,
-  "AesIV": "gKlr4ImyzaX9Cs0Y4oTEVQ=="
+  "AesIV": "gKlr4ImyzaX9Cs0Y4oTEVQ==",
+  "AppIds": [
+    724970,
+    1075740,
+    1435670
+  ]
 }
