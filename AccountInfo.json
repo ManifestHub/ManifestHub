@@ -5,22 +5,5 @@
   "LastRefresh": "2024-05-29T05:39:08.7782368+00:00",
   "Index": "SNFW3-VZPA",
   "AesEncrypted": true,
-  "AesIV": "pyfUuwlPr8YyxWuByq1Wkw==",
-  "AppIds": [
-    582160,
-    660080,
-    662350,
-    662351,
-    662352,
-    662353,
-    683850,
-    722300,
-    736942,
-    939960,
-    995531,
-    1019510,
-    1019511,
-    1019512,
-    1019513
-  ]
+  "AesIV": "pyfUuwlPr8YyxWuByq1Wkw=="
 }
