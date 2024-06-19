@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-27T22:40:23.1106781+00:00",
   "Index": "SH779-YZSN",
   "AesEncrypted": true,
-  "AesIV": "py2CZznydAIAUzEiyeaeLg==",
-  "AppIds": [
-    261550,
-    688470,
-    1393600,
-    1863440,
-    2240110
-  ]
+  "AesIV": "py2CZznydAIAUzEiyeaeLg=="
 }
