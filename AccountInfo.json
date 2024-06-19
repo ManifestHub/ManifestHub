@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-22T11:16:56.5805749+00:00",
   "Index": "ARRAB-ESTA",
   "AesEncrypted": true,
-  "AesIV": "NRlxZqpk5WwzKhAwBk+yYg=="
+  "AesIV": "NRlxZqpk5WwzKhAwBk+yYg==",
+  "AppIds": [
+    866800
+  ]
 }
