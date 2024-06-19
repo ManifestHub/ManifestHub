@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-14T19:17:55.2539799+00:00",
   "Index": "SEALD-MUSE",
   "AesEncrypted": true,
-  "AesIV": "Szj+BBMzguRJtYiBuNYmZw==",
-  "AppIds": [
-    242860,
-    562640
-  ]
+  "AesIV": "Szj+BBMzguRJtYiBuNYmZw=="
 }
