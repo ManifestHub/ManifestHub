@@ -5,14 +5,5 @@
   "LastRefresh": "2024-05-23T02:30:47.9679192+00:00",
   "Index": "AAEP6-FATG",
   "AesEncrypted": true,
-  "AesIV": "H8Q+DkqaBrLoo7ZbB/yOBw==",
-  "AppIds": [
-    678960,
-    773991,
-    774011,
-    875950,
-    875960,
-    875980,
-    876000
-  ]
+  "AesIV": "H8Q+DkqaBrLoo7ZbB/yOBw=="
 }
