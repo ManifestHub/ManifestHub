@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-29T04:40:56.6409591+00:00",
   "Index": "SVAR8-52VE",
   "AesEncrypted": true,
-  "AesIV": "GMd/8WeYHPNla242NWhojw==",
-  "AppIds": [
-    385080,
-    412150,
-    526790,
-    1644960
-  ]
+  "AesIV": "GMd/8WeYHPNla242NWhojw=="
 }
