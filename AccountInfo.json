@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-12T08:25:01.0335286+00:00",
   "Index": "SPF47-NTTA",
   "AesEncrypted": true,
-  "AesIV": "887bYjL0aaG2fkv1FSZ7Iw==",
-  "AppIds": [
-    4000,
-    436500
-  ]
+  "AesIV": "887bYjL0aaG2fkv1FSZ7Iw=="
 }
