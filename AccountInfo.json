@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-28T21:14:28.4867952+00:00",
   "Index": "SMCFG-M6XL",
   "AesEncrypted": true,
-  "AesIV": "XhKdnuPeHDCdqWFfuFql5Q==",
-  "AppIds": [
-    885000
-  ]
+  "AesIV": "XhKdnuPeHDCdqWFfuFql5Q=="
 }
