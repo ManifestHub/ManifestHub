@@ -5,14 +5,5 @@
   "LastRefresh": "2024-06-05T03:19:07.4076065+00:00",
   "Index": "ATSGZ-SFEJ",
   "AesEncrypted": true,
-  "AesIV": "qXJa5iIhimkcs1kcozCkQQ==",
-  "AppIds": [
-    433850,
-    439700,
-    578080,
-    622590,
-    813000,
-    817790,
-    1776090
-  ]
+  "AesIV": "qXJa5iIhimkcs1kcozCkQQ=="
 }
