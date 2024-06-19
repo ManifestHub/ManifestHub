@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-23T06:46:35.781132+00:00",
   "Index": "ADECT-PEUA",
   "AesEncrypted": true,
-  "AesIV": "al2AX6Kuctdzx/iCPjJZTQ==",
-  "AppIds": [
-    485980,
-    599050,
-    635030,
-    938490
-  ]
+  "AesIV": "al2AX6Kuctdzx/iCPjJZTQ=="
 }
