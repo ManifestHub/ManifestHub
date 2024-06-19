@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-04T11:20:05.6114176+00:00",
   "Index": "S7KYP-A5TE",
   "AesEncrypted": true,
-  "AesIV": "A68RFp3tkZ6ENrjBzS3gKQ=="
+  "AesIV": "A68RFp3tkZ6ENrjBzS3gKQ==",
+  "AppIds": [
+    1053680
+  ]
 }
