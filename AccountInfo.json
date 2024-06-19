@@ -5,19 +5,5 @@
   "LastRefresh": "2024-06-18T20:17:08.7565877+00:00",
   "Index": "AJUZZ-M9GL",
   "AesEncrypted": true,
-  "AesIV": "NAXZvzlCbJE7fYrXkqBpUg==",
-  "AppIds": [
-    46510,
-    394360,
-    460559,
-    460600,
-    460610,
-    472410,
-    530700,
-    530760,
-    563930,
-    584140,
-    642010,
-    702350
-  ]
+  "AesIV": "NAXZvzlCbJE7fYrXkqBpUg=="
 }
