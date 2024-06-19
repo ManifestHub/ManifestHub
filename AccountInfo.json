@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-28T22:21:47.3125584+00:00",
   "Index": "AZGCD-PESE",
   "AesEncrypted": true,
-  "AesIV": "VjDIJTltgspM5p33QtsjcA==",
-  "AppIds": [
-    670350
-  ]
+  "AesIV": "VjDIJTltgspM5p33QtsjcA=="
 }
