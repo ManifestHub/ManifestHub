@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-20T15:18:15.3308775+00:00",
   "Index": "S5849-QAVA",
   "AesEncrypted": true,
-  "AesIV": "me5tr9f1VFZfTBouDIr3HA=="
+  "AesIV": "me5tr9f1VFZfTBouDIr3HA==",
+  "AppIds": [
+    1434480,
+    1770090
+  ]
 }
