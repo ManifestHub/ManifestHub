@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T15:15:26.2142341+00:00",
   "Index": "SQU44-N2WL",
   "AesEncrypted": true,
-  "AesIV": "RgEKHCLSGZKW/SIz42MfHg=="
+  "AesIV": "RgEKHCLSGZKW/SIz42MfHg==",
+  "AppIds": [
+    2216130
+  ]
 }
