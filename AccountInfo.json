@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-17T06:23:52.5553044+00:00",
   "Index": "S54RC-2LDA",
   "AesEncrypted": true,
-  "AesIV": "Qhbm5DRKMi2+34pBS097Iw==",
-  "AppIds": [
-    431960,
-    1790230
-  ]
+  "AesIV": "Qhbm5DRKMi2+34pBS097Iw=="
 }
