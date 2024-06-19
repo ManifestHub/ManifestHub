@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-23T22:16:40.2680519+00:00",
   "Index": "SMB5A-GDSG",
   "AesEncrypted": true,
-  "AesIV": "2C+y48Ek+Ffwp2eqls5Qyg==",
-  "AppIds": [
-    335030,
-    712100,
-    817480,
-    884620
-  ]
+  "AesIV": "2C+y48Ek+Ffwp2eqls5Qyg=="
 }
