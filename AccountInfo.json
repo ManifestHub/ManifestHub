@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T00:59:21.3786199+00:00",
   "Index": "SWNAU-AZVL",
   "AesEncrypted": true,
-  "AesIV": "G7dfGKajzDBd1Omv7Wsn+A=="
+  "AesIV": "G7dfGKajzDBd1Omv7Wsn+A==",
+  "AppIds": [
+    1024380
+  ]
 }
