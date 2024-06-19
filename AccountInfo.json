@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-22T07:18:40.3760023+00:00",
   "Index": "SAECP-PJPC",
   "AesEncrypted": true,
-  "AesIV": "F/c9tjZ1b5h7DqxYg17y5A==",
-  "AppIds": [
-    578080,
-    622590,
-    813000,
-    1776090
-  ]
+  "AesIV": "F/c9tjZ1b5h7DqxYg17y5A=="
 }
