@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-14T06:21:48.2593669+00:00",
   "Index": "SCDUL-EZSL",
   "AesEncrypted": true,
-  "AesIV": "EBipD4lR+GLkx/Nm8k6XbQ=="
+  "AesIV": "EBipD4lR+GLkx/Nm8k6XbQ==",
+  "AppIds": [
+    1167630
+  ]
 }
