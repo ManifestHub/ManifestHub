@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-29T12:29:36.1356095+00:00",
   "Index": "AUUTZ-KRSC",
   "AesEncrypted": true,
-  "AesIV": "C2HAmKuXfgdOtn3JzAfWxQ==",
-  "AppIds": [
-    1172450,
-    1460270
-  ]
+  "AesIV": "C2HAmKuXfgdOtn3JzAfWxQ=="
 }
