@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-06T03:17:47.7007195+00:00",
   "Index": "SPASW-4TXC",
   "AesEncrypted": true,
-  "AesIV": "1kWga2ytNOCs9GzSg+RWgQ=="
+  "AesIV": "1kWga2ytNOCs9GzSg+RWgQ==",
+  "AppIds": [
+    648800
+  ]
 }
