@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T08:21:09.5256946+00:00",
   "Index": "AP7NC-AKTE",
   "AesEncrypted": true,
-  "AesIV": "wLt9SxFlsVMyG0sXr8TA0w=="
+  "AesIV": "wLt9SxFlsVMyG0sXr8TA0w==",
+  "AppIds": [
+    1046030
+  ]
 }
