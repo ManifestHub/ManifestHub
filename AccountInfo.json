@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T07:15:25.3613333+00:00",
   "Index": "STQ39-MDTA",
   "AesEncrypted": true,
-  "AesIV": "GKBxufjEmEifV72RwxTiwA=="
+  "AesIV": "GKBxufjEmEifV72RwxTiwA==",
+  "AppIds": [
+    1239050
+  ]
 }
