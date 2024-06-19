@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-23T09:17:55.2588143+00:00",
   "Index": "SST7X-PBUG",
   "AesEncrypted": true,
-  "AesIV": "EqRI336pJdiPg06QwoNVow==",
-  "AppIds": [
-    1372810,
-    1565920,
-    1565921
-  ]
+  "AesIV": "EqRI336pJdiPg06QwoNVow=="
 }
