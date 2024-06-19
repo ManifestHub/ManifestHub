@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-17T08:20:14.1291239+00:00",
   "Index": "SA3ZH-TBPQ",
   "AesEncrypted": true,
-  "AesIV": "7jhVRLRxxsmhwho/MfrAtg==",
-  "AppIds": [
-    271590,
-    362003,
-    771300
-  ]
+  "AesIV": "7jhVRLRxxsmhwho/MfrAtg=="
 }
