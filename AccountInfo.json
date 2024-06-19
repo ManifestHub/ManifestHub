@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-23T21:18:31.554208+00:00",
   "Index": "ABTSM-BNSA",
   "AesEncrypted": true,
-  "AesIV": "LCbCucx3SebuUjYVVPF14Q==",
-  "AppIds": [
-    1202900,
-    1293620
-  ]
+  "AesIV": "LCbCucx3SebuUjYVVPF14Q=="
 }
