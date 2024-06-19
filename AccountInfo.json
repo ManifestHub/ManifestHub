@@ -5,5 +5,12 @@
   "LastRefresh": "2024-05-29T08:38:20.3756687+00:00",
   "Index": "SD59S-3NNL",
   "AesEncrypted": true,
-  "AesIV": "NEGnl3zLOQ4TZGPF7zZSRA=="
+  "AesIV": "NEGnl3zLOQ4TZGPF7zZSRA==",
+  "AppIds": [
+    681810,
+    681820,
+    681830,
+    681840,
+    872410
+  ]
 }
