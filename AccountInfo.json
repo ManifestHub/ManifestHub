@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-07T14:21:18.4451745+00:00",
   "Index": "SEXX3-HPTG",
   "AesEncrypted": true,
-  "AesIV": "3Jj3sFw7IznpXK+n4DRziw=="
+  "AesIV": "3Jj3sFw7IznpXK+n4DRziw==",
+  "AppIds": [
+    616560
+  ]
 }
