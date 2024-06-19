@@ -5,14 +5,5 @@
   "LastRefresh": "2024-06-18T16:20:14.1396479+00:00",
   "Index": "SVFSF-ZHEN",
   "AesEncrypted": true,
-  "AesIV": "IA/6IhfOqMEb94xUumPjkA==",
-  "AppIds": [
-    374040,
-    578080,
-    622590,
-    813000,
-    998940,
-    1012220,
-    1776090
-  ]
+  "AesIV": "IA/6IhfOqMEb94xUumPjkA=="
 }
