@@ -5,5 +5,10 @@
   "LastRefresh": "2024-06-10T19:12:48.8933391+00:00",
   "Index": "AL584-HSUG",
   "AesEncrypted": true,
-  "AesIV": "xGz10yRlOQUeE9bMePclbw=="
+  "AesIV": "xGz10yRlOQUeE9bMePclbw==",
+  "AppIds": [
+    850000,
+    931670,
+    1281010
+  ]
 }
