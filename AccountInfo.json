@@ -5,8 +5,5 @@
   "LastRefresh": "2024-06-09T17:15:45.5432139+00:00",
   "Index": "SCSXK-ABTG",
   "AesEncrypted": true,
-  "AesIV": "gjTRoFHCF00SsLfsuHMwtA==",
-  "AppIds": [
-    1213210
-  ]
+  "AesIV": "gjTRoFHCF00SsLfsuHMwtA=="
 }
