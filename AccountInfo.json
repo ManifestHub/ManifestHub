@@ -5,12 +5,5 @@
   "LastRefresh": "2024-06-07T08:22:57.6163362+00:00",
   "Index": "SWFSX-K6XL",
   "AesEncrypted": true,
-  "AesIV": "UXXxNXwiWwQjyussj4M7GQ==",
-  "AppIds": [
-    263280,
-    367690,
-    567210,
-    581010,
-    704850
-  ]
+  "AesIV": "UXXxNXwiWwQjyussj4M7GQ=="
 }
