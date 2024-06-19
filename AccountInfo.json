@@ -5,21 +5,5 @@
   "LastRefresh": "2024-05-23T23:15:16.7526467+00:00",
   "Index": "SSECK-YYTL",
   "AesEncrypted": true,
-  "AesIV": "sAykybL5gqaTfyuY2c1Adg==",
-  "AppIds": [
-    211,
-    215,
-    218,
-    550,
-    563,
-    564,
-    222860,
-    223540,
-    227040,
-    227050,
-    1132070,
-    1189630,
-    1287840,
-    1407450
-  ]
+  "AesIV": "sAykybL5gqaTfyuY2c1Adg=="
 }
