@@ -5,5 +5,11 @@
   "LastRefresh": "2024-06-02T01:09:48.1220838+00:00",
   "Index": "ATBU4-ETTE",
   "AesEncrypted": true,
-  "AesIV": "C7ClXoBY7qX31Z/NyuW7lw=="
+  "AesIV": "C7ClXoBY7qX31Z/NyuW7lw==",
+  "AppIds": [
+    428550,
+    449360,
+    656200,
+    743930
+  ]
 }
