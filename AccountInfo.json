@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-23T09:36:51.962473+00:00",
   "Index": "AML5X-BSSE",
   "AesEncrypted": true,
-  "AesIV": "AHbIAoPXZzWcewS0E2bHAw=="
+  "AesIV": "AHbIAoPXZzWcewS0E2bHAw==",
+  "AppIds": [
+    973760,
+    980570,
+    1232080
+  ]
 }
