@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-28T22:38:53.0619457+00:00",
   "Index": "ATRM9-JTSG",
   "AesEncrypted": true,
-  "AesIV": "7f3fLiqfCATK7tt3w5dzZA==",
-  "AppIds": [
-    1377380,
-    1420710
-  ]
+  "AesIV": "7f3fLiqfCATK7tt3w5dzZA=="
 }
