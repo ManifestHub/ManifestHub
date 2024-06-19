@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-04T09:18:17.9585332+00:00",
   "Index": "ADAJM-SRSG",
   "AesEncrypted": true,
-  "AesIV": "wrCT+k+oVT/5bBNukvFelg=="
+  "AesIV": "wrCT+k+oVT/5bBNukvFelg==",
+  "AppIds": [
+    1615290
+  ]
 }
