@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T21:17:43.4460759+00:00",
   "Index": "A2PF4-CBUG",
   "AesEncrypted": true,
-  "AesIV": "JaaNafoo3ZMRbZrVj81/Bw=="
+  "AesIV": "JaaNafoo3ZMRbZrVj81/Bw==",
+  "AppIds": [
+    1184050,
+    1190291
+  ]
 }
