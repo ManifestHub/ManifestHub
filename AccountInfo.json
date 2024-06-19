@@ -5,5 +5,13 @@
   "LastRefresh": "2024-05-23T11:43:40.4694923+00:00",
   "Index": "SCSJS-T5VN",
   "AesEncrypted": true,
-  "AesIV": "AD3LIenZGW2zZbgmrVbYag=="
+  "AesIV": "AD3LIenZGW2zZbgmrVbYag==",
+  "AppIds": [
+    1061880,
+    1069740,
+    1247100,
+    1472660,
+    1697700,
+    1731330
+  ]
 }
