@@ -5,19 +5,5 @@
   "LastRefresh": "2024-06-14T15:19:09.8497448+00:00",
   "Index": "ADSUP-LJUG",
   "AesEncrypted": true,
-  "AesIV": "ntPlA5yep8ZkjMBPgfXHsA==",
-  "AppIds": [
-    1173770,
-    1173780,
-    1173790,
-    1173800,
-    1173810,
-    1173820,
-    1638280,
-    1638320,
-    1638370,
-    1638380,
-    1638400,
-    1638420
-  ]
+  "AesIV": "ntPlA5yep8ZkjMBPgfXHsA=="
 }
