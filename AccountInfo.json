@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T02:43:32.1548619+00:00",
   "Index": "SGE89-HXZL",
   "AesEncrypted": true,
-  "AesIV": "51wrF0uXRMxWAwcbw+PC5w=="
+  "AesIV": "51wrF0uXRMxWAwcbw+PC5w==",
+  "AppIds": [
+    1094060
+  ]
 }
