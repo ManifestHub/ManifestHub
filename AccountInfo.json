@@ -5,8 +5,5 @@
   "LastRefresh": "2024-06-16T15:51:14.7164674+00:00",
   "Index": "S3SUG-PZYQ",
   "AesEncrypted": true,
-  "AesIV": "AN7ASeIZOHhGeDv9pfR/Iw==",
-  "AppIds": [
-    2343600
-  ]
+  "AesIV": "AN7ASeIZOHhGeDv9pfR/Iw=="
 }
