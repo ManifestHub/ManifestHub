@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-22T14:16:42.5947525+00:00",
   "Index": "A95C9-QDSA",
   "AesEncrypted": true,
-  "AesIV": "2XHaMbi+1UikMk2MtvJP5A==",
-  "AppIds": [
-    370280,
-    1002560
-  ]
+  "AesIV": "2XHaMbi+1UikMk2MtvJP5A=="
 }
