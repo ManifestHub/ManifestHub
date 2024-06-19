@@ -5,13 +5,5 @@
   "LastRefresh": "2024-05-29T06:24:09.096718+00:00",
   "Index": "SRS7U-CUWN",
   "AesEncrypted": true,
-  "AesIV": "AoR7e5ijpwqmCmxvka5N6g==",
-  "AppIds": [
-    2130460,
-    2257210,
-    2257211,
-    2257212,
-    2257213,
-    2257214
-  ]
+  "AesIV": "AoR7e5ijpwqmCmxvka5N6g=="
 }
