@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-24T23:12:06.973436+00:00",
   "Index": "ALCSK-LWVC",
   "AesEncrypted": true,
-  "AesIV": "hvXsUKXc9c8K4G2YgG+0NA==",
-  "AppIds": [
-    1735950,
-    1879380,
-    1945200,
-    1963460
-  ]
+  "AesIV": "hvXsUKXc9c8K4G2YgG+0NA=="
 }
