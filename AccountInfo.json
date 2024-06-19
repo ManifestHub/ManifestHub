@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-24T10:17:38.0123359+00:00",
   "Index": "AJWMM-KEVE",
   "AesEncrypted": true,
-  "AesIV": "4bGIFt2DBA+S8yERHThGMQ==",
-  "AppIds": [
-    1828700,
-    1883260,
-    2055110,
-    2058630
-  ]
+  "AesIV": "4bGIFt2DBA+S8yERHThGMQ=="
 }
