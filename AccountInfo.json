@@ -5,8 +5,5 @@
   "LastRefresh": "2024-06-06T02:34:42.1516631+00:00",
   "Index": "SSSTB-NQSA",
   "AesEncrypted": true,
-  "AesIV": "UPZNzcfXCQXRTax91hU4iQ==",
-  "AppIds": [
-    720560
-  ]
+  "AesIV": "UPZNzcfXCQXRTax91hU4iQ=="
 }
