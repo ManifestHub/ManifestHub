@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-31T20:17:37.6461052+00:00",
   "Index": "SNPL7-QLYL",
   "AesEncrypted": true,
-  "AesIV": "/AinP+fJq+a++OoC7OxwTw=="
+  "AesIV": "/AinP+fJq+a++OoC7OxwTw==",
+  "AppIds": [
+    1686840
+  ]
 }
