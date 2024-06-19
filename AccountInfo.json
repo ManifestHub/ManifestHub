@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-24T23:13:07.5360449+00:00",
   "Index": "S52AW-KFSC",
   "AesEncrypted": true,
-  "AesIV": "k6LtZ0U8oCI4ekysuxftrA==",
-  "AppIds": [
-    577230,
-    692770,
-    1034160,
-    1520720
-  ]
+  "AesIV": "k6LtZ0U8oCI4ekysuxftrA=="
 }
