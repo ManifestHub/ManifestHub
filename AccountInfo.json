@@ -5,5 +5,14 @@
   "LastRefresh": "2024-05-23T18:16:50.5881548+00:00",
   "Index": "AY75C-JKSG",
   "AesEncrypted": true,
-  "AesIV": "Y/L68boAmWDNZWIkiiQQmw=="
+  "AesIV": "Y/L68boAmWDNZWIkiiQQmw==",
+  "AppIds": [
+    824550,
+    1938444,
+    1938451,
+    1938452,
+    1938453,
+    1938454,
+    1938456
+  ]
 }
