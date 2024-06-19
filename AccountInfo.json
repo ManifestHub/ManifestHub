@@ -5,15 +5,5 @@
   "LastRefresh": "2024-06-11T21:33:14.9384117+00:00",
   "Index": "SGAKK-LUTG",
   "AesEncrypted": true,
-  "AesIV": "5SS21BXcCqGoBIUSFf70nA==",
-  "AppIds": [
-    1167450,
-    1211671,
-    1211672,
-    1211673,
-    1211674,
-    1211675,
-    1211676,
-    1211680
-  ]
+  "AesIV": "5SS21BXcCqGoBIUSFf70nA=="
 }
