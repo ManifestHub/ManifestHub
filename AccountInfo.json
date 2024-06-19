@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T18:22:09.2689265+00:00",
   "Index": "SW436-H6SC",
   "AesEncrypted": true,
-  "AesIV": "W0d/Jp1/2rvMOK4vbC7Xog=="
+  "AesIV": "W0d/Jp1/2rvMOK4vbC7Xog==",
+  "AppIds": [
+    574720
+  ]
 }
