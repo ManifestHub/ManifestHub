@@ -5,5 +5,13 @@
   "LastRefresh": "2024-05-23T06:19:37.7576003+00:00",
   "Index": "ABDPC-FAUL",
   "AesEncrypted": true,
-  "AesIV": "WoH3Z7NuazMk73OOv8WoZw=="
+  "AesIV": "WoH3Z7NuazMk73OOv8WoZw==",
+  "AppIds": [
+    703860,
+    1085440,
+    1085450,
+    1085480,
+    1085490,
+    1085500
+  ]
 }
