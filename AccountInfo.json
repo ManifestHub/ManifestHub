@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-23T15:38:37.3361297+00:00",
   "Index": "SVBWP-7MVC",
   "AesEncrypted": true,
-  "AesIV": "LiIXLeWvCx5MJSsNuuuorA==",
-  "AppIds": [
-    1036890,
-    1895090,
-    1913640
-  ]
+  "AesIV": "LiIXLeWvCx5MJSsNuuuorA=="
 }
