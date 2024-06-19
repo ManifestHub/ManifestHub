@@ -5,15 +5,5 @@
   "LastRefresh": "2024-05-30T10:19:12.1243187+00:00",
   "Index": "AR2LC-UWTC",
   "AesEncrypted": true,
-  "AesIV": "KUvl1Qq1Dal5SyEpr9r99Q==",
-  "AppIds": [
-    775500,
-    1492380,
-    1590551,
-    1590560,
-    1590561,
-    1590562,
-    1590565,
-    1590610
-  ]
+  "AesIV": "KUvl1Qq1Dal5SyEpr9r99Q=="
 }
