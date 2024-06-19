@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-24T14:37:30.0939803+00:00",
   "Index": "ATC2H-WGSE",
   "AesEncrypted": true,
-  "AesIV": "3cQbeakWfK02k2ex4OyEBA==",
-  "AppIds": [
-    1108590
-  ]
+  "AesIV": "3cQbeakWfK02k2ex4OyEBA=="
 }
