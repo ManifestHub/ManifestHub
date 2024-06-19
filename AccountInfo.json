@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-11T02:36:19.4218079+00:00",
   "Index": "SN6FD-FGTE",
   "AesEncrypted": true,
-  "AesIV": "sBPJDUm1sOZ1MO1lZyoTeA=="
+  "AesIV": "sBPJDUm1sOZ1MO1lZyoTeA==",
+  "AppIds": [
+    455980,
+    847760
+  ]
 }
