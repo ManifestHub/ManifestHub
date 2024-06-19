@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T17:16:58.2575141+00:00",
   "Index": "SWUPT-PHUE",
   "AesEncrypted": true,
-  "AesIV": "xm9GNRkM79u5EBA/sfPdwg=="
+  "AesIV": "xm9GNRkM79u5EBA/sfPdwg==",
+  "AppIds": [
+    597760
+  ]
 }
