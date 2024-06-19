@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:19:07.0223905+00:00",
   "Index": "SYNR2-LEVN",
   "AesEncrypted": true,
-  "AesIV": "xlbsJl3LL0SwhB6441Br2w=="
+  "AesIV": "xlbsJl3LL0SwhB6441Br2w==",
+  "AppIds": [
+    1215390
+  ]
 }
