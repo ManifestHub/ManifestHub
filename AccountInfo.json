@@ -5,13 +5,5 @@
   "LastRefresh": "2024-05-23T08:21:26.3154963+00:00",
   "Index": "A5HZN-BPTG",
   "AesEncrypted": true,
-  "AesIV": "cN31iEuAIsmLELm1za2MEA==",
-  "AppIds": [
-    560130,
-    734830,
-    821940,
-    821950,
-    854220,
-    854290
-  ]
+  "AesIV": "cN31iEuAIsmLELm1za2MEA=="
 }
