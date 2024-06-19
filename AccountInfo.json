@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-23T23:14:13.7146976+00:00",
   "Index": "AUMGF-FSTE",
   "AesEncrypted": true,
-  "AesIV": "HRlIKyDBOgCfLpZVV/rdUw==",
-  "AppIds": [
-    20900,
-    20902
-  ]
+  "AesIV": "HRlIKyDBOgCfLpZVV/rdUw=="
 }
