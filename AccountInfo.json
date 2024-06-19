@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T00:59:03.7093899+00:00",
   "Index": "AT34M-RCVN",
   "AesEncrypted": true,
-  "AesIV": "wq+rjSXiV3DKhl48tQnEdg=="
+  "AesIV": "wq+rjSXiV3DKhl48tQnEdg==",
+  "AppIds": [
+    825630
+  ]
 }
