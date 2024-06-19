@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T11:42:59.7794298+00:00",
   "Index": "ATEAK-EHVE",
   "AesEncrypted": true,
-  "AesIV": "2obwiq7fzlM8F65k1y3BdQ=="
+  "AesIV": "2obwiq7fzlM8F65k1y3BdQ==",
+  "AppIds": [
+    638650
+  ]
 }
