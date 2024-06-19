@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-18T14:20:12.4763727+00:00",
   "Index": "SHCMS-JZTL",
   "AesEncrypted": true,
-  "AesIV": "jJBZokz8Fj1ffZJPMQNLFg=="
+  "AesIV": "jJBZokz8Fj1ffZJPMQNLFg==",
+  "AppIds": [
+    981750
+  ]
 }
