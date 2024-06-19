@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-28T20:16:11.2442264+00:00",
   "Index": "APRQW-PVSG",
   "AesEncrypted": true,
-  "AesIV": "k24NETsp6Eg5ey8d5M3lBg==",
-  "AppIds": [
-    900010
-  ]
+  "AesIV": "k24NETsp6Eg5ey8d5M3lBg=="
 }
