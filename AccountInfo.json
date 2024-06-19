@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:21:18.6869959+00:00",
   "Index": "AVADG-MYSL",
   "AesEncrypted": true,
-  "AesIV": "3PSMO4HnUsGXWmJGXpJ6Wg=="
+  "AesIV": "3PSMO4HnUsGXWmJGXpJ6Wg==",
+  "AppIds": [
+    1039960
+  ]
 }
