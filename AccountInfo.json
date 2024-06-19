@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-11T22:14:06.5282804+00:00",
   "Index": "SP2VA-FLUJ",
   "AesEncrypted": true,
-  "AesIV": "EYvy/hEPgWdElyj8QbBbJg==",
-  "AppIds": [
-    937170,
-    1054930
-  ]
+  "AesIV": "EYvy/hEPgWdElyj8QbBbJg=="
 }
