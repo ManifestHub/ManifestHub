@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T05:38:39.449181+00:00",
   "Index": "SCK34-BNYJ",
   "AesEncrypted": true,
-  "AesIV": "cfkuC7LgzDKevJ64eAYhqA=="
+  "AesIV": "cfkuC7LgzDKevJ64eAYhqA==",
+  "AppIds": [
+    1335790
+  ]
 }
