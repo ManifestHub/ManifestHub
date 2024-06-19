@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-07T05:15:39.9564651+00:00",
   "Index": "SXMTS-UCUG",
   "AesEncrypted": true,
-  "AesIV": "x/pTW8T/c8ZP0nZ5ueZVmg==",
-  "AppIds": [
-    108600,
-    380870,
-    380880
-  ]
+  "AesIV": "x/pTW8T/c8ZP0nZ5ueZVmg=="
 }
