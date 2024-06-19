@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-01T19:15:09.5209081+00:00",
   "Index": "SXRDV-MUVE",
   "AesEncrypted": true,
-  "AesIV": "VZcZeJPM6zlV5GUiqzAxew=="
+  "AesIV": "VZcZeJPM6zlV5GUiqzAxew==",
+  "AppIds": [
+    823610
+  ]
 }
