@@ -5,16 +5,5 @@
   "LastRefresh": "2024-06-04T06:22:26.0357888+00:00",
   "Index": "SPF2H-GUXN",
   "AesEncrypted": true,
-  "AesIV": "P74es2wWdZZXStjz0EOn6w==",
-  "AppIds": [
-    1448440,
-    2205890,
-    2205891,
-    2205892,
-    2205893,
-    2205894,
-    2205895,
-    2205896,
-    2232890
-  ]
+  "AesIV": "P74es2wWdZZXStjz0EOn6w=="
 }
