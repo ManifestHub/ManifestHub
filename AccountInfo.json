@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-11T20:18:18.339327+00:00",
   "Index": "AMXE3-NVZA",
   "AesEncrypted": true,
-  "AesIV": "D7MSN7kNWdxCSY66UGIHsA==",
-  "AppIds": [
-    340650,
-    1044450,
-    1817070
-  ]
+  "AesIV": "D7MSN7kNWdxCSY66UGIHsA=="
 }
