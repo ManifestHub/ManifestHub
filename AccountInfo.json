@@ -5,21 +5,5 @@
   "LastRefresh": "2024-06-18T05:18:01.0419021+00:00",
   "Index": "S544R-U9VA",
   "AesEncrypted": true,
-  "AesIV": "swItgS036iPLbtzKOuoTJw==",
-  "AppIds": [
-    225540,
-    348880,
-    388290,
-    388291,
-    388292,
-    388293,
-    388294,
-    400490,
-    400551,
-    401850,
-    442050,
-    442051,
-    442052,
-    1394800
-  ]
+  "AesIV": "swItgS036iPLbtzKOuoTJw=="
 }
