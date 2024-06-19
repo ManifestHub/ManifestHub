@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-24T07:14:58.3370704+00:00",
   "Index": "SFTCK-NAXA",
   "AesEncrypted": true,
-  "AesIV": "gmLY+v/WFK6OyCv5swySwg==",
-  "AppIds": [
-    1939790,
-    1944060,
-    2144700,
-    2144710
-  ]
+  "AesIV": "gmLY+v/WFK6OyCv5swySwg=="
 }
