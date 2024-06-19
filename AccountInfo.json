@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-02T12:24:47.6353726+00:00",
   "Index": "SPMD8-RMYQ",
   "AesEncrypted": true,
-  "AesIV": "pFb0aUEBrK7oGg9xAbWuEA==",
-  "AppIds": [
-    1868140,
-    2421110,
-    2492320
-  ]
+  "AesIV": "pFb0aUEBrK7oGg9xAbWuEA=="
 }
