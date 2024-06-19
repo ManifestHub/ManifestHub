@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-18T14:20:12.5744129+00:00",
   "Index": "AB82R-CZTE",
   "AesEncrypted": true,
-  "AesIV": "zIL7b58WoZDohNp157M8pA==",
-  "AppIds": [
-    846110,
-    1069230
-  ]
+  "AesIV": "zIL7b58WoZDohNp157M8pA=="
 }
