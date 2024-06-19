@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-23T21:40:03.9130247+00:00",
   "Index": "SN86B-KQSN",
   "AesEncrypted": true,
-  "AesIV": "RyPRCI2JmwgFuF+wxfdEYQ==",
-  "AppIds": [
-    1464930,
-    1598730,
-    1817750,
-    1912260,
-    2194120
-  ]
+  "AesIV": "RyPRCI2JmwgFuF+wxfdEYQ=="
 }
