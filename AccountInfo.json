@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-23T10:38:04.6932076+00:00",
   "Index": "AVVAM-96SQ",
   "AesEncrypted": true,
-  "AesIV": "qptR59xLCblMT67Y+W114A==",
-  "AppIds": [
-    1336980,
-    1681100,
-    1689051,
-    1689052,
-    1689053
-  ]
+  "AesIV": "qptR59xLCblMT67Y+W114A=="
 }
