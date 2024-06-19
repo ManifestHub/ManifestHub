@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-04T07:21:41.7863304+00:00",
   "Index": "ADLTC-U3TE",
   "AesEncrypted": true,
-  "AesIV": "+r30eV64/PplXFETCGIdhg=="
+  "AesIV": "+r30eV64/PplXFETCGIdhg==",
+  "AppIds": [
+    1419160
+  ]
 }
