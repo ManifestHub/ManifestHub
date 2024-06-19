@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:21:10.2837007+00:00",
   "Index": "ACEPF-UVXL",
   "AesEncrypted": true,
-  "AesIV": "Vt7y/oaA+RDfCAn0IWSaLg=="
+  "AesIV": "Vt7y/oaA+RDfCAn0IWSaLg==",
+  "AppIds": [
+    1496790
+  ]
 }
