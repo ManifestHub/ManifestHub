@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-23T05:18:38.2956656+00:00",
   "Index": "AVYMM-UWSJ",
   "AesEncrypted": true,
-  "AesIV": "YGZNeap6YeO9s0nqGQUteQ=="
+  "AesIV": "YGZNeap6YeO9s0nqGQUteQ==",
+  "AppIds": [
+    480490,
+    741820,
+    865670
+  ]
 }
