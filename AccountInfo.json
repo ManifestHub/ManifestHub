@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-07T22:16:57.1502768+00:00",
   "Index": "AZVSR-BYTL",
   "AesEncrypted": true,
-  "AesIV": "Bo9EkJsIcE+/aRmUowb/MA=="
+  "AesIV": "Bo9EkJsIcE+/aRmUowb/MA==",
+  "AppIds": [
+    108800
+  ]
 }
