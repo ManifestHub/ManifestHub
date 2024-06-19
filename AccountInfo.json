@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-24T03:41:54.3386317+00:00",
   "Index": "ASBYS-BUTL",
   "AesEncrypted": true,
-  "AesIV": "h8PsA50GmVRQKy6ci0HAhw==",
-  "AppIds": [
-    203160,
-    820540
-  ]
+  "AesIV": "h8PsA50GmVRQKy6ci0HAhw=="
 }
