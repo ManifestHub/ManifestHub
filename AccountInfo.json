@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-27T22:17:50.7879971+00:00",
   "Index": "SSMQG-XDVL",
   "AesEncrypted": true,
-  "AesIV": "2zlxeFIqLTn0CSbll3nDrw==",
-  "AppIds": [
-    1475810,
-    1702820,
-    1702821
-  ]
+  "AesIV": "2zlxeFIqLTn0CSbll3nDrw=="
 }
