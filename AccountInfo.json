@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-06T15:18:04.1848608+00:00",
   "Index": "AFHZ2-DB2A",
   "AesEncrypted": true,
-  "AesIV": "xFw7bMKS2ixeFm7zt+204A==",
-  "AppIds": [
-    269770,
-    379680
-  ]
+  "AesIV": "xFw7bMKS2ixeFm7zt+204A=="
 }
