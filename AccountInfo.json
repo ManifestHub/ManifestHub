@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-23T21:42:10.8325268+00:00",
   "Index": "ARDW4-KVTC",
   "AesEncrypted": true,
-  "AesIV": "r7E4IyO57HQQaPfKeFIDiw==",
-  "AppIds": [
-    618140,
-    1091500,
-    1495710
-  ]
+  "AesIV": "r7E4IyO57HQQaPfKeFIDiw=="
 }
