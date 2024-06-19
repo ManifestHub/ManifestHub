@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T01:02:31.5943869+00:00",
   "Index": "SZ935-PUUG",
   "AesEncrypted": true,
-  "AesIV": "JYxgacxdY82qBc+7bCM6iA=="
+  "AesIV": "JYxgacxdY82qBc+7bCM6iA==",
+  "AppIds": [
+    609320
+  ]
 }
