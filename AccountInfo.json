@@ -5,5 +5,19 @@
   "LastRefresh": "2024-06-07T13:16:20.6003906+00:00",
   "Index": "ACXBM-2LPA",
   "AesEncrypted": true,
-  "AesIV": "7uGopOcvRu2v38IE2au94w=="
+  "AesIV": "7uGopOcvRu2v38IE2au94w==",
+  "AppIds": [
+    527790,
+    582010,
+    759450,
+    759451,
+    759452,
+    759453,
+    762910,
+    762911,
+    763690,
+    763694,
+    891730,
+    912540
+  ]
 }
