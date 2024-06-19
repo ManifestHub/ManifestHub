@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-05T15:19:22.7755835+00:00",
   "Index": "STDB4-HKUL",
   "AesEncrypted": true,
-  "AesIV": "F9H4bDG3jn1bY+Ms4297FQ=="
+  "AesIV": "F9H4bDG3jn1bY+Ms4297FQ==",
+  "AppIds": [
+    292030
+  ]
 }
