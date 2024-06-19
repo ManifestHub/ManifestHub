@@ -5,15 +5,5 @@
   "LastRefresh": "2024-06-18T01:09:01.9121885+00:00",
   "Index": "S7N58-APTG",
   "AesEncrypted": true,
-  "AesIV": "yaRUn8yPmRWizby1oUl6eg==",
-  "AppIds": [
-    480490,
-    485460,
-    509590,
-    741820,
-    865670,
-    870847,
-    870848,
-    870849
-  ]
+  "AesIV": "yaRUn8yPmRWizby1oUl6eg=="
 }
