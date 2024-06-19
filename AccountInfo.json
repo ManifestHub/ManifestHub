@@ -5,25 +5,5 @@
   "LastRefresh": "2024-05-23T19:17:32.2813101+00:00",
   "Index": "ASQPL-H5TG",
   "AesEncrypted": true,
-  "AesIV": "aQYRTH1ILC0QbKfXUAs+wA==",
-  "AppIds": [
-    55230,
-    55380,
-    55381,
-    55382,
-    55385,
-    55386,
-    55387,
-    55388,
-    55389,
-    55390,
-    55391,
-    55392,
-    55395,
-    55396,
-    55397,
-    55398,
-    55399,
-    55400
-  ]
+  "AesIV": "aQYRTH1ILC0QbKfXUAs+wA=="
 }
