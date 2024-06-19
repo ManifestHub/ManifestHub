@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-11T22:14:03.7762636+00:00",
   "Index": "AAW47-JMUE",
   "AesEncrypted": true,
-  "AesIV": "NBm6K6QsIcyHxYJbZ+RJ0w=="
+  "AesIV": "NBm6K6QsIcyHxYJbZ+RJ0w==",
+  "AppIds": [
+    761830
+  ]
 }
