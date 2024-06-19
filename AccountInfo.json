@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T20:36:01.594307+00:00",
   "Index": "SBBJS-RCXC",
   "AesEncrypted": true,
-  "AesIV": "bJfwPPQmd6SKQJkODaydFw=="
+  "AesIV": "bJfwPPQmd6SKQJkODaydFw==",
+  "AppIds": [
+    1718130
+  ]
 }
