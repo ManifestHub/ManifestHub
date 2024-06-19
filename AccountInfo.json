@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-07T04:24:06.7651313+00:00",
   "Index": "S2659-EDVL",
   "AesEncrypted": true,
-  "AesIV": "iQlvANxivZvgK3FFQooqsw=="
+  "AesIV": "iQlvANxivZvgK3FFQooqsw==",
+  "AppIds": [
+    848450
+  ]
 }
