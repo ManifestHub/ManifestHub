@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-28T15:15:06.0468548+00:00",
   "Index": "ATBEZ-QBYL",
   "AesEncrypted": true,
-  "AesIV": "xrI7Q9d47+7I/Hcvc7/W/A==",
-  "AppIds": [
-    282160,
-    392160
-  ]
+  "AesIV": "xrI7Q9d47+7I/Hcvc7/W/A=="
 }
