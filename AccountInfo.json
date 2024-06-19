@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-18T14:20:18.7260261+00:00",
   "Index": "AXNUX-LKYN",
   "AesEncrypted": true,
-  "AesIV": "TmHr88taNIYnU+8c38aUZg==",
-  "AppIds": [
-    1783280,
-    2132840,
-    2278640
-  ]
+  "AesIV": "TmHr88taNIYnU+8c38aUZg=="
 }
