@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-13T02:36:14.8330828+00:00",
   "Index": "SQ3SV-GRUG",
   "AesEncrypted": true,
-  "AesIV": "yfRsat0pclLhVL+EFz1b0Q=="
+  "AesIV": "yfRsat0pclLhVL+EFz1b0Q==",
+  "AppIds": [
+    501590,
+    1078330
+  ]
 }
