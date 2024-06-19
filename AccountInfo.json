@@ -5,5 +5,12 @@
   "LastRefresh": "2024-06-08T02:33:29.2722374+00:00",
   "Index": "AXEHT-RJSN",
   "AesEncrypted": true,
-  "AesIV": "dn9ef7LO9YI87lVM+g4Ykw=="
+  "AesIV": "dn9ef7LO9YI87lVM+g4Ykw==",
+  "AppIds": [
+    270150,
+    616850,
+    993090,
+    1097150,
+    1210750
+  ]
 }
