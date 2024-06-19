@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-09T17:16:51.8501359+00:00",
   "Index": "ADPHW-DZUJ",
   "AesEncrypted": true,
-  "AesIV": "MgcoRgFPSCWm/AUEoorbcA=="
+  "AesIV": "MgcoRgFPSCWm/AUEoorbcA==",
+  "AppIds": [
+    1007040
+  ]
 }
