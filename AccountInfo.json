@@ -5,5 +5,20 @@
   "LastRefresh": "2024-05-23T23:16:06.1292656+00:00",
   "Index": "ARTVB-DKTG",
   "AesEncrypted": true,
-  "AesIV": "usAHy9goFAIeJ9fX0NWrMA=="
+  "AesIV": "usAHy9goFAIeJ9fX0NWrMA==",
+  "AppIds": [
+    466551,
+    466550,
+    466549,
+    466548,
+    466547,
+    466545,
+    466544,
+    466542,
+    466541,
+    466540,
+    439241,
+    439240,
+    438640
+  ]
 }
