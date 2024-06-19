@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-21T17:14:57.9942003+00:00",
   "Index": "S9SR5-CAYN",
   "AesEncrypted": true,
-  "AesIV": "48HBBpYmmQjHkcITSgidpA==",
-  "AppIds": [
-    1544020,
-    2006030,
-    2021870,
-    2518840
-  ]
+  "AesIV": "48HBBpYmmQjHkcITSgidpA=="
 }
