@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-24T01:00:36.1648038+00:00",
   "Index": "S2RTC-R8TC",
   "AesEncrypted": true,
-  "AesIV": "gjY/labmxejALckAOCkQ3g==",
-  "AppIds": [
-    1179060
-  ]
+  "AesIV": "gjY/labmxejALckAOCkQ3g=="
 }
