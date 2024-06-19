@@ -5,5 +5,22 @@
   "LastRefresh": "2024-05-23T04:16:02.2331673+00:00",
   "Index": "A44GV-DJSE",
   "AesEncrypted": true,
-  "AesIV": "NAVfUFcNDNZPPGExB6KIsA=="
+  "AesIV": "NAVfUFcNDNZPPGExB6KIsA==",
+  "AppIds": [
+    675590,
+    619680,
+    540711,
+    540710,
+    526060,
+    509350,
+    493190,
+    467980,
+    423630,
+    404430,
+    347990,
+    244210,
+    406324,
+    321960,
+    297000
+  ]
 }
