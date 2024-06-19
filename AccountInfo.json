@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T21:14:24.794889+00:00",
   "Index": "AEMNV-BKSG",
   "AesEncrypted": true,
-  "AesIV": "hivDwvqk4cJeQ+R9k83Jww=="
+  "AesIV": "hivDwvqk4cJeQ+R9k83Jww==",
+  "AppIds": [
+    367500
+  ]
 }
