@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-08T13:20:50.1064248+00:00",
   "Index": "SEVNL-RYXL",
   "AesEncrypted": true,
-  "AesIV": "S2+iN8MYFiX+2HpbN3btHA==",
-  "AppIds": [
-    990080,
-    1880830
-  ]
+  "AesIV": "S2+iN8MYFiX+2HpbN3btHA=="
 }
