@@ -5,16 +5,5 @@
   "LastRefresh": "2024-05-28T21:40:49.4663199+00:00",
   "Index": "SBZEY-FJAN",
   "AesEncrypted": true,
-  "AesIV": "TiFSZmZIym2WTD41j3hsPQ==",
-  "AppIds": [
-    211,
-    215,
-    218,
-    440,
-    459,
-    10180,
-    10190,
-    476600,
-    476620
-  ]
+  "AesIV": "TiFSZmZIym2WTD41j3hsPQ=="
 }
