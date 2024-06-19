@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-06T03:17:38.8142816+00:00",
   "Index": "S4TND-LUUE",
   "AesEncrypted": true,
-  "AesIV": "YV4hgEIqUhwVOnZwwN0yXg=="
+  "AesIV": "YV4hgEIqUhwVOnZwwN0yXg==",
+  "AppIds": [
+    1054550
+  ]
 }
