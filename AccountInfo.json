@@ -5,9 +5,5 @@
   "LastRefresh": "2024-05-31T01:05:06.3688025+00:00",
   "Index": "SSAP3-VAUE",
   "AesEncrypted": true,
-  "AesIV": "daX6cLDA9ZExKq8Obr9/Xg==",
-  "AppIds": [
-    1681970,
-    1937520
-  ]
+  "AesIV": "daX6cLDA9ZExKq8Obr9/Xg=="
 }
