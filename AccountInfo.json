@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-04T07:16:42.7496906+00:00",
   "Index": "SNVEF-KESE",
   "AesEncrypted": true,
-  "AesIV": "QghlS9RapA0qf63y7jgwbA==",
-  "AppIds": [
-    780310,
-    1849580
-  ]
+  "AesIV": "QghlS9RapA0qf63y7jgwbA=="
 }
