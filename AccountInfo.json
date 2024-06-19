@@ -5,18 +5,5 @@
   "LastRefresh": "2024-05-31T05:19:32.3684448+00:00",
   "Index": "ADLV6-24PN",
   "AesEncrypted": true,
-  "AesIV": "aroM1teWRTNF1MbT2B2VDg==",
-  "AppIds": [
-    1090630,
-    1213940,
-    1213950,
-    1254920,
-    1254921,
-    1254922,
-    1254923,
-    1255070,
-    1255071,
-    1255072,
-    1400303
-  ]
+  "AesIV": "aroM1teWRTNF1MbT2B2VDg=="
 }
