@@ -5,13 +5,5 @@
   "LastRefresh": "2024-05-24T03:20:13.8736262+00:00",
   "Index": "AV48U-G4VJ",
   "AesEncrypted": true,
-  "AesIV": "GAoT+ZMfSztPqlS+YfzdxQ==",
-  "AppIds": [
-    1184370,
-    1694800,
-    1694801,
-    1889980,
-    1889981,
-    2064590
-  ]
+  "AesIV": "GAoT+ZMfSztPqlS+YfzdxQ=="
 }
