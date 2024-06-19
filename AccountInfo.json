@@ -5,8 +5,5 @@
   "LastRefresh": "2024-06-03T16:24:26.0024864+00:00",
   "Index": "SJEED-PUTC",
   "AesEncrypted": true,
-  "AesIV": "efjWpeymTWUVoVAbXQoO6w==",
-  "AppIds": [
-    1446650
-  ]
+  "AesIV": "efjWpeymTWUVoVAbXQoO6w=="
 }
