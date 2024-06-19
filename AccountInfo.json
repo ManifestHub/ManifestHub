@@ -5,18 +5,5 @@
   "LastRefresh": "2024-05-28T22:16:39.9278529+00:00",
   "Index": "AY4VP-GZSL",
   "AesEncrypted": true,
-  "AesIV": "OkkIb6orw5qH9XKPs0cREA==",
-  "AppIds": [
-    493900,
-    630091,
-    711170,
-    711171,
-    711172,
-    711680,
-    711681,
-    824610,
-    975330,
-    975360,
-    1023950
-  ]
+  "AesIV": "OkkIb6orw5qH9XKPs0cREA=="
 }
