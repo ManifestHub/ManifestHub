@@ -7,9 +7,9 @@
   "AesEncrypted": true,
   "AesIV": "Dgth0xgE+n/W9iwaF9xsig==",
   "AppIds": [
-    343050,
-    322330,
     245850,
+    322330,
+    343050,
     1062520
   ]
 }
