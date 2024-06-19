@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-22T11:16:46.8697976+00:00",
   "Index": "S56N5-DNTL",
   "AesEncrypted": true,
-  "AesIV": "kql0q6WhuCeynDidkntwHw=="
+  "AesIV": "kql0q6WhuCeynDidkntwHw==",
+  "AppIds": [
+    607080,
+    1355760
+  ]
 }
