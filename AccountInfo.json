@@ -5,15 +5,5 @@
   "LastRefresh": "2024-06-05T19:14:16.1104873+00:00",
   "Index": "AB55K-LBSE",
   "AesEncrypted": true,
-  "AesIV": "tMyPK0Lsz2Fh+9pk7d7pEg==",
-  "AppIds": [
-    412020,
-    889920,
-    889921,
-    924220,
-    1449560,
-    1557620,
-    1557621,
-    2069150
-  ]
+  "AesIV": "tMyPK0Lsz2Fh+9pk7d7pEg=="
 }
