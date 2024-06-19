@@ -5,17 +5,5 @@
   "LastRefresh": "2024-06-08T21:15:05.338574+00:00",
   "Index": "S43AL-DVUG",
   "AesEncrypted": true,
-  "AesIV": "FpZSpzCgCGTDbOmei9vm3w==",
-  "AppIds": [
-    1016800,
-    1640500,
-    1701200,
-    1797280,
-    1845330,
-    1847400,
-    1903090,
-    1958580,
-    2184830,
-    3017050
-  ]
+  "AesIV": "FpZSpzCgCGTDbOmei9vm3w=="
 }
