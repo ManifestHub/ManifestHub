@@ -5,16 +5,5 @@
   "LastRefresh": "2024-06-11T05:23:12.4947491+00:00",
   "Index": "A8QPT-NFSA",
   "AesEncrypted": true,
-  "AesIV": "5nyOpA9pDfxjALoAg/W1Cw==",
-  "AppIds": [
-    1139900,
-    1480500,
-    1542040,
-    1600440,
-    1647450,
-    1741240,
-    1741380,
-    1760130,
-    1760190
-  ]
+  "AesIV": "5nyOpA9pDfxjALoAg/W1Cw=="
 }
