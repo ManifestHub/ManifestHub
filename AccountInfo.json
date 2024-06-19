@@ -5,12 +5,5 @@
   "LastRefresh": "2024-06-18T14:20:21.4250704+00:00",
   "Index": "S577V-HDVE",
   "AesEncrypted": true,
-  "AesIV": "kGOrLxOyRdNmjXeKoPf3eQ==",
-  "AppIds": [
-    4700,
-    4780,
-    206526,
-    306540,
-    306541
-  ]
+  "AesIV": "kGOrLxOyRdNmjXeKoPf3eQ=="
 }
