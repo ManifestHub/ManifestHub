@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-26T19:10:27.5891474+00:00",
   "Index": "SEQFR-KEVJ",
   "AesEncrypted": true,
-  "AesIV": "hqUtgxprmky78Z/Sggr8hg==",
-  "AppIds": [
-    1196590,
-    1236300,
-    1456360,
-    1456362,
-    1456363
-  ]
+  "AesIV": "hqUtgxprmky78Z/Sggr8hg=="
 }
