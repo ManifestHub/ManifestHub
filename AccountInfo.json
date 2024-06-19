@@ -5,5 +5,13 @@
   "LastRefresh": "2024-06-12T01:06:08.1370811+00:00",
   "Index": "S25BQ-RATC",
   "AesEncrypted": true,
-  "AesIV": "yx5dVKfwTj31LbKFBBMTNQ=="
+  "AesIV": "yx5dVKfwTj31LbKFBBMTNQ==",
+  "AppIds": [
+    1021770,
+    1220420,
+    1220421,
+    1531480,
+    1555560,
+    1702640
+  ]
 }
