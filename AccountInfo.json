@@ -5,5 +5,10 @@
   "LastRefresh": "2024-06-16T17:14:04.8141642+00:00",
   "Index": "SDFEB-AKSG",
   "AesEncrypted": true,
-  "AesIV": "AvFL73h5xjbi3BPS/Jxqyg=="
+  "AesIV": "AvFL73h5xjbi3BPS/Jxqyg==",
+  "AppIds": [
+    15170,
+    391540,
+    391570
+  ]
 }
