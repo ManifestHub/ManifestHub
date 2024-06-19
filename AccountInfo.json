@@ -5,12 +5,5 @@
   "LastRefresh": "2024-05-22T01:00:10.8764726+00:00",
   "Index": "ATEXL-GJSN",
   "AesEncrypted": true,
-  "AesIV": "Xv9fvNojRZDNs3poGRc/2A==",
-  "AppIds": [
-    604540,
-    1303310,
-    1303311,
-    1303312,
-    1303313
-  ]
+  "AesIV": "Xv9fvNojRZDNs3poGRc/2A=="
 }
