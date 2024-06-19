@@ -5,18 +5,5 @@
   "LastRefresh": "2024-06-14T19:19:07.1422233+00:00",
   "Index": "A3WMZ-KCZL",
   "AesEncrypted": true,
-  "AesIV": "J3f7ehn4DLUyyAazr3E7aA==",
-  "AppIds": [
-    424840,
-    584090,
-    584091,
-    584095,
-    584096,
-    584097,
-    860510,
-    1245430,
-    1282531,
-    1282532,
-    1413420
-  ]
+  "AesIV": "J3f7ehn4DLUyyAazr3E7aA=="
 }
