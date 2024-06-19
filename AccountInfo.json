@@ -5,19 +5,5 @@
   "LastRefresh": "2024-06-03T13:21:31.6258662+00:00",
   "Index": "S4MSV-GDUJ",
   "AesEncrypted": true,
-  "AesIV": "1FthBYw8fUG/aDIBMiy/1g==",
-  "AppIds": [
-    17300,
-    17330,
-    17340,
-    108800,
-    1282690,
-    1282780,
-    1282781,
-    1308930,
-    1308932,
-    1308933,
-    1308934,
-    1308935
-  ]
+  "AesIV": "1FthBYw8fUG/aDIBMiy/1g=="
 }
