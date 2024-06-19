@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-29T06:25:40.8587239+00:00",
   "Index": "ARN33-MVSE",
   "AesEncrypted": true,
-  "AesIV": "fcoaD58ITCBRvGZHFQhPwQ==",
-  "AppIds": [
-    761600
-  ]
+  "AesIV": "fcoaD58ITCBRvGZHFQhPwQ=="
 }
