@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-23T09:23:06.1245075+00:00",
   "Index": "ATTLM-CPUE",
   "AesEncrypted": true,
-  "AesIV": "Xn6lBDUg8CqEt4L6QzPf5g==",
-  "AppIds": [
-    632470
-  ]
+  "AesIV": "Xn6lBDUg8CqEt4L6QzPf5g=="
 }
