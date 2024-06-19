@@ -5,13 +5,5 @@
   "LastRefresh": "2024-06-10T20:19:23.0735608+00:00",
   "Index": "SHPL6-SHWA",
   "AesEncrypted": true,
-  "AesIV": "EQQlxps/vjoTuEPMTQ5GvA==",
-  "AppIds": [
-    814000,
-    1888180,
-    2004600,
-    2004601,
-    2114010,
-    2114030
-  ]
+  "AesIV": "EQQlxps/vjoTuEPMTQ5GvA=="
 }
