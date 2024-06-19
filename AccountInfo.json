@@ -5,8 +5,5 @@
   "LastRefresh": "2024-06-15T08:25:31.1621966+00:00",
   "Index": "ATSPK-ARSC",
   "AesEncrypted": true,
-  "AesIV": "cBnm9Mst9aMpGZwQSDhnCA==",
-  "AppIds": [
-    718850
-  ]
+  "AesIV": "cBnm9Mst9aMpGZwQSDhnCA=="
 }
