@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-05T15:20:11.3526361+00:00",
   "Index": "AECAL-RYVC",
   "AesEncrypted": true,
-  "AesIV": "xS/VgI2oGFDcV8h96eUzEA==",
-  "AppIds": [
-    673450,
-    755980,
-    1029890
-  ]
+  "AesIV": "xS/VgI2oGFDcV8h96eUzEA=="
 }
