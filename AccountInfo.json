@@ -5,13 +5,5 @@
   "LastRefresh": "2024-05-25T16:16:58.2265376+00:00",
   "Index": "AUCPN-SUZJ",
   "AesEncrypted": true,
-  "AesIV": "ZgbcS91cHQeGa1ciCJ1wQQ==",
-  "AppIds": [
-    2130460,
-    2257210,
-    2257211,
-    2257212,
-    2257213,
-    2257214
-  ]
+  "AesIV": "ZgbcS91cHQeGa1ciCJ1wQQ=="
 }
