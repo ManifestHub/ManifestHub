@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-11T22:14:47.8422152+00:00",
   "Index": "SJ6ME-PVTE",
   "AesEncrypted": true,
-  "AesIV": "/Y+4lg1ejYbg0mP4XV6JIQ=="
+  "AesIV": "/Y+4lg1ejYbg0mP4XV6JIQ==",
+  "AppIds": [
+    587620
+  ]
 }
