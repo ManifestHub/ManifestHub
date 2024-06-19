@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T19:39:09.3409674+00:00",
   "Index": "AFL46-MMTG",
   "AesEncrypted": true,
-  "AesIV": "9Ii5LOc0ZrDSkCxoJaj/RA=="
+  "AesIV": "9Ii5LOc0ZrDSkCxoJaj/RA==",
+  "AppIds": [
+    693960
+  ]
 }
