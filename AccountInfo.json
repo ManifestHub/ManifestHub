@@ -5,14 +5,5 @@
   "LastRefresh": "2024-05-22T13:40:43.9574378+00:00",
   "Index": "AV34A-ZRFG",
   "AesEncrypted": true,
-  "AesIV": "pBV35nshIgYTX1DSlGBvlg==",
-  "AppIds": [
-    433850,
-    439700,
-    578080,
-    622590,
-    813000,
-    817790,
-    1776090
-  ]
+  "AesIV": "pBV35nshIgYTX1DSlGBvlg=="
 }
