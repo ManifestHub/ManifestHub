@@ -5,5 +5,12 @@
   "LastRefresh": "2024-05-24T04:22:43.5432274+00:00",
   "Index": "SWSRL-BYSL",
   "AesEncrypted": true,
-  "AesIV": "yGZEhfvPu4zW7ZiXaycROQ=="
+  "AesIV": "yGZEhfvPu4zW7ZiXaycROQ==",
+  "AppIds": [
+    952040,
+    963060,
+    1023780,
+    1199500,
+    1304150
+  ]
 }
