@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-02T02:37:59.2916563+00:00",
   "Index": "AHKCL-LCTE",
   "AesEncrypted": true,
-  "AesIV": "pgT9RHzMbQ2wQ23UHyi4qA=="
+  "AesIV": "pgT9RHzMbQ2wQ23UHyi4qA==",
+  "AppIds": [
+    1536470
+  ]
 }
