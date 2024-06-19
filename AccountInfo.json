@@ -5,11 +5,5 @@
   "LastRefresh": "2024-06-04T07:19:16.0266623+00:00",
   "Index": "S445B-LMUQ",
   "AesEncrypted": true,
-  "AesIV": "8FKZzIH2Kbb0t2OxhytziA==",
-  "AppIds": [
-    870780,
-    1538740,
-    1538741,
-    1774160
-  ]
+  "AesIV": "8FKZzIH2Kbb0t2OxhytziA=="
 }
