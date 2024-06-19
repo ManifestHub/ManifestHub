@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T20:14:25.1297787+00:00",
   "Index": "AJR6X-CUVE",
   "AesEncrypted": true,
-  "AesIV": "iOVTAGf6UjrKK65p88/HZQ=="
+  "AesIV": "iOVTAGf6UjrKK65p88/HZQ==",
+  "AppIds": [
+    578330,
+    1283960
+  ]
 }
