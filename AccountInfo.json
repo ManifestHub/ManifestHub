@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-13T05:20:51.8898957+00:00",
   "Index": "SKSYL-RRTA",
   "AesEncrypted": true,
-  "AesIV": "S/jbLNBVU0wHj5pKwnqX7w=="
+  "AesIV": "S/jbLNBVU0wHj5pKwnqX7w==",
+  "AppIds": [
+    1128920
+  ]
 }
