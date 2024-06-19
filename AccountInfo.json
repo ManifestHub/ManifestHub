@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:21:56.5867393+00:00",
   "Index": "ACR57-JWTC",
   "AesEncrypted": true,
-  "AesIV": "MUq7eOA2b5NDrWvWmevvDg=="
+  "AesIV": "MUq7eOA2b5NDrWvWmevvDg==",
+  "AppIds": [
+    869880
+  ]
 }
