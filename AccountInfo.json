@@ -5,5 +5,16 @@
   "LastRefresh": "2024-06-14T23:16:20.7238729+00:00",
   "Index": "S32FS-B3VG",
   "AesEncrypted": true,
-  "AesIV": "w7mJnuIDHNxsCgAkBu0q6w=="
+  "AesIV": "w7mJnuIDHNxsCgAkBu0q6w==",
+  "AppIds": [
+    282160,
+    392160,
+    942190,
+    1133000,
+    1239390,
+    1277600,
+    1288460,
+    1288490,
+    1701060
+  ]
 }
