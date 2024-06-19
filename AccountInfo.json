@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-30T07:20:05.990977+00:00",
   "Index": "SEDU6-REUG",
   "AesEncrypted": true,
-  "AesIV": "32bKrzHijNKXURGXR0sB/g==",
-  "AppIds": [
-    1570010
-  ]
+  "AesIV": "32bKrzHijNKXURGXR0sB/g=="
 }
