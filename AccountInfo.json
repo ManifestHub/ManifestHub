@@ -5,5 +5,24 @@
   "LastRefresh": "2024-05-23T20:42:11.1019995+00:00",
   "Index": "SBQP7-7PVN",
   "AesEncrypted": true,
-  "AesIV": "Cia6dfxDGrRgaHaocWBzPA=="
+  "AesIV": "Cia6dfxDGrRgaHaocWBzPA==",
+  "AppIds": [
+    211,
+    215,
+    218,
+    500,
+    513,
+    550,
+    563,
+    564,
+    222860,
+    223540,
+    227040,
+    227050,
+    743390,
+    792300,
+    994280,
+    1093910,
+    1117030
+  ]
 }
