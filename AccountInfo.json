@@ -5,5 +5,19 @@
   "LastRefresh": "2024-05-22T22:13:09.2963261+00:00",
   "Index": "ADA2T-ECVL",
   "AesEncrypted": true,
-  "AesIV": "MvOlqKwEPn4JoOptGR5wzg=="
+  "AesIV": "MvOlqKwEPn4JoOptGR5wzg==",
+  "AppIds": [
+    325610,
+    335020,
+    335030,
+    343460,
+    343461,
+    343462,
+    343463,
+    343464,
+    343660,
+    357810,
+    428730,
+    884620
+  ]
 }
