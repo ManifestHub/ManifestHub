@@ -5,17 +5,5 @@
   "LastRefresh": "2024-05-29T07:40:40.8172046+00:00",
   "Index": "SMBTZ-JPZL",
   "AesEncrypted": true,
-  "AesIV": "9gdWdr9iCpnxDcaHNIblHQ==",
-  "AppIds": [
-    8190,
-    35086,
-    35087,
-    35093,
-    35094,
-    35095,
-    35096,
-    35097,
-    35098,
-    271750
-  ]
+  "AesIV": "9gdWdr9iCpnxDcaHNIblHQ=="
 }
