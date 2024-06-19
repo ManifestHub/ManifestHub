@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T21:14:45.458897+00:00",
   "Index": "AFEK4-RYZN",
   "AesEncrypted": true,
-  "AesIV": "/k0LCB0ueaTLQQfMkoxh1g=="
+  "AesIV": "/k0LCB0ueaTLQQfMkoxh1g==",
+  "AppIds": [
+    682990,
+    1455910
+  ]
 }
