@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T03:40:34.4757832+00:00",
   "Index": "SEAEH-JUTE",
   "AesEncrypted": true,
-  "AesIV": "W62wuoR7+r1TYgPc5f4LDg=="
+  "AesIV": "W62wuoR7+r1TYgPc5f4LDg==",
+  "AppIds": [
+    591460
+  ]
 }
