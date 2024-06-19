@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-12T15:17:24.1147299+00:00",
   "Index": "SWPPG-UATJ",
   "AesEncrypted": true,
-  "AesIV": "D2jOcd1pe5u2L4Na+lFVzw=="
+  "AesIV": "D2jOcd1pe5u2L4Na+lFVzw==",
+  "AppIds": [
+    546560,
+    1295040
+  ]
 }
