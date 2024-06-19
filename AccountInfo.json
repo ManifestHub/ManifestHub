@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T00:56:34.483574+00:00",
   "Index": "SK27N-BYSJ",
   "AesEncrypted": true,
-  "AesIV": "bDr01/xPzDo27WqQrYLwCw=="
+  "AesIV": "bDr01/xPzDo27WqQrYLwCw==",
+  "AppIds": [
+    359840
+  ]
 }
