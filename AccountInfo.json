@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T15:19:16.4786781+00:00",
   "Index": "SFA8K-GYSL",
   "AesEncrypted": true,
-  "AesIV": "rUVJ8YT57fJPrxwnmES2jw=="
+  "AesIV": "rUVJ8YT57fJPrxwnmES2jw==",
+  "AppIds": [
+    972660
+  ]
 }
