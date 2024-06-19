@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-12T01:09:29.8923639+00:00",
   "Index": "AWLWM-M8VC",
   "AesEncrypted": true,
-  "AesIV": "+0u/uhAwsHKMBAXBpanS3A==",
-  "AppIds": [
-    1447000,
-    1525820,
-    1525840
-  ]
+  "AesIV": "+0u/uhAwsHKMBAXBpanS3A=="
 }
