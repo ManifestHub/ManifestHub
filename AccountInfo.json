@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T13:19:46.6726676+00:00",
   "Index": "SKTTM-E4UJ",
   "AesEncrypted": true,
-  "AesIV": "kNDr/rc0gVHrdUWAWkJuwg=="
+  "AesIV": "kNDr/rc0gVHrdUWAWkJuwg==",
+  "AppIds": [
+    368070
+  ]
 }
