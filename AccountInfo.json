@@ -5,9 +5,5 @@
   "LastRefresh": "2024-06-05T01:08:40.6288064+00:00",
   "Index": "SP26C-LDZG",
   "AesEncrypted": true,
-  "AesIV": "Oaz7lLiqeTIhjPMz6N5iKQ==",
-  "AppIds": [
-    1217060,
-    2111850
-  ]
+  "AesIV": "Oaz7lLiqeTIhjPMz6N5iKQ=="
 }
