@@ -5,8 +5,5 @@
   "LastRefresh": "2024-05-29T02:43:41.1375812+00:00",
   "Index": "SMSCC-HMWA",
   "AesEncrypted": true,
-  "AesIV": "O4DGuPfxX3nMAMYY43HV7A==",
-  "AppIds": [
-    960090
-  ]
+  "AesIV": "O4DGuPfxX3nMAMYY43HV7A=="
 }
