@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-24T10:21:40.3612038+00:00",
   "Index": "SERLK-PCUG",
   "AesEncrypted": true,
-  "AesIV": "lT3cDsPHg9x23OGHCOnekQ=="
+  "AesIV": "lT3cDsPHg9x23OGHCOnekQ==",
+  "AppIds": [
+    920210,
+    1353940,
+    1353946
+  ]
 }
