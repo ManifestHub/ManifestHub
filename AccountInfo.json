@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-27T02:30:27.7386516+00:00",
   "Index": "SW94G-RVUG",
   "AesEncrypted": true,
-  "AesIV": "0fXb5mEng2A/fKIdDyC1kQ=="
+  "AesIV": "0fXb5mEng2A/fKIdDyC1kQ==",
+  "AppIds": [
+    247080
+  ]
 }
