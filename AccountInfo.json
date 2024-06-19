@@ -5,12 +5,5 @@
   "LastRefresh": "2024-06-04T07:22:32.8836639+00:00",
   "Index": "AV85T-ANYL",
   "AesEncrypted": true,
-  "AesIV": "mMpe3UJjSQRKIc1JKOXNhA==",
-  "AppIds": [
-    1562430,
-    2104240,
-    2198580,
-    2198600,
-    2198610
-  ]
+  "AesIV": "mMpe3UJjSQRKIc1JKOXNhA=="
 }
