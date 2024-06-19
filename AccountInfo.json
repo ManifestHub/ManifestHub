@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-04T07:17:32.0882083+00:00",
   "Index": "AMKCT-CXSG",
   "AesEncrypted": true,
-  "AesIV": "F20t6j8UV1AMMNeYYp9aEg=="
+  "AesIV": "F20t6j8UV1AMMNeYYp9aEg==",
+  "AppIds": [
+    448510,
+    530060
+  ]
 }
