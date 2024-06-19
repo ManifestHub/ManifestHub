@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-24T01:57:59.6452779+00:00",
   "Index": "AS3PU-65NQ",
   "AesEncrypted": true,
-  "AesIV": "wcHrtgAiDHGaofBP1s/ZSg=="
+  "AesIV": "wcHrtgAiDHGaofBP1s/ZSg==",
+  "AppIds": [
+    253860,
+    290650,
+    1147560
+  ]
 }
