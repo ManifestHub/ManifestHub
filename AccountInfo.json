@@ -5,5 +5,18 @@
   "LastRefresh": "2024-06-06T10:20:08.925091+00:00",
   "Index": "ARPC9-VLUC",
   "AesEncrypted": true,
-  "AesIV": "ujqXpP/850KG8+e2FUTTgg=="
+  "AesIV": "ujqXpP/850KG8+e2FUTTgg==",
+  "AppIds": [
+    1384160,
+    1544400,
+    1544401,
+    1544402,
+    1544403,
+    1544404,
+    1544405,
+    1544406,
+    1544407,
+    1544408,
+    1649880
+  ]
 }
