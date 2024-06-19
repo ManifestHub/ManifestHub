@@ -5,10 +5,5 @@
   "LastRefresh": "2024-06-05T05:21:30.3236941+00:00",
   "Index": "AKTG8-RDTQ",
   "AesEncrypted": true,
-  "AesIV": "dyImBDe1iDsF/dpClivn2A==",
-  "AppIds": [
-    600480,
-    1264280,
-    1315300
-  ]
+  "AesIV": "dyImBDe1iDsF/dpClivn2A=="
 }
