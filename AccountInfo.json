@@ -5,10 +5,5 @@
   "LastRefresh": "2024-05-24T07:17:49.308374+00:00",
   "Index": "SM3S8-AKTE",
   "AesEncrypted": true,
-  "AesIV": "AIx4ZfS4mfyZEVZDc86uTw==",
-  "AppIds": [
-    330020,
-    1317160,
-    1648880
-  ]
+  "AesIV": "AIx4ZfS4mfyZEVZDc86uTw=="
 }
