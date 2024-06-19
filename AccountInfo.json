@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-06T21:19:14.2544389+00:00",
   "Index": "AMNUX-ERUL",
   "AesEncrypted": true,
-  "AesIV": "lOh3cBJP19QSDLXNNwNeVg=="
+  "AesIV": "lOh3cBJP19QSDLXNNwNeVg==",
+  "AppIds": [
+    1559390,
+    2124420
+  ]
 }
