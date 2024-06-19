@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-05T10:15:46.2883102+00:00",
   "Index": "SXNAF-DHUJ",
   "AesEncrypted": true,
-  "AesIV": "CpL1HsuIguyG9Mc0N0KlSA=="
+  "AesIV": "CpL1HsuIguyG9Mc0N0KlSA==",
+  "AppIds": [
+    598330,
+    1245110
+  ]
 }
