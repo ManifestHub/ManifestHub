@@ -5,11 +5,5 @@
   "LastRefresh": "2024-05-23T04:41:40.8973952+00:00",
   "Index": "AFHUZ-BUSG",
   "AesEncrypted": true,
-  "AesIV": "DL4teF6SWUcDaIrDD0Hkpg==",
-  "AppIds": [
-    646910,
-    742300,
-    889871,
-    999420
-  ]
+  "AesIV": "DL4teF6SWUcDaIrDD0Hkpg=="
 }
