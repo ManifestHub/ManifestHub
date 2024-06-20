@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T02:44:41.0627067+00:00",
   "Index": "AP9ZT-MVSA",
   "AesEncrypted": true,
-  "AesIV": "THtHA38iMjAcA9/T8e70GA=="
+  "AesIV": "THtHA38iMjAcA9/T8e70GA==",
+  "AppIds": [
+    332570,
+    1559680
+  ]
 }
