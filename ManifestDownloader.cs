@@ -256,7 +256,7 @@ class ManifestDownloader {
 
         if (_accountInfoArchive == null ||
             !Equals(_accountInfo.RefreshToken, _accountInfoArchive.RefreshToken) ||
-            !Equals(_accountInfo.AppIds, _accountInfoArchive.AppIds)) {
+            !_accountInfo.AppIds.SequenceEqual(_accountInfoArchive.AppIds)) {
             _accountInfo.LastRefresh = DateTime.Now;
         }
 
