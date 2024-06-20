@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T15:39:37.6762342+00:00",
   "Index": "SG62J-DGSE",
   "AesEncrypted": true,
-  "AesIV": "1GckpH1k7ogor/CGOYRUtg=="
+  "AesIV": "1GckpH1k7ogor/CGOYRUtg==",
+  "AppIds": [
+    429660
+  ]
 }
