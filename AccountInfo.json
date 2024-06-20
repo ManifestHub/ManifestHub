@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T03:18:18.6511695+00:00",
   "Index": "AUZSY-KVSG",
   "AesEncrypted": true,
-  "AesIV": "5h08CkL6Ua5RZqWdttpIgQ=="
+  "AesIV": "5h08CkL6Ua5RZqWdttpIgQ==",
+  "AppIds": [
+    893020
+  ]
 }
