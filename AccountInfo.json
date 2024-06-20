@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-28T08:23:20.5594403+00:00",
   "Index": "SP4K7-QSTG",
   "AesEncrypted": true,
-  "AesIV": "BxGu/4uRi+c4AS2L7nrpNw=="
+  "AesIV": "BxGu/4uRi+c4AS2L7nrpNw==",
+  "AppIds": [
+    228380,
+    272860,
+    361580
+  ]
 }
