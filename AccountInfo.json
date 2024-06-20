@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-22T10:19:31.976887+00:00",
   "Index": "SRDTC-FBTJ",
   "AesEncrypted": true,
-  "AesIV": "IzmMzgnqSMi2iZgcJasYNQ=="
+  "AesIV": "IzmMzgnqSMi2iZgcJasYNQ==",
+  "AppIds": [
+    962580
+  ]
 }
