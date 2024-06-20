@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T12:54:07.1970745+00:00",
   "Index": "SML63-PLUE",
   "AesEncrypted": true,
-  "AesIV": "ruJ1qbMOrFEskPuLniPvXQ=="
+  "AesIV": "ruJ1qbMOrFEskPuLniPvXQ==",
+  "AppIds": [
+    485460
+  ]
 }
