@@ -5,5 +5,13 @@
   "LastRefresh": "2024-05-23T20:39:20.1197577+00:00",
   "Index": "ACBFR-G4UE",
   "AesEncrypted": true,
-  "AesIV": "vFHSOBjRdRo6eEaFDKP6hA=="
+  "AesIV": "vFHSOBjRdRo6eEaFDKP6hA==",
+  "AppIds": [
+    1930,
+    253880,
+    259280,
+    259300,
+    301210,
+    434650
+  ]
 }
