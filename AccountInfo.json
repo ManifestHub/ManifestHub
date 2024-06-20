@@ -5,5 +5,12 @@
   "LastRefresh": "2024-05-22T21:15:18.8935376+00:00",
   "Index": "AJ26X-DKVE",
   "AesEncrypted": true,
-  "AesIV": "5xyuChArgH2x8F16LPSkzw=="
+  "AesIV": "5xyuChArgH2x8F16LPSkzw==",
+  "AppIds": [
+    400910,
+    431620,
+    431621,
+    532021,
+    1015050
+  ]
 }
