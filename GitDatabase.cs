@@ -248,7 +248,8 @@ public partial class GitDatabase {
             .ToHashSet();
 
         // IDs of touched apps and depots
-        var touchedApps = new HashSet<uint>(_trackingApps.Keys);
+        // var touchedApps = new HashSet<uint>(_trackingApps.Keys);
+        var touchedApps = new HashSet<uint>(GetAccounts().SelectMany(a => a.AppIds));
         var touchedDepots = new HashSet<uint>(_trackingDepots.Keys);
 
         // Calculate status for Apps
