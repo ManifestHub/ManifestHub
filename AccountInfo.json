@@ -5,5 +5,13 @@
   "LastRefresh": "2024-05-23T18:43:22.1553701+00:00",
   "Index": "SKRXH-ASTG",
   "AesEncrypted": true,
-  "AesIV": "uFRPh68n1l3S4on22Z8u1g=="
+  "AesIV": "uFRPh68n1l3S4on22Z8u1g==",
+  "AppIds": [
+    375530,
+    846110,
+    1293080,
+    1428220,
+    1650120,
+    2231450
+  ]
 }
