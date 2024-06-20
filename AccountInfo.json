@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-08T02:32:19.22846+00:00",
   "Index": "S986F-AZXL",
   "AesEncrypted": true,
-  "AesIV": "cTAYOTDSAz5T619EkIaH9w=="
+  "AesIV": "cTAYOTDSAz5T619EkIaH9w==",
+  "AppIds": [
+    368260
+  ]
 }
