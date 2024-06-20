@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-29T10:20:54.4598123+00:00",
   "Index": "SAVHA-PAZJ",
   "AesEncrypted": true,
-  "AesIV": "oy0imkoLKpnLZdeM1jUfSg=="
+  "AesIV": "oy0imkoLKpnLZdeM1jUfSg==",
+  "AppIds": [
+    859570,
+    1147560
+  ]
 }
