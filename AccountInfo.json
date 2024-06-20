@@ -5,5 +5,12 @@
   "LastRefresh": "2024-06-14T22:18:54.4163518+00:00",
   "Index": "ATXYZ-MCTG",
   "AesEncrypted": true,
-  "AesIV": "u0KJ2wb7ZPJMVYSu0x02cg=="
+  "AesIV": "u0KJ2wb7ZPJMVYSu0x02cg==",
+  "AppIds": [
+    623280,
+    1670840,
+    1670841,
+    1670842,
+    1670843
+  ]
 }
