@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T17:42:43.3541456+00:00",
   "Index": "SJHH4-RUVE",
   "AesEncrypted": true,
-  "AesIV": "rr/LybpPpSwrow/afO88bQ=="
+  "AesIV": "rr/LybpPpSwrow/afO88bQ==",
+  "AppIds": [
+    574720
+  ]
 }
