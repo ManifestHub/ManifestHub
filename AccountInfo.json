@@ -5,5 +5,14 @@
   "LastRefresh": "2024-05-29T18:41:26.2718902+00:00",
   "Index": "SVPRK-TKUJ",
   "AesEncrypted": true,
-  "AesIV": "Q5y71v0tskJigY27DMzsKQ=="
+  "AesIV": "Q5y71v0tskJigY27DMzsKQ==",
+  "AppIds": [
+    35700,
+    35720,
+    35725,
+    319910,
+    690640,
+    1113990,
+    1436700
+  ]
 }
