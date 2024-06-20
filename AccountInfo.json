@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T09:23:45.3974285+00:00",
   "Index": "ACLSD-UDUE",
   "AesEncrypted": true,
-  "AesIV": "L9tx3VaTkecNCfNov3MLpQ=="
+  "AesIV": "L9tx3VaTkecNCfNov3MLpQ==",
+  "AppIds": [
+    926140,
+    1845520
+  ]
 }
