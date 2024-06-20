@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T20:15:04.6875497+00:00",
   "Index": "AR6XE-EATE",
   "AesEncrypted": true,
-  "AesIV": "UFciz+MSWivkb+mH9UMR3A=="
+  "AesIV": "UFciz+MSWivkb+mH9UMR3A==",
+  "AppIds": [
+    501300
+  ]
 }
