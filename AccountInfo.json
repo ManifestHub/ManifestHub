@@ -5,5 +5,13 @@
   "LastRefresh": "2024-06-05T22:18:57.9347316+00:00",
   "Index": "SCLH7-SDTJ",
   "AesEncrypted": true,
-  "AesIV": "Blrp/Op43zfrCRSqhgkdOw=="
+  "AesIV": "Blrp/Op43zfrCRSqhgkdOw==",
+  "AppIds": [
+    1046480,
+    1537360,
+    1539820,
+    1539821,
+    1539822,
+    1539823
+  ]
 }
