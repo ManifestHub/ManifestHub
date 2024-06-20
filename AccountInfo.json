@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-18T14:20:18.9755065+00:00",
   "Index": "S3PUB-BLWJ",
   "AesEncrypted": true,
-  "AesIV": "9Mjmas7EqvY5d8432iiysQ=="
+  "AesIV": "9Mjmas7EqvY5d8432iiysQ==",
+  "AppIds": [
+    1266430
+  ]
 }
