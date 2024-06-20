@@ -5,5 +5,18 @@
   "LastRefresh": "2024-06-04T07:21:43.6350512+00:00",
   "Index": "AFYF2-Q8XG",
   "AesEncrypted": true,
-  "AesIV": "Poi86mBhzRMtTrHKlveYbg=="
+  "AesIV": "Poi86mBhzRMtTrHKlveYbg==",
+  "AppIds": [
+    208650,
+    356472,
+    356473,
+    356474,
+    356620,
+    358000,
+    401627,
+    401634,
+    405033,
+    415650,
+    418930
+  ]
 }
