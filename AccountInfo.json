@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T20:42:33.7020297+00:00",
   "Index": "ADYJ9-NTUG",
   "AesEncrypted": true,
-  "AesIV": "TVRAN2x3fvACLgLSX+2c5A=="
+  "AesIV": "TVRAN2x3fvACLgLSX+2c5A==",
+  "AppIds": [
+    505230
+  ]
 }
