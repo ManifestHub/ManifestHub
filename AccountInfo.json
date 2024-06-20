@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-06T10:19:20.8630436+00:00",
   "Index": "ATWHW-37SG",
   "AesEncrypted": true,
-  "AesIV": "zW1nmRocSE4BQvK+trNFXA=="
+  "AesIV": "zW1nmRocSE4BQvK+trNFXA==",
+  "AppIds": [
+    464920
+  ]
 }
