@@ -5,5 +5,12 @@
   "LastRefresh": "2024-05-23T19:13:25.753744+00:00",
   "Index": "A55V2-CDUJ",
   "AesEncrypted": true,
-  "AesIV": "ebSgDliFPNhvJmznunN5DA=="
+  "AesIV": "ebSgDliFPNhvJmznunN5DA==",
+  "AppIds": [
+    537200,
+    571260,
+    590390,
+    590391,
+    1558320
+  ]
 }
