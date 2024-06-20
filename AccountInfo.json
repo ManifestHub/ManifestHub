@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T09:38:35.8222868+00:00",
   "Index": "S775K-PRTC",
   "AesEncrypted": true,
-  "AesIV": "U9zg5q9Cj1v+1bsKu/XBRw=="
+  "AesIV": "U9zg5q9Cj1v+1bsKu/XBRw==",
+  "AppIds": [
+    938560
+  ]
 }
