@@ -5,5 +5,12 @@
   "LastRefresh": "2024-06-08T22:15:42.1802546+00:00",
   "Index": "SRFVF-EKUJ",
   "AesEncrypted": true,
-  "AesIV": "HGCn++r5RF8OT3fqh0jhzw=="
+  "AesIV": "HGCn++r5RF8OT3fqh0jhzw==",
+  "AppIds": [
+    42700,
+    42710,
+    42720,
+    42740,
+    1225780
+  ]
 }
