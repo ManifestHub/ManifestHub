@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T17:42:03.1432576+00:00",
   "Index": "AFC4U-ZFSG",
   "AesEncrypted": true,
-  "AesIV": "GY12AHCON5eTtau5Qm5iiQ=="
+  "AesIV": "GY12AHCON5eTtau5Qm5iiQ==",
+  "AppIds": [
+    1147560
+  ]
 }
