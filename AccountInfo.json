@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:18:55.9791814+00:00",
   "Index": "SRPTG-KLUG",
   "AesEncrypted": true,
-  "AesIV": "QkxNg7+RZH6XJGgZIoBUIA=="
+  "AesIV": "QkxNg7+RZH6XJGgZIoBUIA==",
+  "AppIds": [
+    968970
+  ]
 }
