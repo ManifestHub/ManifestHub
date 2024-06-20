@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T23:17:29.5538583+00:00",
   "Index": "SK8FE-DASE",
   "AesEncrypted": true,
-  "AesIV": "Mfzp9j0yIl+PEsG4igSkqg=="
+  "AesIV": "Mfzp9j0yIl+PEsG4igSkqg==",
+  "AppIds": [
+    702670
+  ]
 }
