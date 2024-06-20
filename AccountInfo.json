@@ -5,5 +5,15 @@
   "LastRefresh": "2024-05-24T00:57:54.0516652+00:00",
   "Index": "SBK8J-EUTE",
   "AesEncrypted": true,
-  "AesIV": "Ju1AHCBr5AQ0IiduuIXb2g=="
+  "AesIV": "Ju1AHCBr5AQ0IiduuIXb2g==",
+  "AppIds": [
+    260750,
+    260770,
+    644560,
+    892760,
+    1083210,
+    1149540,
+    1227890,
+    1283190
+  ]
 }
