@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-31T02:33:05.7849089+00:00",
   "Index": "SGESR-EG5A",
   "AesEncrypted": true,
-  "AesIV": "UQ6N+Xr7WS3h6PIBB3pMAw=="
+  "AesIV": "UQ6N+Xr7WS3h6PIBB3pMAw==",
+  "AppIds": [
+    1469610,
+    2617510,
+    2617710,
+    2617720
+  ]
 }
