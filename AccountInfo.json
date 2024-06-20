@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-25T09:37:02.6304874+00:00",
   "Index": "SY55G-MDWL",
   "AesEncrypted": true,
-  "AesIV": "gKB7K+K1OVLflhYkhHFcmg=="
+  "AesIV": "gKB7K+K1OVLflhYkhHFcmg==",
+  "AppIds": [
+    1150080
+  ]
 }
