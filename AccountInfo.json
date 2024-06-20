@@ -5,5 +5,18 @@
   "LastRefresh": "2024-06-06T14:16:03.8522781+00:00",
   "Index": "A5RMF-KVTL",
   "AesEncrypted": true,
-  "AesIV": "GtHRhus6L6Mh0EtshR55XA=="
+  "AesIV": "GtHRhus6L6Mh0EtshR55XA==",
+  "AppIds": [
+    381210,
+    414700,
+    521890,
+    530711,
+    750381,
+    971790,
+    1089270,
+    1178490,
+    1449690,
+    1557310,
+    1899750
+  ]
 }
