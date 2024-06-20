@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-20T19:14:31.221482+00:00",
   "Index": "SLPLU-C2ZJ",
   "AesEncrypted": true,
-  "AesIV": "Dgth0xgE+n/W9iwaF9xsig=="
+  "AesIV": "Dgth0xgE+n/W9iwaF9xsig==",
+  "AppIds": [
+    245850,
+    322330,
+    343050,
+    1062520
+  ]
 }
