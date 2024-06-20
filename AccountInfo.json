@@ -5,5 +5,22 @@
   "LastRefresh": "2024-06-15T03:19:44.0006631+00:00",
   "Index": "S5KFD-DKTG",
   "AesEncrypted": true,
-  "AesIV": "OyaofQQb7flYZVDgoCsHEQ=="
+  "AesIV": "OyaofQQb7flYZVDgoCsHEQ==",
+  "AppIds": [
+    640820,
+    691690,
+    776650,
+    820860,
+    900441,
+    900442,
+    900443,
+    900444,
+    900445,
+    900446,
+    900447,
+    900448,
+    900449,
+    947090,
+    951520
+  ]
 }
