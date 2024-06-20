@@ -5,5 +5,15 @@
   "LastRefresh": "2024-05-27T05:21:01.6693106+00:00",
   "Index": "SCCA5-DGSE",
   "AesEncrypted": true,
-  "AesIV": "tPwjOYspbMJ/LWv3SYszlA=="
+  "AesIV": "tPwjOYspbMJ/LWv3SYszlA==",
+  "AppIds": [
+    425220,
+    458440,
+    458441,
+    458442,
+    458444,
+    458445,
+    458460,
+    501570
+  ]
 }
