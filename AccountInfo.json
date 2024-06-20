@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-08T02:34:02.7336788+00:00",
   "Index": "SABZQ-NTWN",
   "AesEncrypted": true,
-  "AesIV": "NEwKAci7ZCrLRxPXlRe84w=="
+  "AesIV": "NEwKAci7ZCrLRxPXlRe84w==",
+  "AppIds": [
+    1902710
+  ]
 }
