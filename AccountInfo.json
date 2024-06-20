@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-14T19:14:22.8357147+00:00",
   "Index": "SLF2T-ZJSE",
   "AesEncrypted": true,
-  "AesIV": "FLD8iB3mgPC94h9SqdmpYQ=="
+  "AesIV": "FLD8iB3mgPC94h9SqdmpYQ==",
+  "AppIds": [
+    1406850
+  ]
 }
