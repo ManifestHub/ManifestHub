@@ -5,5 +5,17 @@
   "LastRefresh": "2024-05-23T18:21:54.1573605+00:00",
   "Index": "AXSNS-FQUE",
   "AesEncrypted": true,
-  "AesIV": "GOYl/a7JnUG8GDmdQLjHZQ=="
+  "AesIV": "GOYl/a7JnUG8GDmdQLjHZQ==",
+  "AppIds": [
+    238370,
+    352870,
+    352871,
+    352872,
+    352873,
+    352874,
+    352875,
+    353120,
+    354390,
+    397080
+  ]
 }
