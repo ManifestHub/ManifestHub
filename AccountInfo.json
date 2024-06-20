@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T01:01:28.4667978+00:00",
   "Index": "ALKS2-NBWL",
   "AesEncrypted": true,
-  "AesIV": "KvG7XCNsacnltMZHHHMBVQ=="
+  "AesIV": "KvG7XCNsacnltMZHHHMBVQ==",
+  "AppIds": [
+    1158160
+  ]
 }
