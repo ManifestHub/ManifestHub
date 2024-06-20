@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-17T02:36:22.8329237+00:00",
   "Index": "AFR4X-JSVQ",
   "AesEncrypted": true,
-  "AesIV": "flocC1IX62BKgyjwFTHGkg=="
+  "AesIV": "flocC1IX62BKgyjwFTHGkg==",
+  "AppIds": [
+    1621690,
+    1963720
+  ]
 }
