@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T18:43:24.3287045+00:00",
   "Index": "SAFU4-SMZQ",
   "AesEncrypted": true,
-  "AesIV": "B/ol2i72mo+fo9r+53lJtg=="
+  "AesIV": "B/ol2i72mo+fo9r+53lJtg==",
+  "AppIds": [
+    2159730
+  ]
 }
