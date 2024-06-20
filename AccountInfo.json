@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T11:13:48.1817756+00:00",
   "Index": "AEH3Q-KAZE",
   "AesEncrypted": true,
-  "AesIV": "oS3lrCDNDNqGRsXp3twN1Q=="
+  "AesIV": "oS3lrCDNDNqGRsXp3twN1Q==",
+  "AppIds": [
+    1062520
+  ]
 }
