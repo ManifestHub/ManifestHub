@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-18T11:17:15.7819848+00:00",
   "Index": "SPACM-KCVC",
   "AesEncrypted": true,
-  "AesIV": "ivbyuXG9BspQM+9mDYkjrQ=="
+  "AesIV": "ivbyuXG9BspQM+9mDYkjrQ==",
+  "AppIds": [
+    1034160,
+    1397350
+  ]
 }
