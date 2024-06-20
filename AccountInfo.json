@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T06:40:50.5308474+00:00",
   "Index": "A6JTV-DAVL",
   "AesEncrypted": true,
-  "AesIV": "1synicMCzGKCn7J1zFTPlQ=="
+  "AesIV": "1synicMCzGKCn7J1zFTPlQ==",
+  "AppIds": [
+    883360
+  ]
 }
