@@ -5,5 +5,11 @@
   "LastRefresh": "2024-06-14T14:15:45.071758+00:00",
   "Index": "AAE35-VYSA",
   "AesEncrypted": true,
-  "AesIV": "fUsuqX6K/iiJ8k7belGiRg=="
+  "AesIV": "fUsuqX6K/iiJ8k7belGiRg==",
+  "AppIds": [
+    242920,
+    704850,
+    792300,
+    1471200
+  ]
 }
