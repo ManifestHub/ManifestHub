@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-11T12:34:52.9524365+00:00",
   "Index": "SR35M-6KUN",
   "AesEncrypted": true,
-  "AesIV": "Ype8/mgcZT3qWWYqnQXB+A=="
+  "AesIV": "Ype8/mgcZT3qWWYqnQXB+A==",
+  "AppIds": [
+    413150
+  ]
 }
