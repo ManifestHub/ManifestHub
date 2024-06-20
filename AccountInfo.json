@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-07T06:23:01.856004+00:00",
   "Index": "AYF47-UATL",
   "AesEncrypted": true,
-  "AesIV": "j1TYiJ6ga0X74s90dfR68g=="
+  "AesIV": "j1TYiJ6ga0X74s90dfR68g==",
+  "AppIds": [
+    1361400
+  ]
 }
