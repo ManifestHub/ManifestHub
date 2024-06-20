@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T06:23:13.356345+00:00",
   "Index": "AG35M-GWZL",
   "AesEncrypted": true,
-  "AesIV": "1BHc40yF8zH0VL4L2pKsGQ=="
+  "AesIV": "1BHc40yF8zH0VL4L2pKsGQ==",
+  "AppIds": [
+    943370
+  ]
 }
