@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T18:20:13.450523+00:00",
   "Index": "AU86B-YTXL",
   "AesEncrypted": true,
-  "AesIV": "cJvb9UKjDbPovyDd0odf2Q=="
+  "AesIV": "cJvb9UKjDbPovyDd0odf2Q==",
+  "AppIds": [
+    1245620
+  ]
 }
