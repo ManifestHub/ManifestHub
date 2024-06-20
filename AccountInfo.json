@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-24T08:23:52.5984835+00:00",
   "Index": "SVJUC-RDSA",
   "AesEncrypted": true,
-  "AesIV": "vxTJJV6/JKFOadHgKCSU0Q=="
+  "AesIV": "vxTJJV6/JKFOadHgKCSU0Q==",
+  "AppIds": [
+    337360,
+    383150,
+    383180
+  ]
 }
