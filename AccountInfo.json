@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T16:22:02.9342014+00:00",
   "Index": "AMPNY-RLVE",
   "AesEncrypted": true,
-  "AesIV": "sH1+cW1L8hI0Zd3nx6IXXA=="
+  "AesIV": "sH1+cW1L8hI0Zd3nx6IXXA==",
+  "AppIds": [
+    464920
+  ]
 }
