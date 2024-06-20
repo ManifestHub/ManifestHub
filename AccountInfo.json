@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:18:59.0294372+00:00",
   "Index": "S8LTD-JEVE",
   "AesEncrypted": true,
-  "AesIV": "ihtTGQnTmfY6vqVmXRSE2w=="
+  "AesIV": "ihtTGQnTmfY6vqVmXRSE2w==",
+  "AppIds": [
+    1073180
+  ]
 }
