@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-15T11:17:52.6878279+00:00",
   "Index": "SZHND-CHSL",
   "AesEncrypted": true,
-  "AesIV": "mWsTsGCStqKoy95FRYm0Ag=="
+  "AesIV": "mWsTsGCStqKoy95FRYm0Ag==",
+  "AppIds": [
+    698160
+  ]
 }
