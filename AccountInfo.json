@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T22:14:07.0611277+00:00",
   "Index": "AFXMX-HTUG",
   "AesEncrypted": true,
-  "AesIV": "CRiOGimaHf3gHAmBMj3TyQ=="
+  "AesIV": "CRiOGimaHf3gHAmBMj3TyQ==",
+  "AppIds": [
+    40960
+  ]
 }
