@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-02T12:26:21.8368562+00:00",
   "Index": "SDQXW-KUTE",
   "AesEncrypted": true,
-  "AesIV": "cerptlIExmjbBCWMWr6q8w=="
+  "AesIV": "cerptlIExmjbBCWMWr6q8w==",
+  "AppIds": [
+    281640
+  ]
 }
