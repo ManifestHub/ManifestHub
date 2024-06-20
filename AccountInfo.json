@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T22:12:46.155068+00:00",
   "Index": "AKNCE-TPXC",
   "AesEncrypted": true,
-  "AesIV": "nuYnKA2EEPAst+MznnscLg=="
+  "AesIV": "nuYnKA2EEPAst+MznnscLg==",
+  "AppIds": [
+    1040420
+  ]
 }
