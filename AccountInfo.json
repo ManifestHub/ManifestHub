@@ -5,5 +5,16 @@
   "LastRefresh": "2024-05-23T05:37:32.9025001+00:00",
   "Index": "SCV9T-RETG",
   "AesEncrypted": true,
-  "AesIV": "o8KmR/chJ+wjtoQewlhodA=="
+  "AesIV": "o8KmR/chJ+wjtoQewlhodA==",
+  "AppIds": [
+    817130,
+    884870,
+    943830,
+    943831,
+    943840,
+    943841,
+    943842,
+    943843,
+    943844
+  ]
 }
