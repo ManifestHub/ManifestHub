@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-16T17:12:52.2347523+00:00",
   "Index": "SMRP6-LDVG",
   "AesEncrypted": true,
-  "AesIV": "AkKgXsaIaJhTwoGWa/emBw=="
+  "AesIV": "AkKgXsaIaJhTwoGWa/emBw==",
+  "AppIds": [
+    1222700,
+    1225270
+  ]
 }
