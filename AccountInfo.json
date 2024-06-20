@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-04T07:18:51.824995+00:00",
   "Index": "AU4CM-HKUC",
   "AesEncrypted": true,
-  "AesIV": "UbxllxLqJmuvvg3IPmzs8Q=="
+  "AesIV": "UbxllxLqJmuvvg3IPmzs8Q==",
+  "AppIds": [
+    546560,
+    1295040
+  ]
 }
