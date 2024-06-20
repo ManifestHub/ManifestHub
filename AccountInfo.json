@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T18:40:02.1387362+00:00",
   "Index": "ALLGL-DPUC",
   "AesEncrypted": true,
-  "AesIV": "ExX+n+RRYpC0r2A6U7tPbQ=="
+  "AesIV": "ExX+n+RRYpC0r2A6U7tPbQ==",
+  "AppIds": [
+    911430
+  ]
 }
