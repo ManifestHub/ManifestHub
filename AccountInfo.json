@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-24T12:52:43.0164982+00:00",
   "Index": "AG23F-FBTJ",
   "AesEncrypted": true,
-  "AesIV": "8EgBX55YRtoSyf4filrtkw=="
+  "AesIV": "8EgBX55YRtoSyf4filrtkw==",
+  "AppIds": [
+    531510,
+    780670
+  ]
 }
