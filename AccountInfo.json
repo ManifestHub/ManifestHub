@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-28T19:40:39.3871615+00:00",
   "Index": "AMK4U-ELZA",
   "AesEncrypted": true,
-  "AesIV": "m8cwmZvicMQi4g5JHE7Vag=="
+  "AesIV": "m8cwmZvicMQi4g5JHE7Vag==",
+  "AppIds": [
+    294100,
+    367450,
+    562640
+  ]
 }
