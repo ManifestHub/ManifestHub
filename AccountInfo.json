@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-11T06:26:43.4478685+00:00",
   "Index": "AQVE3-DPTG",
   "AesEncrypted": true,
-  "AesIV": "q2WiNTNKT7XSFBMGxSTCKw=="
+  "AesIV": "q2WiNTNKT7XSFBMGxSTCKw==",
+  "AppIds": [
+    200710,
+    223070
+  ]
 }
