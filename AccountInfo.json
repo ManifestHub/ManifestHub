@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T18:42:52.3530265+00:00",
   "Index": "ALUEP-QMVN",
   "AesEncrypted": true,
-  "AesIV": "jD8mma2tYUeMcQOyKDYTfw=="
+  "AesIV": "jD8mma2tYUeMcQOyKDYTfw==",
+  "AppIds": [
+    1283410
+  ]
 }
