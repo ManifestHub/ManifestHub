@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-14T19:13:00.498558+00:00",
   "Index": "SFZAH-LDSE",
   "AesEncrypted": true,
-  "AesIV": "T3awQDGVkDylMJuDFkPeqw=="
+  "AesIV": "T3awQDGVkDylMJuDFkPeqw==",
+  "AppIds": [
+    951430
+  ]
 }
