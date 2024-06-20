@@ -15,7 +15,8 @@ var result = Parser.Default.ParseArguments<Options>(args)
         Environment.Exit(1);
     });
 
-var gdb = new GitDatabase(".", result.Value.Token ?? throw new NullReferenceException(), result.Value.Key ?? throw new NullReferenceException());
+var gdb = new GitDatabase(".", result.Value.Token ?? throw new NullReferenceException(),
+    result.Value.Key ?? throw new NullReferenceException());
 
 var semaphore = new SemaphoreSlim(result.Value.ConcurrentAccount);
 var tasks = new ConcurrentBag<Task>();
@@ -27,14 +28,15 @@ switch (result.Value.Mode) {
         var index = 0;
         var total = gdb.GetAccounts().Count();
 
-        foreach (var downloader in gdb.GetAccounts(true).Select(account => new ManifestDownloader(account))) {
+        foreach (var accountInfo in gdb.GetAccounts(true)) {
             await semaphore.WaitAsync();
 
-            Console.WriteLine($"[{index++}/{total}]Dispatching {downloader.Username}...");
+            Console.WriteLine($"[{index++}/{total}]Dispatching {accountInfo.AccountName}...");
             tasks.Add(Task.Run(async () => {
+                var downloader = new ManifestDownloader(accountInfo);
                 try {
                     await downloader.Connect().ConfigureAwait(false);
-                    var info = downloader.GetAccountInfo();
+                    var info = await downloader.GetAccountInfo();
                     await gdb.WriteAccount(info);
                     await downloader.DownloadAllManifestsAsync(result.Value.ConcurrentManifest, gdb, writeTasks)
                         .ConfigureAwait(false);
@@ -43,7 +45,7 @@ switch (result.Value.Mode) {
                                                             EResult.InvalidPassword
                                                             or EResult.AccountLogonDeniedVerifiedEmailRequired
                                                             or EResult.AccountLoginDeniedNeedTwoFactor) {
-                    await gdb.RemoveAccount(downloader.GetAccountInfo());
+                    await gdb.RemoveAccount(accountInfo);
                     Console.WriteLine($"{e.Result} for {downloader.Username}. Removed.");
                 }
                 catch (Exception e) {
@@ -110,7 +112,7 @@ switch (result.Value.Mode) {
             tasks.Add(Task.Run(async () => {
                 try {
                     await downloader.Connect().ConfigureAwait(false);
-                    var info = downloader.GetAccountInfo();
+                    var info = await downloader.GetAccountInfo();
                     if (infoPrev == null || info.RefreshToken != infoPrev.RefreshToken)
                         await gdb.WriteAccount(info);
                 }

@@ -17,6 +17,7 @@ public class AccountInfoCallback(
     public string? Index { get; set; } = index;
     public bool? AesEncrypted { get; set; } = aesEncrypted;
     public string? AesIV { get; set; } = aesIV;
+    public List<uint> AppIds { get; set; } = [];
 
     // Encrypt data
     public void Encrypt(string key) {

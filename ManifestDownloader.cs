@@ -19,10 +19,10 @@ class ManifestDownloader {
 
     private readonly string? _password;
     private string? _refreshToken;
-    private readonly DateTime? _lastRefresh;
     private string? _newRefreshToken;
 
     private AccountInfoCallback? _accountInfo;
+    private readonly AccountInfoCallback? _accountInfoArchive;
 
     private readonly TaskCompletionSource _licenseReady = new();
     private readonly HashSet<SteamApps.LicenseListCallback.License> _licenses = [];
@@ -32,8 +32,8 @@ class ManifestDownloader {
         accountInfo.AccountName ?? throw new ArgumentNullException(nameof(accountInfo)),
         accountInfo.AccountPassword,
         accountInfo.RefreshToken) {
-        _lastRefresh = accountInfo.LastRefresh;
         _accountInfo = accountInfo;
+        _accountInfoArchive = accountInfo;
     }
 
     public ManifestDownloader(string username, string? password = null, string? refreshToken = null) {
@@ -140,8 +140,7 @@ class ManifestDownloader {
             $"Failed to download manifest. AppID: {appid}, DepotID: {depotId}, ManifestID: {manifestId}");
     }
 
-    public async Task DownloadAllManifestsAsync(int maxConcurrentDownloads = 16,
-        GitDatabase? gdb = null, ConcurrentBag<Task>? writeTasks = null) {
+    private async Task<Dictionary<uint, SteamApps.PICSProductInfoCallback.PICSProductInfo>> ResolveAppsAsync() {
         await _licenseReady.Task.ConfigureAwait(false);
 
         var packagePicsRequest = _licenses
@@ -170,17 +169,21 @@ class ManifestDownloader {
         });
 
         var appInfo = await _steamApps.PICSGetProductInfo(appPicsRequest, []).ToTask().ConfigureAwait(false);
-        var servers = (await _steamContent.GetServersForSteamPipe()).ToArray();
 
         if (!appInfo.Complete || appInfo.Results == null) throw new Exception("Failed to get app info");
 
-        var apps = appInfo.Results.SelectMany(result => result.Apps).ToDictionary();
+        return appInfo.Results.SelectMany(result => result.Apps).ToDictionary();
+    }
+
+    public async Task DownloadAllManifestsAsync(int maxConcurrentDownloads = 16,
+        GitDatabase? gdb = null, ConcurrentBag<Task>? writeTasks = null) {
+        var servers = (await _steamContent.GetServersForSteamPipe()).ToArray();
 
         var semaphore = new SemaphoreSlim(maxConcurrentDownloads);
         var tasksList = new List<Func<Task<ManifestInfoCallback>>>();
         var downloadTasks = new List<Task>();
 
-        foreach (var app in apps) {
+        foreach (var app in await ResolveAppsAsync()) {
             var depots = app.Value.KeyValues["depots"].Children
                 .Where(depot => depot.Name?.All(char.IsDigit) ?? false)
                 .Where(depot => depot["manifests"]["public"] != KeyValue.Invalid)
@@ -235,7 +238,7 @@ class ManifestDownloader {
     }
 
 
-    public AccountInfoCallback GetAccountInfo() {
+    public async Task<AccountInfoCallback> GetAccountInfo(bool resolveAppIds = true) {
         _accountInfo ??= new AccountInfoCallback(
             accountName: Username,
             index: _steamUser.SteamID?.AsCsgoFriendCode()
@@ -245,7 +248,14 @@ class ManifestDownloader {
 
         _accountInfo.AccountPassword = _password;
         _accountInfo.RefreshToken = _newRefreshToken ?? _refreshToken;
-        _accountInfo.LastRefresh = (_newRefreshToken != null ? DateTime.Now : _lastRefresh) ?? DateTime.Now;
+
+        if (resolveAppIds) {
+            _accountInfo.AppIds = (await ResolveAppsAsync()).Keys.ToList();
+            _accountInfo.AppIds.Sort();
+        }
+
+        if (_accountInfoArchive == null || _accountInfoArchive != _accountInfo)
+            _accountInfo.LastRefresh = DateTime.Now;
 
         return _accountInfo;
     }
@@ -269,7 +279,7 @@ class ManifestDownloader {
                         Password = _password,
                         IsPersistentSession = false,
                         GuardData = null,
-                        Authenticator = new HeadlessAuthenticator(GetAccountInfo())
+                        Authenticator = new HeadlessAuthenticator(await GetAccountInfo(resolveAppIds: false))
                     }).ConfigureAwait(false);
 
                 var cts = new CancellationTokenSource(TimeSpan.FromSeconds(60));
