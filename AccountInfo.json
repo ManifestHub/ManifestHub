@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-06T03:19:07.2779122+00:00",
   "Index": "SRYCV-HJTG",
   "AesEncrypted": true,
-  "AesIV": "H6prXLIW3McuP4Lziq7dmA=="
+  "AesIV": "H6prXLIW3McuP4Lziq7dmA==",
+  "AppIds": [
+    467960,
+    778190
+  ]
 }
