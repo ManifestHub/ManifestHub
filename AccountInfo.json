@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-01T22:18:26.7516152+00:00",
   "Index": "SEN3G-DP4A",
   "AesEncrypted": true,
-  "AesIV": "wabEj4ey660pLYl6PdryRQ=="
+  "AesIV": "wabEj4ey660pLYl6PdryRQ==",
+  "AppIds": [
+    2186680,
+    2682660
+  ]
 }
