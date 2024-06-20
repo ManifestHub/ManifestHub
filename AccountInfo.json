@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-24T06:40:20.9128965+00:00",
   "Index": "SNTNL-3DUN",
   "AesEncrypted": true,
-  "AesIV": "V9ZRs+XxTcKjS1ffwJzG1w=="
+  "AesIV": "V9ZRs+XxTcKjS1ffwJzG1w==",
+  "AppIds": [
+    1817070,
+    2083110
+  ]
 }
