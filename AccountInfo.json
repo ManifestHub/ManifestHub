@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-11T22:14:47.8388641+00:00",
   "Index": "SGMFF-CAYQ",
   "AesEncrypted": true,
-  "AesIV": "yLCilPjcHm6qSGw4D8CbLw=="
+  "AesIV": "yLCilPjcHm6qSGw4D8CbLw==",
+  "AppIds": [
+    1718130
+  ]
 }
