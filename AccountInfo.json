@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-14T07:21:39.9217318+00:00",
   "Index": "SVLSY-HAUL",
   "AesEncrypted": true,
-  "AesIV": "/8ng9c7panoDtMB2pt6UvQ=="
+  "AesIV": "/8ng9c7panoDtMB2pt6UvQ==",
+  "AppIds": [
+    506500,
+    696030
+  ]
 }
