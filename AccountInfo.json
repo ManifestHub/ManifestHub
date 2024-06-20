@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T04:17:49.6327047+00:00",
   "Index": "SF78B-NUSE",
   "AesEncrypted": true,
-  "AesIV": "rPzZEBc/b//j4fSR8EO5+A=="
+  "AesIV": "rPzZEBc/b//j4fSR8EO5+A==",
+  "AppIds": [
+    427190
+  ]
 }
