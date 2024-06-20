@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-24T02:46:24.0169819+00:00",
   "Index": "ADLXB-DRUE",
   "AesEncrypted": true,
-  "AesIV": "dfHgFD1T0xUP9opXphpFCA=="
+  "AesIV": "dfHgFD1T0xUP9opXphpFCA==",
+  "AppIds": [
+    266510,
+    350460
+  ]
 }
