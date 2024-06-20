@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T07:42:27.979802+00:00",
   "Index": "SSJPR-PTSG",
   "AesEncrypted": true,
-  "AesIV": "wTk6uRtzkuq17X8p6OcNwA=="
+  "AesIV": "wTk6uRtzkuq17X8p6OcNwA==",
+  "AppIds": [
+    204360
+  ]
 }
