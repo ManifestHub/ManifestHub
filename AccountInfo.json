@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-22T22:11:45.5552271+00:00",
   "Index": "AQUEK-RDVE",
   "AesEncrypted": true,
-  "AesIV": "95clcajDbtEclz0OZr1QdA=="
+  "AesIV": "95clcajDbtEclz0OZr1QdA==",
+  "AppIds": [
+    1202130
+  ]
 }
