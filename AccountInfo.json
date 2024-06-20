@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-02T13:19:04.6141183+00:00",
   "Index": "SCPJM-65WJ",
   "AesEncrypted": true,
-  "AesIV": "LIrcc/7wnOD5qTmZ0pcsLw=="
+  "AesIV": "LIrcc/7wnOD5qTmZ0pcsLw==",
+  "AppIds": [
+    633080
+  ]
 }
