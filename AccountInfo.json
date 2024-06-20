@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-29T05:39:52.8499346+00:00",
   "Index": "ABFUY-AZTA",
   "AesEncrypted": true,
-  "AesIV": "njWPNb1C6M3j64PXNGv0Fw=="
+  "AesIV": "njWPNb1C6M3j64PXNGv0Fw==",
+  "AppIds": [
+    666140,
+    974290,
+    1075040,
+    1075041
+  ]
 }
