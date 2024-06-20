@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-04T07:22:09.4957264+00:00",
   "Index": "AFLAC-PUWQ",
   "AesEncrypted": true,
-  "AesIV": "x3tSO9nyiCD+BeOLja/HeA=="
+  "AesIV": "x3tSO9nyiCD+BeOLja/HeA==",
+  "AppIds": [
+    1556790
+  ]
 }
