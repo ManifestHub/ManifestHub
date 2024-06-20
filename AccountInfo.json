@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T02:03:53.9395887+00:00",
   "Index": "SP6GY-PUSG",
   "AesEncrypted": true,
-  "AesIV": "iHozaJ44NEyBgBBuxHLZ8A=="
+  "AesIV": "iHozaJ44NEyBgBBuxHLZ8A==",
+  "AppIds": [
+    1045620
+  ]
 }
