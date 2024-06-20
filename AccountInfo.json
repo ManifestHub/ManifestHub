@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-23T18:38:32.8069564+00:00",
   "Index": "AJPZ4-F4SE",
   "AesEncrypted": true,
-  "AesIV": "Mysc5QPCk/ngl7Ds587reg=="
+  "AesIV": "Mysc5QPCk/ngl7Ds587reg==",
+  "AppIds": [
+    522210,
+    597720,
+    638230,
+    966330
+  ]
 }
