@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-28T23:15:23.4526555+00:00",
   "Index": "ATF2S-KAZJ",
   "AesEncrypted": true,
-  "AesIV": "UzgNP2+o/coB1SJW748AaQ=="
+  "AesIV": "UzgNP2+o/coB1SJW748AaQ==",
+  "AppIds": [
+    613100,
+    825570,
+    1460920,
+    1471280
+  ]
 }
