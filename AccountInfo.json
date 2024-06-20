@@ -5,5 +5,17 @@
   "LastRefresh": "2024-05-29T00:59:42.8586236+00:00",
   "Index": "ALRYQ-BAWA",
   "AesEncrypted": true,
-  "AesIV": "uwR1te3MHw7OTvNWNpCxLg=="
+  "AesIV": "uwR1te3MHw7OTvNWNpCxLg==",
+  "AppIds": [
+    211,
+    215,
+    218,
+    550,
+    563,
+    564,
+    222860,
+    223540,
+    227040,
+    227050
+  ]
 }
