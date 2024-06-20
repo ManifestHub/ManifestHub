@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T09:39:32.6128951+00:00",
   "Index": "S6PDR-XBRE",
   "AesEncrypted": true,
-  "AesIV": "bmYf3UqW9+ZyGVSVy1mGYA=="
+  "AesIV": "bmYf3UqW9+ZyGVSVy1mGYA==",
+  "AppIds": [
+    966330
+  ]
 }
