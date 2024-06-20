@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-22T20:18:51.63581+00:00",
   "Index": "SBL9E-UPTE",
   "AesEncrypted": true,
-  "AesIV": "b8WlF8ZUcadx4UJPQcDPBA=="
+  "AesIV": "b8WlF8ZUcadx4UJPQcDPBA==",
+  "AppIds": [
+    1245620,
+    1799420,
+    1896300,
+    1896320
+  ]
 }
