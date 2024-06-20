@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-08T02:33:11.9655218+00:00",
   "Index": "SBYVM-KSUC",
   "AesEncrypted": true,
-  "AesIV": "dYu3pcW959G/UP2AZQfYZw=="
+  "AesIV": "dYu3pcW959G/UP2AZQfYZw==",
+  "AppIds": [
+    1566390
+  ]
 }
