@@ -5,5 +5,13 @@
   "LastRefresh": "2024-05-23T13:18:02.0698691+00:00",
   "Index": "SCGUA-ANUA",
   "AesEncrypted": true,
-  "AesIV": "6vWViQycs4B9J1Z/J5j+8A=="
+  "AesIV": "6vWViQycs4B9J1Z/J5j+8A==",
+  "AppIds": [
+    391730,
+    1129610,
+    1147560,
+    1503210,
+    1525720,
+    2512790
+  ]
 }
