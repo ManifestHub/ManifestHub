@@ -5,5 +5,15 @@
   "LastRefresh": "2024-05-21T07:13:39.2045393+00:00",
   "Index": "STKP6-EKUE",
   "AesEncrypted": true,
-  "AesIV": "RJC6dSW2uQGpEUJn5qdfRA=="
+  "AesIV": "RJC6dSW2uQGpEUJn5qdfRA==",
+  "AppIds": [
+    368070,
+    495950,
+    495951,
+    575290,
+    575291,
+    575300,
+    575301,
+    575310
+  ]
 }
