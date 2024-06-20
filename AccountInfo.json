@@ -5,5 +5,15 @@
   "LastRefresh": "2024-05-29T21:15:39.1136502+00:00",
   "Index": "AMY38-HFTC",
   "AesEncrypted": true,
-  "AesIV": "TvUZd9mTWzKXc6ONwkXp8A=="
+  "AesIV": "TvUZd9mTWzKXc6ONwkXp8A==",
+  "AppIds": [
+    1089090,
+    1096300,
+    1130840,
+    1203040,
+    1203041,
+    1203043,
+    1203044,
+    1203045
+  ]
 }
