@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-28T12:24:45.5350285+00:00",
   "Index": "SXPAM-NDYJ",
   "AesEncrypted": true,
-  "AesIV": "z4jeFfkYsOBiAI6H1BME6w=="
+  "AesIV": "z4jeFfkYsOBiAI6H1BME6w==",
+  "AppIds": [
+    504230
+  ]
 }
