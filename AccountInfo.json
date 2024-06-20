@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-15T18:24:18.3360529+00:00",
   "Index": "SLBY8-JTXN",
   "AesEncrypted": true,
-  "AesIV": "Oumnby0EMVlJBCYbq1fZUw=="
+  "AesIV": "Oumnby0EMVlJBCYbq1fZUw==",
+  "AppIds": [
+    756800
+  ]
 }
