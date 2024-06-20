@@ -1,7 +1,9 @@
 ﻿using System.Security.Cryptography;
+using Newtonsoft.Json;
 
 namespace ManifestHub;
 
+[method: JsonConstructor]
 public class AccountInfoCallback(
     string accountName,
     string? accountPassword = null,
@@ -9,7 +11,8 @@ public class AccountInfoCallback(
     DateTime? lastRefresh = null,
     string? index = null,
     bool? aesEncrypted = null,
-    string? aesIV = null) {
+    string? aesIV = null,
+    List<uint>? appIds = null) {
     public string AccountName { get; set; } = accountName;
     public string? AccountPassword { get; set; } = accountPassword;
     public string? RefreshToken { get; set; } = refreshToken;
@@ -17,7 +20,7 @@ public class AccountInfoCallback(
     public string? Index { get; set; } = index;
     public bool? AesEncrypted { get; set; } = aesEncrypted;
     public string? AesIV { get; set; } = aesIV;
-    public List<uint> AppIds { get; set; } = [];
+    public List<uint> AppIds { get; set; } = appIds ?? [];
 
     public AccountInfoCallback(AccountInfoCallback other) : this(
         other.AccountName,
@@ -26,8 +29,8 @@ public class AccountInfoCallback(
         other.LastRefresh,
         other.Index,
         other.AesEncrypted,
-        other.AesIV) {
-        AppIds = [..other.AppIds];
+        other.AesIV,
+        [.. other.AppIds]) {
     }
 
     // Encrypt data
