@@ -5,5 +5,17 @@
   "LastRefresh": "2024-05-22T16:21:56.1551592+00:00",
   "Index": "A3HEN-EZSL",
   "AesEncrypted": true,
-  "AesIV": "/aGBW62GhClM0FYOlaJj/Q=="
+  "AesIV": "/aGBW62GhClM0FYOlaJj/Q==",
+  "AppIds": [
+    211,
+    215,
+    218,
+    550,
+    563,
+    564,
+    222860,
+    223540,
+    227040,
+    227050
+  ]
 }
