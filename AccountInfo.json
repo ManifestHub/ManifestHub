@@ -5,5 +5,10 @@
   "LastRefresh": "2024-05-24T02:27:48.350123+00:00",
   "Index": "SYFLR-X8VA",
   "AesEncrypted": true,
-  "AesIV": "fguwcwiqnX26ds8BVf2AaA=="
+  "AesIV": "fguwcwiqnX26ds8BVf2AaA==",
+  "AppIds": [
+    846770,
+    1111460,
+    1796160
+  ]
 }
