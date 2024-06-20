@@ -5,5 +5,20 @@
   "LastRefresh": "2024-05-21T20:21:18.9357262+00:00",
   "Index": "AEVHA-KTTA",
   "AesEncrypted": true,
-  "AesIV": "1ejr1OE+tKSBq5pglQs+dA=="
+  "AesIV": "1ejr1OE+tKSBq5pglQs+dA==",
+  "AppIds": [
+    1342260,
+    1366500,
+    1612680,
+    1612700,
+    1612710,
+    1612720,
+    1621630,
+    1621631,
+    1621650,
+    1621651,
+    1621660,
+    1621661,
+    1621670
+  ]
 }
