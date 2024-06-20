@@ -5,5 +5,14 @@
   "LastRefresh": "2024-05-31T19:16:07.4163572+00:00",
   "Index": "ACAFG-GBHG",
   "AesEncrypted": true,
-  "AesIV": "3S2jCN901ybvUYD5g464pA=="
+  "AesIV": "3S2jCN901ybvUYD5g464pA==",
+  "AppIds": [
+    346110,
+    376030,
+    407530,
+    578080,
+    622590,
+    813000,
+    1776090
+  ]
 }
