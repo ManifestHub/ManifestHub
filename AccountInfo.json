@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-09T13:17:32.5903002+00:00",
   "Index": "SDH5B-SFSA",
   "AesEncrypted": true,
-  "AesIV": "6O675EawoYfDMQSESCDNeg=="
+  "AesIV": "6O675EawoYfDMQSESCDNeg==",
+  "AppIds": [
+    979070,
+    1193680
+  ]
 }
