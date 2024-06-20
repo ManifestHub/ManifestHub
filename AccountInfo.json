@@ -5,5 +5,11 @@
   "LastRefresh": "2024-06-05T08:19:49.2539441+00:00",
   "Index": "SLRAP-EZTG",
   "AesEncrypted": true,
-  "AesIV": "faJz9bcCywT62dQrJK0RkQ=="
+  "AesIV": "faJz9bcCywT62dQrJK0RkQ==",
+  "AppIds": [
+    226840,
+    275560,
+    346680,
+    362890
+  ]
 }
