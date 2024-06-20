@@ -33,7 +33,7 @@ class ManifestDownloader {
         accountInfo.AccountPassword,
         accountInfo.RefreshToken) {
         _accountInfo = accountInfo;
-        _accountInfoArchive = accountInfo;
+        _accountInfoArchive = new AccountInfoCallback(accountInfo);
     }
 
     public ManifestDownloader(string username, string? password = null, string? refreshToken = null) {
@@ -254,8 +254,11 @@ class ManifestDownloader {
             _accountInfo.AppIds.Sort();
         }
 
-        if (_accountInfoArchive == null || _accountInfoArchive != _accountInfo)
+        if (_accountInfoArchive == null ||
+            !Equals(_accountInfo.RefreshToken, _accountInfoArchive.RefreshToken) ||
+            !Equals(_accountInfo.AppIds, _accountInfoArchive.AppIds)) {
             _accountInfo.LastRefresh = DateTime.Now;
+        }
 
         return _accountInfo;
     }

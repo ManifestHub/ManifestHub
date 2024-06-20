@@ -19,6 +19,17 @@ public class AccountInfoCallback(
     public string? AesIV { get; set; } = aesIV;
     public List<uint> AppIds { get; set; } = [];
 
+    public AccountInfoCallback(AccountInfoCallback other) : this(
+        other.AccountName,
+        other.AccountPassword,
+        other.RefreshToken,
+        other.LastRefresh,
+        other.Index,
+        other.AesEncrypted,
+        other.AesIV) {
+        AppIds = [..other.AppIds];
+    }
+
     // Encrypt data
     public void Encrypt(string key) {
         if (AesEncrypted is true) return;
