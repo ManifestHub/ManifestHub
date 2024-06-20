@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-19T18:55:19.5627348+00:00",
   "Index": "SNF43-JKZE",
   "AesEncrypted": true,
-  "AesIV": "bvfqSSneFa+H1/FRpLrVDg=="
+  "AesIV": "bvfqSSneFa+H1/FRpLrVDg==",
+  "AppIds": [
+    1551360
+  ]
 }
