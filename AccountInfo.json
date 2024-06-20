@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T06:41:31.2930541+00:00",
   "Index": "S52GG-GXUE",
   "AesEncrypted": true,
-  "AesIV": "UE11JVALoc/x/o1o96TiMg=="
+  "AesIV": "UE11JVALoc/x/o1o96TiMg==",
+  "AppIds": [
+    606150,
+    1121580
+  ]
 }
