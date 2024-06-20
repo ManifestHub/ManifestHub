@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T01:00:00.082407+00:00",
   "Index": "ATYDM-NGTG",
   "AesEncrypted": true,
-  "AesIV": "TYZS1mPHVujeQEkhZsN8WQ=="
+  "AesIV": "TYZS1mPHVujeQEkhZsN8WQ==",
+  "AppIds": [
+    416680
+  ]
 }
