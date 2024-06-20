@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-15T10:17:17.3767922+00:00",
   "Index": "AMHAE-EPSA",
   "AesEncrypted": true,
-  "AesIV": "XZfv3CiS+AaMBO8R9rlnRw=="
+  "AesIV": "XZfv3CiS+AaMBO8R9rlnRw==",
+  "AppIds": [
+    1107790
+  ]
 }
