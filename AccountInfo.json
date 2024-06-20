@@ -5,5 +5,18 @@
   "LastRefresh": "2024-06-16T19:14:03.8727265+00:00",
   "Index": "SP725-YYTE",
   "AesEncrypted": true,
-  "AesIV": "B/sCzseb6Vsl+T7zeZ+4tQ=="
+  "AesIV": "B/sCzseb6Vsl+T7zeZ+4tQ==",
+  "AppIds": [
+    788100,
+    1115050,
+    1231460,
+    1262000,
+    1396440,
+    1518790,
+    1674890,
+    1701860,
+    1701861,
+    1701862,
+    1859280
+  ]
 }
