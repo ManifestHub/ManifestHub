@@ -5,5 +5,13 @@
   "LastRefresh": "2024-06-06T05:22:36.0036147+00:00",
   "Index": "A64GQ-2ZSL",
   "AesEncrypted": true,
-  "AesIV": "SFeUGcc+/wga7aKH/X1wVQ=="
+  "AesIV": "SFeUGcc+/wga7aKH/X1wVQ==",
+  "AppIds": [
+    238320,
+    273300,
+    414700,
+    597170,
+    598980,
+    1948280
+  ]
 }
