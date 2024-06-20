@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-07T21:18:14.983849+00:00",
   "Index": "SRH73-UEUN",
   "AesEncrypted": true,
-  "AesIV": "jQuBhPZpv255h+VgPrdssg=="
+  "AesIV": "jQuBhPZpv255h+VgPrdssg==",
+  "AppIds": [
+    1543030
+  ]
 }
