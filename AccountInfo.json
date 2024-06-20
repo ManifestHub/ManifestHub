@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T14:19:44.0168584+00:00",
   "Index": "SZRAR-PXTL",
   "AesEncrypted": true,
-  "AesIV": "nP+eVgV5gdMKIN2CgyT0Lg=="
+  "AesIV": "nP+eVgV5gdMKIN2CgyT0Lg==",
+  "AppIds": [
+    460120
+  ]
 }
