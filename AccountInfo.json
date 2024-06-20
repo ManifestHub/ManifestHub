@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T10:40:23.5177817+00:00",
   "Index": "ASMLE-MVTG",
   "AesEncrypted": true,
-  "AesIV": "/9l9eb/BAtYdGTxDyBimZQ=="
+  "AesIV": "/9l9eb/BAtYdGTxDyBimZQ==",
+  "AppIds": [
+    562410
+  ]
 }
