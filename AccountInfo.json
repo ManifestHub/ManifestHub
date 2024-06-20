@@ -5,5 +5,10 @@
   "LastRefresh": "2024-06-02T21:20:17.2747738+00:00",
   "Index": "AMMGF-QPYE",
   "AesEncrypted": true,
-  "AesIV": "7r5G9LEQE9c51dOPle3Xow=="
+  "AesIV": "7r5G9LEQE9c51dOPle3Xow==",
+  "AppIds": [
+    1637320,
+    2150000,
+    2152440
+  ]
 }
