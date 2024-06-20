@@ -5,5 +5,19 @@
   "LastRefresh": "2024-05-24T19:18:43.4689361+00:00",
   "Index": "SDYU7-CZVL",
   "AesEncrypted": true,
-  "AesIV": "ylNBtJcXR++o9PcOxxg6jA=="
+  "AesIV": "ylNBtJcXR++o9PcOxxg6jA==",
+  "AppIds": [
+    22370,
+    22380,
+    22460,
+    22465,
+    22470,
+    22475,
+    22480,
+    72730,
+    72740,
+    72750,
+    72760,
+    72840
+  ]
 }
