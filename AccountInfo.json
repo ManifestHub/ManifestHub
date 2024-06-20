@@ -5,5 +5,11 @@
   "LastRefresh": "2024-05-23T21:41:42.8283003+00:00",
   "Index": "S5XPA-RKSN",
   "AesEncrypted": true,
-  "AesIV": "2BmaP+Lly2LjoKazU8BBsQ=="
+  "AesIV": "2BmaP+Lly2LjoKazU8BBsQ==",
+  "AppIds": [
+    1612780,
+    1906030,
+    1906031,
+    2012970
+  ]
 }
