@@ -5,5 +5,14 @@
   "LastRefresh": "2024-06-02T16:17:06.6964203+00:00",
   "Index": "SDMHE-QVHL",
   "AesEncrypted": true,
-  "AesIV": "mSogcesj4YVZVkdyV5YRgQ=="
+  "AesIV": "mSogcesj4YVZVkdyV5YRgQ==",
+  "AppIds": [
+    360430,
+    511890,
+    511891,
+    511892,
+    598020,
+    598021,
+    598022
+  ]
 }
