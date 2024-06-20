@@ -5,5 +5,12 @@
   "LastRefresh": "2024-06-07T03:20:10.534749+00:00",
   "Index": "SEHXP-CTTE",
   "AesEncrypted": true,
-  "AesIV": "41ZBjaqzG/ZDxGR0cJTfNQ=="
+  "AesIV": "41ZBjaqzG/ZDxGR0cJTfNQ==",
+  "AppIds": [
+    319630,
+    329880,
+    329910,
+    329920,
+    329930
+  ]
 }
