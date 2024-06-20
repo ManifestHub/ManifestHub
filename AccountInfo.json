@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-23T16:21:07.5417743+00:00",
   "Index": "ALRMQ-77XC",
   "AesEncrypted": true,
-  "AesIV": "W9HjAJ2sN4/N5d50JjEMGg=="
+  "AesIV": "W9HjAJ2sN4/N5d50JjEMGg==",
+  "AppIds": [
+    1161590,
+    2456610
+  ]
 }
