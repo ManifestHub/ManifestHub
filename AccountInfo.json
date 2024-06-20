@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T11:16:06.2516715+00:00",
   "Index": "AW82D-A6SC",
   "AesEncrypted": true,
-  "AesIV": "2PUcc5W9E+xxieRS87us9w=="
+  "AesIV": "2PUcc5W9E+xxieRS87us9w==",
+  "AppIds": [
+    705120
+  ]
 }
