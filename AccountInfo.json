@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T00:59:40.3626605+00:00",
   "Index": "AN952-JCSG",
   "AesEncrypted": true,
-  "AesIV": "OlJv+3xcMgyzIMIa1FfLPg=="
+  "AesIV": "OlJv+3xcMgyzIMIa1FfLPg==",
+  "AppIds": [
+    1198090
+  ]
 }
