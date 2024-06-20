@@ -5,5 +5,21 @@
   "LastRefresh": "2024-06-11T22:14:04.9237665+00:00",
   "Index": "SCYQV-LCVA",
   "AesEncrypted": true,
-  "AesIV": "MTaQA2NwipSYkVhdnpjTbw=="
+  "AesIV": "MTaQA2NwipSYkVhdnpjTbw==",
+  "AppIds": [
+    520440,
+    550330,
+    550331,
+    550332,
+    550333,
+    550334,
+    550335,
+    631550,
+    631551,
+    631552,
+    631553,
+    631554,
+    631560,
+    699550
+  ]
 }
