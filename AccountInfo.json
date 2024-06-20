@@ -5,5 +5,20 @@
   "LastRefresh": "2024-06-18T02:36:25.0680579+00:00",
   "Index": "SVNKN-XMVA",
   "AesEncrypted": true,
-  "AesIV": "ZkrSxpnARctyL4XW6Nmgig=="
+  "AesIV": "ZkrSxpnARctyL4XW6Nmgig==",
+  "AppIds": [
+    234670,
+    349040,
+    416420,
+    416421,
+    416422,
+    416423,
+    416424,
+    495140,
+    495160,
+    543870,
+    543890,
+    618140,
+    1142330
+  ]
 }
