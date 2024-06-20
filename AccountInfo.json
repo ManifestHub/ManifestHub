@@ -5,5 +5,18 @@
   "LastRefresh": "2024-06-18T04:20:45.6277241+00:00",
   "Index": "ACSHE-V3SJ",
   "AesEncrypted": true,
-  "AesIV": "RjfYDC9cdlBu8EtrwbfhuQ=="
+  "AesIV": "RjfYDC9cdlBu8EtrwbfhuQ==",
+  "AppIds": [
+    431960,
+    612880,
+    624620,
+    624621,
+    624622,
+    624740,
+    650410,
+    719980,
+    1426210,
+    1426390,
+    1790230
+  ]
 }
