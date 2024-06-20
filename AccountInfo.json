@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-19T22:16:59.1460948+00:00",
   "Index": "A4KMR-QTXE",
   "AesEncrypted": true,
-  "AesIV": "nRquSRzdipEwLa4VT39gGQ=="
+  "AesIV": "nRquSRzdipEwLa4VT39gGQ==",
+  "AppIds": [
+    1766740
+  ]
 }
