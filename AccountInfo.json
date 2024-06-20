@@ -5,5 +5,18 @@
   "LastRefresh": "2024-05-31T03:52:38.0214206+00:00",
   "Index": "AU7MP-FRVN",
   "AesEncrypted": true,
-  "AesIV": "Q8+w6yZonTrWVwwFx8p9sQ=="
+  "AesIV": "Q8+w6yZonTrWVwwFx8p9sQ==",
+  "AppIds": [
+    271590,
+    362003,
+    771300,
+    1091500,
+    1168660,
+    1427120,
+    1495710,
+    1540070,
+    1715910,
+    2138330,
+    2441600
+  ]
 }
