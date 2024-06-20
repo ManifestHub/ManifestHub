@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T15:19:30.282857+00:00",
   "Index": "SUCS8-RWXA",
   "AesEncrypted": true,
-  "AesIV": "wDHZt/wNrYiRP8O9NQpIeQ=="
+  "AesIV": "wDHZt/wNrYiRP8O9NQpIeQ==",
+  "AppIds": [
+    1966720
+  ]
 }
