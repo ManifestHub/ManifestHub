@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T21:43:21.1295256+00:00",
   "Index": "SDE6P-SPXC",
   "AesEncrypted": true,
-  "AesIV": "nnk2taaiQ+asI0q6pJ4SEw=="
+  "AesIV": "nnk2taaiQ+asI0q6pJ4SEw==",
+  "AppIds": [
+    1583230
+  ]
 }
