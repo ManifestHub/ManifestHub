@@ -5,5 +5,9 @@
   "LastRefresh": "2024-05-29T03:15:04.0530406+00:00",
   "Index": "SSCUY-RFUG",
   "AesEncrypted": true,
-  "AesIV": "MBUuYULOSP0YbKS+ZZ0duw=="
+  "AesIV": "MBUuYULOSP0YbKS+ZZ0duw==",
+  "AppIds": [
+    1267910,
+    2055140
+  ]
 }
