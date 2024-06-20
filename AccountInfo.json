@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:18:57.0785075+00:00",
   "Index": "AN443-P6WL",
   "AesEncrypted": true,
-  "AesIV": "ZlkINAc0SR12PHs2gslVPA=="
+  "AesIV": "ZlkINAc0SR12PHs2gslVPA==",
+  "AppIds": [
+    1516490
+  ]
 }
