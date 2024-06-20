@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-29T08:18:02.8187526+00:00",
   "Index": "SDYBC-MUVE",
   "AesEncrypted": true,
-  "AesIV": "XwKHU4LFUmwDCt7bv2asAQ=="
+  "AesIV": "XwKHU4LFUmwDCt7bv2asAQ==",
+  "AppIds": [
+    868360
+  ]
 }
