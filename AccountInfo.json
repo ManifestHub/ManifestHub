@@ -5,5 +5,16 @@
   "LastRefresh": "2024-05-23T02:42:53.6437357+00:00",
   "Index": "S3CCF-RFSN",
   "AesEncrypted": true,
-  "AesIV": "hI5H/TWG/LtTVJQEri+Row=="
+  "AesIV": "hI5H/TWG/LtTVJQEri+Row==",
+  "AppIds": [
+    1351630,
+    1627580,
+    1627581,
+    1627582,
+    1627583,
+    1627584,
+    1627585,
+    1627586,
+    1636780
+  ]
 }
