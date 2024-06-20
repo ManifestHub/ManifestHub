@@ -5,5 +5,16 @@
   "LastRefresh": "2024-05-27T01:57:47.6139688+00:00",
   "Index": "SWQSP-GZTG",
   "AesEncrypted": true,
-  "AesIV": "R+XU8iiMyb6niqsrKaKZHA=="
+  "AesIV": "R+XU8iiMyb6niqsrKaKZHA==",
+  "AppIds": [
+    42680,
+    42690,
+    42695,
+    42696,
+    42697,
+    42698,
+    115300,
+    698930,
+    698940
+  ]
 }
