@@ -5,5 +5,19 @@
   "LastRefresh": "2024-05-25T14:40:05.2006244+00:00",
   "Index": "SG6WB-NRDA",
   "AesEncrypted": true,
-  "AesIV": "FBLEYum4w9lNme7f+67xvQ=="
+  "AesIV": "FBLEYum4w9lNme7f+67xvQ==",
+  "AppIds": [
+    50130,
+    50140,
+    50141,
+    50142,
+    50143,
+    50144,
+    50145,
+    50146,
+    50147,
+    50148,
+    50149,
+    1030830
+  ]
 }
