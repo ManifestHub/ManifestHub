@@ -5,5 +5,11 @@
   "LastRefresh": "2024-06-08T06:23:54.7464541+00:00",
   "Index": "SHEEU-2KVL",
   "AesEncrypted": true,
-  "AesIV": "OBo+izBrvv3STJC15H8L2A=="
+  "AesIV": "OBo+izBrvv3STJC15H8L2A==",
+  "AppIds": [
+    1850510,
+    1897050,
+    1931660,
+    2081320
+  ]
 }
