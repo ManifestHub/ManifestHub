@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-14T07:21:19.2206093+00:00",
   "Index": "AY629-DYUL",
   "AesEncrypted": true,
-  "AesIV": "gPEjbURk68hlnSP/deO/Sw=="
+  "AesIV": "gPEjbURk68hlnSP/deO/Sw==",
+  "AppIds": [
+    1017410
+  ]
 }
