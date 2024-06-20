@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-21T20:20:53.9819169+00:00",
   "Index": "SNZE4-RUUE",
   "AesEncrypted": true,
-  "AesIV": "YMf+tDweKOKJQ7kqnjAn1g=="
+  "AesIV": "YMf+tDweKOKJQ7kqnjAn1g==",
+  "AppIds": [
+    738530
+  ]
 }
