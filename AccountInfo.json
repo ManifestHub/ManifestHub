@@ -5,5 +5,15 @@
   "LastRefresh": "2024-05-28T22:16:26.3744151+00:00",
   "Index": "A3V92-CKWN",
   "AesEncrypted": true,
-  "AesIV": "pajx/Np2+Ezf64+CZAnObQ=="
+  "AesIV": "pajx/Np2+Ezf64+CZAnObQ==",
+  "AppIds": [
+    1139900,
+    1480500,
+    1542040,
+    1647450,
+    1741240,
+    1741380,
+    1760130,
+    1760190
+  ]
 }
