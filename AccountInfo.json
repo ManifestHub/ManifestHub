@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T19:17:58.7613025+00:00",
   "Index": "AF7CX-JAVG",
   "AesEncrypted": true,
-  "AesIV": "BuGiWK1P+TNLkPOEdO2iaA=="
+  "AesIV": "BuGiWK1P+TNLkPOEdO2iaA==",
+  "AppIds": [
+    1093290
+  ]
 }
