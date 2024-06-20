@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-24T03:41:10.8972947+00:00",
   "Index": "SP4GU-AAXN",
   "AesEncrypted": true,
-  "AesIV": "lbF1Gdre1eVcK56w4Kzmsg=="
+  "AesIV": "lbF1Gdre1eVcK56w4Kzmsg==",
+  "AppIds": [
+    986040
+  ]
 }
