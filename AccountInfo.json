@@ -5,5 +5,9 @@
   "LastRefresh": "2024-06-07T13:16:44.7288769+00:00",
   "Index": "SRRJP-KZYJ",
   "AesEncrypted": true,
-  "AesIV": "YmEn/BL7hkFtI8ayTOfz6w=="
+  "AesIV": "YmEn/BL7hkFtI8ayTOfz6w==",
+  "AppIds": [
+    873940,
+    1271330
+  ]
 }
