@@ -5,5 +5,8 @@
   "LastRefresh": "2024-05-23T06:19:56.8710326+00:00",
   "Index": "ACGJM-CYSC",
   "AesEncrypted": true,
-  "AesIV": "0J6qbkAJh06w5ZqaVMe8RA=="
+  "AesIV": "0J6qbkAJh06w5ZqaVMe8RA==",
+  "AppIds": [
+    726590
+  ]
 }
