@@ -5,5 +5,8 @@
   "LastRefresh": "2024-06-18T14:20:20.0245743+00:00",
   "Index": "AEP6P-DHXC",
   "AesEncrypted": true,
-  "AesIV": "y1B3i84yKuyQDjSx4OxhVw=="
+  "AesIV": "y1B3i84yKuyQDjSx4OxhVw==",
+  "AppIds": [
+    493340
+  ]
 }
