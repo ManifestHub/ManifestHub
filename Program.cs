@@ -87,8 +87,10 @@ switch (result.Value.Mode) {
         try {
             var encryptedAccount = JsonConvert.DeserializeObject<KeyValuePair<string, string>>(raw);
             var rsa = new RSACryptoServiceProvider();
+            var rsaPrivateKey = Environment.GetEnvironmentVariable("RSA_PRIVATE_KEY");
+
             // Load the RSA private key in PEM format
-            rsa.ImportFromPem(result.Value.RsaKey);
+            rsa.ImportFromPem(rsaPrivateKey);
 
             // Decrypt the encrypted account information
             var decryptedBytes = rsa.Decrypt(Convert.FromBase64String(encryptedAccount.Value), true);
@@ -179,8 +181,5 @@ namespace ManifestHub {
 
         [Option('k', "key", Required = false, HelpText = "Encryption key.")]
         public string? Key { get; set; }
-
-        [Option('r', "rsa_key", Required = false, HelpText = "RSA key in PEM format.")]
-        public string? RsaKey { get; set; }
     }
 }
