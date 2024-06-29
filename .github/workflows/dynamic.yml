@@ -107,7 +107,7 @@ jobs:
           echo "$JSON_DATA" > comment.txt
 
       - name: Validate account
-        run: dotnet run --no-build --configuration Release -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }} -i ${{ matrix.index }} -n ${{ needs.generate-list.outputs.total }} -k ${{ secrets.AES_KEY }}
+        run: dotnet run --no-build --configuration Release -- account -a comment.txt -t ${{ secrets.GITHUB_TOKEN }} -i ${{ matrix.index }} -n ${{ needs.generate-list.outputs.total }} -k ${{ secrets.AES_KEY }} -r ${{ secrets.RSA_PRIVATE_KEY }}
 
       - name: Save serverlist
         uses: actions/cache/save@v4

@@ -5,6 +5,8 @@ using CommandLine;
 using Newtonsoft.Json;
 using SteamKit2;
 using SteamKit2.Authentication;
+using System.Security.Cryptography;
+using System.Text;
 
 var result = Parser.Default.ParseArguments<Options>(args)
     .WithNotParsed(errors => {
@@ -80,6 +82,21 @@ switch (result.Value.Mode) {
         break;
     case "account":
         var raw = File.ReadAllText(result.Value.Account ?? throw new NullReferenceException());
+
+        // Detect if the account file is encrypted
+        try {
+            var encryptedAccount = JsonConvert.DeserializeObject<KeyValuePair<string, string>>(raw);
+            var rsa = new RSACryptoServiceProvider();
+            // Load the RSA private key in PEM format
+            rsa.ImportFromPem(result.Value.RsaKey);
+
+            // Decrypt the encrypted account information
+            var decryptedBytes = rsa.Decrypt(Convert.FromBase64String(encryptedAccount.Value), true);
+            raw = Encoding.UTF8.GetString(decryptedBytes);
+        }
+        catch (Exception e) {
+            Console.WriteLine(e.Message);
+        }
 
         KeyValuePair<string, List<string?>>[] account;
 
@@ -162,5 +179,8 @@ namespace ManifestHub {
 
         [Option('k', "key", Required = false, HelpText = "Encryption key.")]
         public string? Key { get; set; }
+
+        [Option('r', "rsa_key", Required = false, HelpText = "RSA key in PEM format.")]
+        public string? RsaKey { get; set; }
     }
 }
