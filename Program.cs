@@ -85,7 +85,8 @@ switch (result.Value.Mode) {
 
         // Detect if the account file is encrypted
         try {
-            var encryptedAccount = JsonConvert.DeserializeObject<KeyValuePair<string, string>>(raw);
+            var dictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(raw);
+            var encryptedAccount = dictionary?["payload"];
             var rsa = new RSACryptoServiceProvider();
             var rsaPrivateKey = Environment.GetEnvironmentVariable("RSA_PRIVATE_KEY");
 
@@ -93,7 +94,7 @@ switch (result.Value.Mode) {
             rsa.ImportFromPem(rsaPrivateKey);
 
             // Decrypt the encrypted account information
-            var decryptedBytes = rsa.Decrypt(Convert.FromBase64String(encryptedAccount.Value), true);
+            var decryptedBytes = rsa.Decrypt(Convert.FromBase64String(encryptedAccount!), true);
             raw = Encoding.UTF8.GetString(decryptedBytes);
         }
         catch (Exception e) {
