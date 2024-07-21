@@ -2,16 +2,13 @@
   "AccountName": "enyugame2913",
   "AccountPassword": "4vASB4ev81qkAu7F9ZmJSw==",
   "RefreshToken": "hjhua9ni0jMA2axExmInr/9tTcnpU6TfpoQLav0j2lJ8O24pOikQOlxsz1Z/0WbPBFi801opWNmaWNMZYTwyGOVKHvvJH1MF+R6EsL+i3VBnwHcGZG9GYh5zqXOppmWB9jkhQ0tj2JKG5SCDhaBTYWnLxKw/L+f7yX0x9jZNkibUGLGu+ALQWrS/Pldu51Sn1J/JFyPwGSdMnPT9CWQ/Jf0IJ9kVP7cwqeQ0LVfTvyTIWi6Yz1zekv8NV/cHzL3gZ93phdweNs7Lo4y0eoFHJNDeBNpvox7z7O66wVu3bkT5JOj7zGivZFKvNu/sSo61XdwfWw1VAfr1vDrDjqfUNObIfgIV7uXAoa26vdRr2zJATYg48m6HK/Y1ifQrIlVbL5QHuE3XP8xGiY9w5FqCGSjnwjVN/OBXhU+pxgsTpe6K35BBINejj/OMR6t3iVzoj0aMRO5of5TzsWeCf/doqjOVds8nEBvUIYTrOVl0VElmjKSOwzQVGsRldXTIZF2v4Se7v6HhM7QiEmfnQzli01xe8fv/v1A+qiprvBrbIQjj84CSl9wchUzxHSu6OpD3NAnNhPat/CYuEwUKa6WcDeAMHx2IwmKhG7F0nNF3fRuN2Pm5LrjrEIB0VYClBkS7QMMFlF0KdZXD1TLy1iFR/g==",
-  "LastRefresh": "2024-07-21T10:09:42.2020225+00:00",
+  "LastRefresh": "2024-07-21T11:10:29.8115553+00:00",
   "Index": "A2NJX-S4YJ",
   "AesEncrypted": true,
   "AesIV": "cT/1AeAaDBQm1Lt3fWINOg==",
   "AppIds": [
-    739630,
     1174180,
     1190050,
-    1190051,
-    1293230,
-    1293240
+    1190051
   ]
 }
