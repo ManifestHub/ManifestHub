@@ -2,14 +2,13 @@
   "AccountName": "pgypu178",
   "AccountPassword": "yqUqRrLUwcG/rGOys9l/RQ==",
   "RefreshToken": "EaJ0PQHg0PGklUG/D8U6O++EnoyXWJYCapCeofOMywN09SsmtD6GLk1u66wQBvxZ/PPziUS9q4vXirCIsD4CHdqMwz3lAf02CFD3XNPOB+dGvbmYlCscTDdoIOeto8k+8w8da/EofC++XEeFa5tBwWme5C1IRkPWhpvxUuXa3l4khrEZ7xQKH7wZlZu4wr2oIiCg5p2e3UAWDXoOsKVVQsngIgRrQHAZ6wmnMpaQ5QNgJV5gHBsq3nxjhv+dJ6QXe7c9lpSTuvK1oC6kO01XyTVaDD/6H946hIAJVdaD3B8jOwzPWoEUbIJoVeHyC3iapC9ggR+2WQz1dwUzOLvCFFEBmDlKlSFKXiHI96w5jLqVp4FnLfwYxkeh7A+QnnKr0X8Tftnuq/2UTcCfILxqA2xtT9aiSY8YKGg1h/muPo+naF1dNzsepi/Gbf/e47JvZhlDXITS+YmZWUfcA8AXNGE0tRX7b4470Wi5LIL3rumIbu4g6Yxq/LXK8qNGSNDog+kZgdwo6dt7siNG9PgpijQAmDdl1cjyKInVDa2l1FgtVS6yfxr7opwb1yw14UpBgQ6cIYrPjJ/oIDIHyb2TrCum962LssH/q61BwuAeZ1fnhsSCwkbO9gpu+YprtbepgIJX6CW22cz6lVRqjPnkDu8+0eCxjPUO4aCmy291Aig=",
-  "LastRefresh": "2024-08-13T11:12:30.6734015+00:00",
+  "LastRefresh": "2024-08-13T15:11:26.403776+00:00",
   "Index": "A5RMF-KVTL",
   "AesEncrypted": true,
   "AesIV": "GtHRhus6L6Mh0EtshR55XA==",
   "AppIds": [
     381210,
     414700,
-    442070,
     521890,
     530711,
     750381,
@@ -18,7 +17,6 @@
     1178490,
     1449690,
     1557310,
-    1899750,
-    2828500
+    1899750
   ]
 }
