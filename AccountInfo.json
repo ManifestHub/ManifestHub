@@ -1,0 +1,19 @@
+{
+  "AccountName": "buguitahd",
+  "AccountPassword": "4vSb2ZSDjLZPy7Rws2pKWw==",
+  "RefreshToken": "2sP2vEDSD2qsmNundFmXZPa7hTWGM29JMK17mT6lZMkcQ8jc9MDdy3/uJw3BaLsnhTMQy3GoqD4iR4qOic8qYiEwTXIE88xcgcz8VnYqJQoISVC0UCsg31EB3KoMUpFQ0CHPS5L8g1xO5hWL5L0qRUWKWdIqHMPfpnHxaBkUQoiKqgGXdofg/DGJfi3nr8WPDsuh0yupD/LWZl/jUyknjwQuJ9eZOhhheNKpDy+unW/k6ff32oP/CHZPYWyhWE6EV7eRRMR86XZw4R/px9UqbOohHZZjMMx1+Z5t7nvAZO37ZXIwycWteZqOPD/62vIwpkHh6w1u4/XZpnEccYMV10AhTr4rLB163AmLbr75ZEEMo3fMni8Xlyzv9c/12MDb8cY7w4bzUiwNHeMqlAM0IoO/faVBoBZJTwATncf4VF12jyZAW5dEaBY7wrq4qCPRo+MLrO/wFfwhJc0MrwtGXmBKeFtS6ZYRUglYplDfUJZCPOI1jV13wNC/ca/a09F+Qsm7Th3SfL/NS/Jx62nzLgqlqI+LnkPsXE30N5ZyazLFWQcnzmQM9WRXhVU0uiqKb5Ns5r87xGx3p/X6cIjDqAAgqYXT6YCNm0VQhBX22/J6TMaSuGbxfSTS4XOK94DW4Tm69ZUB+6BvrLCepezUpA==",
+  "LastRefresh": "2024-08-14T08:05:44.1422102+00:00",
+  "Index": "SKBES-LMBL",
+  "AesEncrypted": true,
+  "AesIV": "Dj/LCdyhbGRMqnKtfzMnig==",
+  "AppIds": [
+    570,
+    575,
+    202970,
+    202990,
+    212910,
+    219091,
+    313250,
+    318940
+  ]
+}
