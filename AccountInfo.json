@@ -2,11 +2,13 @@
   "AccountName": "swdaduos",
   "AccountPassword": "pALDVXGz7bjitPRel4D/+g==",
   "RefreshToken": "I5vy/HARvyTNVTzntT5yMQ4UA4inwOWveaZRHagXScWk4txR0V9NwYlBq8HDno7bSAUhcs9AwaKdi1ZKV0gabbARyH5DK3OoZPOlSpxa+gskqYOKcL+orTDE1MpiDGfG9uTngDqSBWCWzDNzB5B8/b4JBAEnrj1szWj2B29wrrQCsWnvpIzkJlZpG+IYYxRMPsaKghtSl+KHwECDvitUnLnTPe0L9dJczWS/jUwBhqMmHNWeJYpIZIvf0hcZIdp+Fx1+UrF99LyMegRiDaTKngeLpUSml66B1ZPXipAX7m1+o8gCjMRZfjwmXil3vEwMEtMFElMT3TKBZlDCVtHv9Uhe/pjpr9MHSUw7YlNdG0eoeTENxETf9cvlwH7nk7v3qLUe8xk5+IBEq2FDNHQZcrp1Tz+GaFsKxFnjt4Ib6LDH4KUB6m12JZVbKKBL1KLrFKJqEp3hUl3pNuZi3nnpoJ9pr3344iBPV/3Mi/XStMDyUuUj3Lcpubs9s8BIdbETxP1F80D3VBitM1ha48xOl8lOp01LYOSFoY9zPPVn06xqeuv4tfg8QMQQInTjNHA3EuBu1XaV6YoDaZtFRAwcxT66DK0J0dfStG2VhYUFXNlVnBCf5Omz1SNR74iUA3Fn+5lURFRASjvNHYdksr8/Mj1bx0OuXpJkE1hGdyq+BWQ=",
-  "LastRefresh": "2024-07-30T22:11:56.2942101+00:00",
+  "LastRefresh": "2024-08-16T08:14:25.4538707+00:00",
   "Index": "SLCAP-M6WN",
   "AesEncrypted": true,
   "AesIV": "LfX5mKoWIlSS6PY/oMSXsg==",
   "AppIds": [
+    431960,
+    1790230,
     1810580
   ]
 }
