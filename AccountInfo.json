@@ -2,22 +2,11 @@
   "AccountName": "32579907",
   "AccountPassword": "EUCqCAxTCJ/z9Ux+8Qrfqw==",
   "RefreshToken": "/aZ44c64dDPXbPOwSkn5IV+PEVd6nB9AU94UeUk8VB1+8r5pbk1HB0meYuKzvOiDLCyi4d5nZHHuvVYvzt0sq8lXy54x/0Mhyw1wVALD4wVTLupYFR5d3IipPpoFhdiiZhD3FHZIv6cTI7LpqlW1/oq9dmEXsUdUaJg7QwoisqvRfcN7hLRznQcl7d5Mlh7Czn4ptiwvh4FbuAoII/N9WXkz1rYrfqY3vpHzGGelbori1t5Vct7Z8VEU2UaXdtk1DipSoJd8C7KRfLokdYrjGskXCqpe/KQGnSC6UmB8OZ29BrkyQp9HtnVbnyE5rP5nBpF3z0st8JtYDYoHclC6qI7UGetDDoxLgMzpVVZYyfte7+qKvv/9+gQQpk/457Hx8kj6fmPHZyGsv0tZEza+MPsC6xkuK/tMxRlEal3WzLD6YJw/O94SF5GIjJqpmmTHC1z4u3Sp6z9+0YD49nD8AHHBpQ8MkdXKqSCCPAPPFZ6BYNPBd8WgXPceyMhHGzX3bbi/WdQfNGe7bCkleXJPSUG4VQJaYcWXHLDM3ch6UCjWUmmFU9odiGJ+otDT+z0qpkHh/GDVW8UHf4Jz8ShRPAS1eCCvGIE/PUm16MWfX2obQhq1DAJVYGHyGdHzcjPZAq7HTMXR3vDm4iCdaX9XIw==",
-  "LastRefresh": "2024-08-09T07:13:18.7503596+00:00",
+  "LastRefresh": "2024-08-17T14:17:19.9101535+00:00",
   "Index": "SEFS8-P3ZL",
   "AesEncrypted": true,
   "AesIV": "bghK5D6qfy4K5XbdmE8fsQ==",
   "AppIds": [
-    394360,
-    460559,
-    460600,
-    460610,
-    472410,
-    530760,
-    584140,
-    642010,
-    702350,
-    754500,
-    1823600,
     1956800
   ]
 }
