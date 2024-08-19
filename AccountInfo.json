@@ -1,8 +1,8 @@
 {
   "AccountName": "leo3d3",
   "AccountPassword": "fG0yddD1rQBvmHXJOOJJpg==",
-  "RefreshToken": "KmK2kpNFhDSpkN8RYkZMi/QLwEOuSipFIcWXLLeEIA0doTySOYUJG/mbTK8rSx4byocdE/2lrtOGMvFfXixakpWrF4sBAZ3cszE7k36O6ty/dcakCBZaalK1UlalOkovOjBOt39Hg1WyHjdlgjnAO0kJIGX6l0z6poev1XG/40ztwcjSQKgyqeM6MRrtC3GIGw7wmWaCfBhh2qaZ1pC8rStJxC5mtvl79BNraMgQJ6tct/OQGlxfBOPsFyyrlZ+Sg1s4Gt1zZydsr+Ot9xAV5Eqq/KRQZ9XeicJ+8N9C8nBKG3c1IMs7Gxye9P30iz+Ly1BlXupY4c05AIWjiEJ1B/OummES78kU30F+cv/j2gk4a+4ORKjfbEF059y9U9d6T8l8Tu8xMnqwFeMB/0bv6xc2cnwRRoyo3nrpOS1XhXmjVLdokJNrcEtQIsmaD3W14wjN+vgMyqUPOFK09+r/N+pF0fE8Fk6ziYQWyofBvcJLd4UCgkUrj/q47v77BQMXAqezZJE1I6HpK+2gE18aAdSKFjq06mfb+w/13wQW9fjFtCDe1pOk/GoqKu8pdtUE5/ajgTrGtF1f62RZE3fkibkValOyngUmix7K7NVbcsGrvIfprRhH2PDs6Zv39yUtdUJVDcYYJ9hpcZmi/bXKbw==",
-  "LastRefresh": "2024-08-17T21:06:49.3374343+00:00",
+  "RefreshToken": "KmK2kpNFhDSpkN8RYkZMi/QLwEOuSipFIcWXLLeEIA0doTySOYUJG/mbTK8rSx4byocdE/2lrtOGMvFfXixakpWrF4sBAZ3cszE7k36O6ty/dcakCBZaalK1UlalOkovOjBOt39Hg1WyHjdlgjnAO0kJIGX6l0z6poev1XG/40ztwcjSQKgyqeM6MRrtC3GIGw7wmWaCfBhh2qaZ1pC8rStJxC5mtvl79BNraMgQJ6sHP8WZlqssw7IgL+d7nKh2CP2KIn3kYKfimaa48Jh5d4ueqmtmi9DNyYY5Y21Y0seDmvyO7reYY6avhrbVYcYDCOTAhqG7KqfG7xiX22WgZ+2oCkppWY87v1xjZoMVwVhhHHFVyvntj0c2+kstTvwKIBd+RVh1EYPXqT+dmmK1GWpPWyiUuPF+169Tl0abGzFu6QGXQYuyjNaLLGsWH0RU59qiKeXjBuw8TR5iUg5vLHPstk+cuiss5L86Jq96UbgY/HTKQSn8NZQmfpduF5n9VzY4tWEnyep7KGgvfPPsK/s/wIXP5EUfD9Kovs0NTY/DP2C0TVEkKC3QO5RKCqvz/IEHQrIjHdrLh8nksW4aePuJD6rQafKF9SMd5/5puEPBKcCDthofpegWG0GpvBTEicUGA2A9V/ZbrAjUVG7cHqXAzcYOyZZrRBvKtrgjiLQ=",
+  "LastRefresh": "2024-08-19T17:09:50.7005514+00:00",
   "Index": "S3W48-RCAN",
   "AesEncrypted": true,
   "AesIV": "e2LTAZf47PVAK08g59iHKw==",
@@ -16,8 +16,6 @@
     740,
     745,
     19980,
-    227300,
-    244210,
     307780,
     307781,
     347152,
@@ -25,21 +23,11 @@
     347155,
     351558,
     354413,
-    388478,
-    421800,
     524310,
     524320,
     539760,
     624820,
-    1509960,
-    1650650,
-    1948160,
-    2102520,
     2279720,
-    2279721,
-    2371170,
-    2611740,
-    2932420,
-    3035040
+    2279721
   ]
 }
