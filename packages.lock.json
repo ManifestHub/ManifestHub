@@ -34,6 +34,17 @@
         "resolved": "13.0.3",
         "contentHash": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ=="
       },
+      "SteamKit2": {
+        "type": "Direct",
+        "requested": "[3.0.0-Beta.1, )",
+        "resolved": "3.0.0-Beta.1",
+        "contentHash": "JfNdnIU5gfSkutIT9u7BprxMGqTNSnf91uovPWCUzcKE3+eHITdlIh6aN28745ddPnUWLz41ljJJK9uGPHYymw==",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0",
+          "System.IO.Hashing": "8.0.0",
+          "protobuf-net": "3.2.30"
+        }
+      },
       "LibGit2Sharp.NativeBinaries": {
         "type": "Transitive",
         "resolved": "2.0.322",
@@ -126,16 +137,16 @@
       },
       "protobuf-net": {
         "type": "Transitive",
-        "resolved": "3.2.26",
-        "contentHash": "zBzBiKs4yP+tzQOsRA5WbI/zayS6eFv8g0KIKNPI7/RUY1nk9Oe+STmtbUYkNUkO3T3SidEoZv+tF1nmgTSutQ==",
+        "resolved": "3.2.30",
+        "contentHash": "C/UTlmxEJHAHpqm8xQK1UyJKaIynVCSNG4mVrbLgnZ7ccH28nN49O8iMJvKEodTgVbnimvy+3mIiAdW6mATwnw==",
         "dependencies": {
-          "protobuf-net.Core": "3.2.26"
+          "protobuf-net.Core": "3.2.30"
         }
       },
       "protobuf-net.Core": {
         "type": "Transitive",
-        "resolved": "3.2.26",
-        "contentHash": "s8oJW9dBVxix4p8uqMbeG++DIGjgzOFAKoP2i5wayeeFOKBqG+cCBO2S/CAC4MAFlb5m1Os2m/miLcqRCgqJ7Q==",
+        "resolved": "3.2.30",
+        "contentHash": "v2ZxxYrz+X212ukSx+uqkLuPu414bvmSAnTyf+PBUKR9ENJxO4P/csorA/27456MCp1JNoMssDj/f91RDiwBfQ==",
         "dependencies": {
           "System.Collections.Immutable": "7.0.0"
         }
@@ -1056,14 +1067,6 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
-        }
-      },
-      "steamkit2": {
-        "type": "Project",
-        "dependencies": {
-          "Microsoft.Win32.Registry": "[5.0.0, )",
-          "System.IO.Hashing": "[8.0.0, )",
-          "protobuf-net": "[3.2.26, )"
         }
       }
     }
