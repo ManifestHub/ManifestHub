@@ -1,0 +1,20 @@
+{
+  "AccountName": "cryzon",
+  "AccountPassword": "h62bEVDhJ2mI6UbL6DY81w==",
+  "RefreshToken": "2buyGMckfNg4evDGu6ikqiIsIuCbMvxxULGCLDu+yZ4pejOZvr/YmMYcgKi2AgpaTfi1GnEwvLUnfswdM6Ol98CWtpF7FUGsQzDoz/+a5LzNCMJiXNTGpm8gRX90dbPU0TNItuqekIlhTepFvIsZq5NIBYnIAHV8icDeHqwAESRU4ZS3/nCKk7wICosnWYEKa72/gcTsMWxEfwinCoFTWPB96oJJLQ4qb8/9pK2Fk/FdkPggiuIBwXJ6b/4OnkAXRAzs0Ifn0+YdnS1dK0qQubXSiEnM5T9LQmseA92Fmgfd9MzaF1fuR8ai1FX5lzM6MU3kpgbLgjaziY/NpaLtUxQGQpfw1BPOmeeiq1+x7dsTo1TOxdxJ5Otd4leaii4CRiZJ6WBIMkZNkt09XfJPJxLoRijktjMACuH0Pt9VWECDylOkJEr1IU8T65Cb9WE+oUM8/NCXRKHbz09bBnyuEpQ56Ian519+eWoxX3msG9BrHPpTzrCaNrUnUV5UG3PD3KUDQnUBvTLA16hp4IiRnkZyfpdwwJW3hMFChiIoW2brp2I3FUrpvXoXt/9wJxPF7QJodUNsmb1VX6uyEhhv/Y3NdmEjb3SP+B6+UWlHbifsWW/U0Nqa0KtlAfGdV2x3O5sSAB2qQnWV3QQOpAKsQQ==",
+  "LastRefresh": "2024-08-21T12:23:43.7869202+00:00",
+  "Index": "S6W9E-AQDC",
+  "AesEncrypted": true,
+  "AesIV": "kNCp3etYmekqsTyNkrTZmQ==",
+  "AppIds": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    130,
+    254430
+  ]
+}
