@@ -2,23 +2,19 @@
   "AccountName": "drekingyt",
   "AccountPassword": "VZlQnPTmHo9wwS/AWrUHJg==",
   "RefreshToken": "2OqUF2Hm36ok2soTC1EruBDt4OTu2H8x+v33nvCgLG3CVCj7YcpGPhMp3Hocvn3Ie/6uptpOSXt0LkB0h/Nk4s83gJZ5WyxFBrptJ8AmA5lAf1jL6y2XHDUi1+4Ne8uXo473pvKO+dcoIkcRqi3+B2z36WW/hUtoapz9FfbFT03N1EHFkADC/Xc6dyPpZPQGrWBaMgB6ehP2hGG/WMl0Us80cIY0cBJDLYjNlJntxVfjzjA41hWma610JgPn+WuY02SNMEIWNpWFaRCNxNtWGWhN7+uEcp4xZ1fz1/BZYZBmWGDr//B9ksiCU1V3cXV5MpCHzbepI2Dtsb4Kiz013lqaNHwhbdWc/HpGQG3NFblS5TECqWdjRN3K4yTnwxwsBWdtOr6ktTAK1v8E54YpLiC84hEx18tb0OBdcYSlvGlyagVNmk7gTBBGWDaUcrAtvJq1rjvP595bvLVkMw3ObPpv2u1cAeEZzNPOY5xhVrs2gSwkOPdu+HHwZc94N58pHgPWOnMumkGqrIup6nRXz/iZ3mCWuFd7zM217yLMTJxXSymdreUkwupGFRUePbeUAsVTC00AH2sLlYhD9goJvY/8HJHFLcDVqJvsuRYD+yLNi+JWP9FPMKXpz1JEXWuIaL23TnYf1uo7gJWpkJy8HA==",
-  "LastRefresh": "2024-08-23T15:37:02.8509076+00:00",
+  "LastRefresh": "2024-08-28T07:32:04.0292122+00:00",
   "Index": "SKWUL-59WL",
   "AesEncrypted": true,
   "AesIV": "tAcMS32VE8WyI9bhw3jP4g==",
   "AppIds": [
     204100,
     204112,
-    218620,
     221100,
     223350,
     244210,
-    254260,
-    267381,
     270880,
     271590,
     362003,
-    368870,
     421070,
     421080,
     421081,
@@ -48,7 +44,6 @@
     2239530,
     2257950,
     2386480,
-    2596140,
     2909700
   ]
 }
