@@ -2,11 +2,12 @@
   "AccountName": "steamok1090012",
   "AccountPassword": "Ip1t7DuI1Yp/S7wX+NuXGtzz3MBtbc+Hd6rXf73SPQE=",
   "RefreshToken": "HDKzXyncVD94OHP1MQimmzHir4cizD0StwG5vmk00HLPyWzP524WYJLf0DGSmzpB1WZj6503cIHpkGTfdzYVFXgf8jcTnME9zxklTa6UXQ8lfdy5lLX0lVHZCfhEKhP7tB7ZKYv6AnXafnzeEVidrlYUCA4NZeZZV9L3oo/16/ICeLfzlCzuMsbJi9Kkuwo49Ys8cgXikn6QGvdnpkrp1E7RX4AHQIel/jFT1tutekzZeaP9mgvLJgDEaIlE9hUuaQXceU4CzySlAqNjgj5b3SNponbfQ4DXX5PzqCRBp7UmYqR51vttERNqJ7m5SVo+NBzOQ+ejj+bZMfk/Vp3v8mVC7HZOaKedy5NEw1OkWPa/LOOek18YLKbNbYFqtCCt81BJOWeiuc7bL0hhnxRuz43zAz5g4OTP1rNtebEGiUyJalFZqiw3IsfpSWRf9TIzlMEu6iqT4uYBJLs7Vo8Pl7/X2roUhsijbacI4fjmRt7P84AEA0nAKywP0sUkycBm5JKEPmx1OP0j8azxEqSbgI87j7xVmSBdEIkPgwiAQjfKKZ8WpIU3PGZDl7NzLSSWTLs9ySbyxfSHFA3B2sxYOw4LhZcwxK1W44LK8wDtCUOQXzjgbCgIy9otvKIiEW3dXkh3Q+DgokcjycD0ZIEZGg==",
-  "LastRefresh": "2024-08-28T14:10:13.9506647+00:00",
+  "LastRefresh": "2024-08-30T11:28:05.2326558+00:00",
   "Index": "AJSN4-KDYJ",
   "AesEncrypted": true,
   "AesIV": "0U8q7OxEN+/RD/IdU8hziQ==",
   "AppIds": [
-    815370
+    815370,
+    2990430
   ]
 }
