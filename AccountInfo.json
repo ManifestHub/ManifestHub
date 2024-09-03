@@ -2,16 +2,13 @@
   "AccountName": "rspyb03547",
   "AccountPassword": "fH6miBg4J3fhefJVWvEPDg==",
   "RefreshToken": "ogvDqnkhDrvCAnyC/14L2TyJuSa2S+iG75hIdxgsr/oKyLrMwCI8GRQHRkdvOu1nhuolKCAY+AP8e1K+IYrwpe7qk6EZAxUXKsLGX6QDUQCWhicTSoRQy5TspaQpQLLmHMuB/51aghJCup3GmiZKA1E9gPIGwXpSWj4gMQcOk2ZuIrYfAWOEfev9gd/n41bcvHRpOQVVBufzzLUrwTfBShJ7sqVoJoxVXImASAVoVtQO3TyBqn+KlBOmvTnev9PHIlmkWn2fLVRFGFG177Kb5PqByeirBdy4GI/T92YUnN/kfJ2D6uhWO7JQQM5vIVFCMUTT9tkv+nNb1VFA+MXCnaot8s7OYZDeMdLF93qOWJbJEO/ydhBx/YDGVsx5gCRhZPQZTyxwY9LCCsseFbeQwhhtDutpWYtwN3+bvj228Xt6MHw7rRw0xovqiQMmjmXGyTu5MjV1gRnadNaxvhHN/mRpXWICPHqw8psDkyV67VNqv1COUpIsbkGCDz/WGecOicvN4aVzOl1VII81MkEctkVAaBipXxYNDRiBx+y82YPLEHWKC+4g9KgAxLQWASmSIM8elkAcJ0Q9WDputPT7elHmrlhn21QKhMU8XY3bPIbziQ1Dp9ssLcuXz28BHg0YqAr7OYyThe23X3IEcHljyg==",
-  "LastRefresh": "2024-08-28T18:56:37.0397893+00:00",
+  "LastRefresh": "2024-09-03T13:15:18.5600797+00:00",
   "Index": "SRSTJ-SASA",
   "AesEncrypted": true,
   "AesIV": "ifUydbeOEw7mGEt9FMQ7Hg==",
   "AppIds": [
-    244210,
     271590,
     362003,
-    404430,
-    467980,
     771300,
     1311092,
     1311094,
@@ -23,8 +20,6 @@
     1445990,
     1465731,
     1465734,
-    1479451,
-    1644960,
-    1919590
+    1479451
   ]
 }
