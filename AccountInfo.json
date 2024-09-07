@@ -1,31 +1,14 @@
 {
   "AccountName": "33961496",
   "AccountPassword": "7FreXeUgW2kwSee1UM/nBQ==",
-  "RefreshToken": "fqFrtYIiAjHFAqll2GJbi3BKMvuwgu6N3Z7tQAv+5ukharODlEVuvhW95RYGw7UUhOvjDgp90uZrNizFx8pjFP3sDgIfWtGDAN2impiqdDkyVhdJgMcfmvD6c/xUsx0Aj9knb9+/uwFL/bwGnbCYoIfrPsKokvbFPDIgfFN1LyL+waHx9dTgJJfF8dt+AwY62t27Bd0So8J6Z24fuxgScnrpmeAvzsQ4cRF9olTqKfZcHEU4Iia02ORT7ClYeBZmYd3OxjsF3vFJlQYnGOJKcPasawWgyOteP4501Arj49KTexp/XQ22H3femnfGTaxTe122wjQcwq4rgX6QGgoH6+lkvN0xWJWMVAJx17K+vNrGSCnm3KmAtcSlOIBEYV8As73F575jKQEHq4VFgQ0oSOW198IzRHE19iZMQuKD5u8/pECI7Z6oYMzBVfk44Q5Qn3P/QxsKhhJINj1EsUwb2HyhIISNtLJzUrF8eTF1RU7l/GO2NibhYI241SKYldJ4agQGWdmB5E6YE8n60c09DTlnL++uq17fFOp8QO07fns2KYiPdzrxQMBEbYw+fcHrLmd6N//HjmZpTTcA1tBHesGuKG5Q1sAEu17Bw4lFOIuebS86YuXy17YHAVdgca8evjjgHycbdJ1Pb3iGHuCVvQ==",
-  "LastRefresh": "2024-09-07T15:19:13.4334448+00:00",
+  "RefreshToken": "fqFrtYIiAjHFAqll2GJbi3BKMvuwgu6N3Z7tQAv+5ukharODlEVuvhW95RYGw7UUhOvjDgp90uZrNizFx8pjFP3sDgIfWtGDAN2impiqdDkyVhdJgMcfmvD6c/xUsx0Aj9knb9+/uwFL/bwGnbCYoIfrPsKokvbFPDIgfFN1LyL+waHx9dTgJJfF8dt+AwY62t27Bd0So8J6Z24fuxgScnrpmeAvzsQ4cRF9olTqKfZ/8u7cXU0INUr9TZ8kL1Xz25rzdl8EsIe+iCydCGFJVkA+C96JIGtKYKydfvUC90IU5yBimMKi0Zv9EL1L2bS6F1mLBvpftLEjdtXu6xOl19NjVSnI6NzjvfpbVwsB/OF6XDbN5YSDN1VaSOTybwYko0ooa7wOdw/NGiciITyw6k1LieXpHBYKYdcgEmw3ZEuKMPHdk8vOzhp1g6f0bEdw8+MWjUXy5kvIlLgf7kS0ZwenLzidiNFGa8qytWD3samVWsF1wkOvH05zAxaraYCX56r62OE0EY3bmM/AZ4wDVubXkl7jVcNMZf0ZbleLkJFZ0CzF7PPkBXmyxbAdm2NBZp39xOXKDUOXT7hE/ly2niReg+gEH9A/J196ua8OL7k1j/UAF7jEvROoIaAk9BWw47B3XQe1Z0tMpOo5HOKEtg==",
+  "LastRefresh": "2024-09-07T17:26:10.6824176+00:00",
   "Index": "SJMXH-K3WJ",
   "AesEncrypted": true,
   "AesIV": "jWrDL5UGl+qS8Xj2vA8S+A==",
   "AppIds": [
-    211,
-    215,
-    218,
-    550,
-    563,
-    564,
-    222860,
-    223540,
-    227040,
-    227050,
-    1119730,
-    1436990,
     1888930,
-    1943950,
-    1966720,
-    2071500,
     2245260,
-    2254450,
-    2567870,
-    3028500
+    2254450
   ]
 }
